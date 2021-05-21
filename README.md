@@ -4,6 +4,10 @@
 
 Disable CORS to run in browser.
 
+## Android
+
+Get an [apk](build/app/outputs/flutter-apk/app-release.apk).
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
