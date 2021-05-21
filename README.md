@@ -1,6 +1,8 @@
 # uapatreon
 
-A new Flutter project.
+## Web
+
+Disable CORS to run in browser.
 
 ## Getting Started
 

@@ -11,7 +11,7 @@
     Fore more details:
     * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
   -->
-  <base href="/">
+  <base href="/build/web/">
 
   <meta charset="UTF-8">
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
@@ -41,5 +41,8 @@
     }
   </script>
   <script src="main.dart.js" type="application/javascript"></script>
+  <script>
+    fetch("https://patreon.com").catch(e => alert("Вимкніть тимчасово CORS для використання"))
+  </script>
 </body>
 </html>
