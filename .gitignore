@@ -27,7 +27,6 @@
 .pub-cache/
 .pub/
 /build/*
-!/build/web/
 !/build/app/
 /build/app/*
 !/build/app/outputs
