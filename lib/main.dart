@@ -51,7 +51,7 @@ class Creator {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  final List<String> accounts = <String>['Lykhovii', 'tokar', 'propohody', 'viewua', 'CikavaNauka', 'skrypinua', 'rationalist', 'AdrianZP', 'PlayUA', 'Geek_Journal', 'annika_blog', 'imtgsh', 'chaplinskyvlog', 'familybudgetcomua', 'torontotv'];
+  final List<String> accounts = <String>['Lykhovii', 'tokar', 'propohody', 'viewua', 'CikavaNauka', 'skrypinua', 'rationalist', 'AdrianZP', 'PlayUA', 'Geek_Journal', 'annika_blog', 'imtgsh', 'chaplinskyvlog', 'familybudgetcomua', 'torontotv', 'vyshnevyjcvit', 'gwean_maslinka', 'les_kurbas_theatre', 'UkrainianLiveClassic', 'ukrainer', 'sternenko', 'user?u=44661751', 'undergroundhumanities', 'vmistozher', 'user?u=16774315', 'mariamblog', 'prytula', 'MaksPodzigun', 'vatashow', 'shitiknowlive', 'savelife_in_ua', 'uanimals', 'kolegistudio', 'bihusinfo', 'textyorgua', 'telegrafdesign', 'historyUA', 'rsukraine_org_ua', 'raguli', 'serhiyzhadan', 'itworksonmypc', 'radioaristocrats', 'zhadanisobaki', 'user?u=28899940', 'donorua', 'NowasteUkraine', 'radioskovoroda', 'dostupno2020', 'ukrainianweek', 'Bykvu', 'itpassions', 'jarvis_net_ua', 'milinua', 'dovkolabotanika', 'informnapalm', 'strugachka', 'slidstvo_info', 'vertigoUA', 'liroom', 'learningtogetherua', 'radioskorbota', 'lustrum', 'portnikov', 'mefreel', 'heroyika', 'lowcostua'];
   
   Future<Creator> fetchFor(String account) {
     return SharedPreferences.getInstance().then((prefs) {
@@ -63,12 +63,19 @@ class _MyHomePageState extends State<MyHomePage> {
         return info;
       else {
         print('http');
-        return http.Client().get(Uri.parse('https://www.patreon.com/$account/posts')).then((r) {
+        var url = 'https://www.patreon.com/$account';
+        var fullPage = !account.startsWith('user?u=');
+        if (fullPage) url += '/posts';
+        return http.Client().get(Uri.parse(url)).then((r) {
           var document = parse(r.body);
           var patrons = document.querySelector('div[data-tag=CampaignPatronEarningStats-patron-count]')?.firstChild?.text;
           var earnings = document.querySelector('div[data-tag=CampaignPatronEarningStats-earnings]')?.firstChild?.text;
-          var img = document.querySelector('div[data-tag=CampaignInfoCard-social-links]')?.previousElementSibling?.previousElementSibling?.previousElementSibling?.firstChild?.attributes["src"];
-          var name = document.querySelector('div[data-tag=CampaignInfoCard-social-links]')?.previousElementSibling?.previousElementSibling?.text;
+          String? img;
+          if (fullPage) img = document.querySelector('div[data-tag=CampaignInfoCard-social-links]')?.previousElementSibling?.previousElementSibling?.previousElementSibling?.firstChild?.attributes["src"];
+          else img = document.querySelector('div[data-tag=CampaignPatronEarningStats-patron-count]')?.parent?.parent?.parent?.parent?.parent?.parent?.parent?.parent?.parent?.firstChild?.firstChild?.firstChild?.firstChild?.attributes["src"];
+          String? name;
+          if (fullPage) name = document.querySelector('div[data-tag=CampaignInfoCard-social-links]')?.previousElementSibling?.previousElementSibling?.text;
+          else name = document.querySelector('div[data-tag=CampaignPatronEarningStats-patron-count]')?.parent?.parent?.parent?.parent?.parent?.parent?.previousElementSibling?.firstChild?.firstChild?.text;
           var creator = Creator(account: account, patrons: patrons, earnings: earnings, img: img, name: name);
           return prefs.setString(account, jsonEncode(creator)).then((x) {
             return creator;
@@ -113,9 +120,12 @@ class _MyHomePageState extends State<MyHomePage> {
               itemCount: xs.length,
               itemBuilder: (BuildContext context, int index) {
                 var x = xs[index];
-                Widget image = SizedBox.shrink();
+                Widget image = SizedBox(width: 100);
                 if (x.img != null) {
-                  image = Image(image: NetworkImage(x.img!), width: 100);
+                  image = Image.network(x.img!, width: 100, errorBuilder: (context, exception, stackTrace) {
+                    print(exception);
+                    return SizedBox(width: 100);
+                  });
                 }
                 return Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
