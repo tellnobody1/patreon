@@ -3,6 +3,7 @@ import 'package:html/parser.dart';
 import 'package:http/http.dart' as http;
 import 'package:shared_preferences/shared_preferences.dart';
 import 'dart:convert';
+import 'package:url_launcher/url_launcher.dart';
 
 void main() => runApp(MyApp());
 
@@ -51,7 +52,34 @@ class Creator {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  final List<String> accounts = <String>['Lykhovii', 'tokar', 'propohody', 'viewua', 'CikavaNauka', 'skrypinua', 'rationalist', 'AdrianZP', 'PlayUA', 'Geek_Journal', 'annika_blog', 'imtgsh', 'chaplinskyvlog', 'familybudgetcomua', 'torontotv', 'vyshnevyjcvit', 'gwean_maslinka', 'les_kurbas_theatre', 'UkrainianLiveClassic', 'ukrainer', 'sternenko', 'user?u=44661751', 'undergroundhumanities', 'vmistozher', 'user?u=16774315', 'mariamblog', 'prytula', 'MaksPodzigun', 'vatashow', 'shitiknowlive', 'savelife_in_ua', 'uanimals', 'kolegistudio', 'bihusinfo', 'textyorgua', 'telegrafdesign', 'historyUA', 'rsukraine_org_ua', 'raguli', 'serhiyzhadan', 'itworksonmypc', 'radioaristocrats', 'zhadanisobaki', 'user?u=28899940', 'donorua', 'NowasteUkraine', 'radioskovoroda', 'dostupno2020', 'ukrainianweek', 'Bykvu', 'itpassions', 'jarvis_net_ua', 'milinua', 'dovkolabotanika', 'informnapalm', 'strugachka', 'slidstvo_info', 'vertigoUA', 'liroom', 'learningtogetherua', 'radioskorbota', 'lustrum', 'portnikov', 'mefreel', 'heroyika', 'lowcostua', 'cikavaideya', 'pad0n', 'pankarpan', 'rendarosua', 'nonamepodcast', 'KhmarynkaUA', 'oum_spadshchyna', 'nestorvolya', 'Pingvins', 'manifestplatform', 'pityatko', 'balytska', 'knyzhkova_dylerka', 'zagin', 'stop_goose', 'animeK', 'PaniVchytelka', 'GulbanuBibicheva', 'svitlana', 'robmenus', 'TheAsya', 'enma_and_books', 'kliusmarichka', 'liubovgoknyg', 'user?u=10599103', 'mangua', 'asambleyA', 'miketvua', 'verumT', 'kinshov', 'gamer_fm', 'gamestreetua', 'PSUkraine', 'oldboiua', 'paralel3', 'uacomix', 'VorobieiBohdan', 'vsesvit_ua', 'nicopogarskiy', 'prihodnik', 'WBG', 'Shablyk', 'Hromadske_Radio', 'rist_center', 'kozak_media', 'inforules', 'behindthenews', 'iyura', 'kultpodcast', 'naukaua', 'bez_mezh_studios', 'teoriyagry', 'sbt_localization', 'musetang', 'pershosvit', 'diasporiana', 'bbproject', 'radiopodil', 'autogeek', 'vertigoUA', 'kgbfiles', 'vsesvitua', 'need_science', 'uareview', 'Salertino', 'fvua'];
+  // final List<String> accounts = <String>['rsukraine_org_ua', 'raguli', 'serhiyzhadan', 'itworksonmypc', 'radioaristocrats', 'zhadanisobaki', 'user?u=28899940', 'donorua', 'NowasteUkraine', 'radioskovoroda', 'dostupno2020', 'ukrainianweek', 'Bykvu', 'itpassions', 'jarvis_net_ua', 'milinua', 'dovkolabotanika', 'informnapalm', 'strugachka', 'slidstvo_info', 'vertigoUA', 'liroom', 'learningtogetherua', 'radioskorbota', 'lustrum', 'portnikov', 'mefreel', 'heroyika', 'lowcostua', 'cikavaideya', 'pad0n', 'pankarpan', 'rendarosua', 'nonamepodcast', 'KhmarynkaUA', 'oum_spadshchyna', 'nestorvolya', 'Pingvins', 'manifestplatform', 'pityatko', 'balytska', 'knyzhkova_dylerka', 'zagin', 'stop_goose', 'animeK', 'PaniVchytelka', 'GulbanuBibicheva', 'svitlana', 'robmenus', 'TheAsya', 'enma_and_books', 'kliusmarichka', 'liubovgoknyg', 'user?u=10599103', 'mangua', 'asambleyA', 'miketvua', 'verumT', 'kinshov', 'gamer_fm', 'gamestreetua', 'PSUkraine', 'oldboiua', 'paralel3', 'uacomix', 'VorobieiBohdan', 'vsesvit_ua', 'nicopogarskiy', 'prihodnik', 'WBG', 'Shablyk', 'Hromadske_Radio', 'rist_center', 'kozak_media', 'inforules', 'behindthenews', 'iyura', 'kultpodcast', 'naukaua', 'bez_mezh_studios', 'teoriyagry', 'sbt_localization', 'musetang', 'pershosvit', 'diasporiana', 'bbproject', 'radiopodil', 'autogeek', 'vertigoUA', 'kgbfiles', 'vsesvitua', 'need_science', 'uareview', 'Salertino', 'fvua'];
+
+  final Map<String, Set<String>> cats = {
+    'Всі': {},
+    'Благоустрій': {'chaplinskyvlog'},
+    'Військове': {'Lykhovii', },
+    'Гумористичне': {'torontotv', 'kolegistudio', },
+    'Допомога': {'prytula', 'savelife_in_ua', 'uanimals', },
+    'Ігри': {'PlayUA', 'mariamblog'},
+    'Інвестиції': {'familybudgetcomua'},
+    'Історія': {'imtgsh', 'historyUA', },
+    'Кіно': {'Geek_Journal', 'mariamblog'},
+    'Книги': {'annika_blog', 'vyshnevyjcvit', 'mariamblog', },
+    'Культура': {'undergroundhumanities', 'vmistozher'},
+    'Музика': {'UkrainianLiveClassic', },
+    'Наука': {'CikavaNauka', 'rationalist', },
+    'Озвучування': {'AdrianZP', 'gwean_maslinka', 'mariamblog'},
+    'Подорожі': {'ukrainer', 'user?u=44661751', },
+    'Політика': {'skrypinua', 'sternenko', 'vatashow', 'bihusinfo', },
+    'Природа': {'propohody'},
+    'Спорт': {'MaksPodzigun'},
+    'Творчість': {'user?u=16774315', 'telegrafdesign', },
+    'Театр': {'les_kurbas_theatre', },
+    'Texнології': {'tokar', 'viewua', },
+    'Різне': {'shitiknowlive', 'textyorgua', },
+  };
+  String activeCat = 'Всі';
+  bool expanded = false;
   
   Future<Creator> fetchFor(String account) {
     return SharedPreferences.getInstance().then((prefs) {
@@ -87,6 +115,9 @@ class _MyHomePageState extends State<MyHomePage> {
 
   @override
   Widget build(BuildContext context) {
+    Set<String> accounts;
+    if (activeCat == 'Всі') accounts = cats.keys.expand((x) => cats[x]!).toSet();
+    else accounts = cats[activeCat]!;
     return Scaffold(
       appBar: AppBar(
         title: Text("Патреон"),
@@ -116,41 +147,71 @@ class _MyHomePageState extends State<MyHomePage> {
           Widget w;
           if (s.hasData) {
             var xs = s.data!;
-            w = ListView.builder(
-              itemCount: xs.length,
-              itemBuilder: (BuildContext context, int index) {
-                var x = xs[index];
-                Widget image = SizedBox(width: 100);
-                if (x.img != null) {
-                  image = Image.network(x.img!, width: 100, errorBuilder: (context, exception, stackTrace) {
-                    print(exception);
-                    return SizedBox(width: 100);
-                  });
-                }
-                return Row(
+            w = Column(children: [
+              if (expanded)
+                Wrap(
+                  children: cats.keys.map((key) =>
+                    ChoiceChip(
+                      label: Text(key),
+                      selected: key == activeCat,
+                      onSelected: (_) {
+                        setState(() {
+                          activeCat = key;
+                          expanded = false;
+                        });
+                      }
+                    )
+                  ).toList()
+                )
+              else
+              GestureDetector(
+                behavior: HitTestBehavior.translucent,
+                onTap: () => setState(() => expanded = true),
+                child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
-                    Row(children: [
-                      image,
-                      Column(children: [
-                        Text(x.name ?? ""),
-                        Text(x.account),
-                      ]),
-                    ]),
-                    Row(children: [
-                      Column(children: [
-                        Text('${x.patrons}'),
-                        Text('патронів'),
-                      ]),
-                      Column(children: [
-                        Text('${x.earnings}'),
-                        Text('на місяць'),
-                      ]),
-                    ]),
+                    ChoiceChip(label: Text(activeCat), selected: true),
+                    Icon(Icons.expand_more, color: Colors.pink),
                   ]
-                );
-              }
-            );
+                )
+              ),
+              Expanded(child: ListView.builder(
+                itemCount: xs.length,
+                itemBuilder: (BuildContext context, int index) {
+                  var x = xs[index];
+                  Widget image = SizedBox(width: 100);
+                  if (x.img != null) {
+                    image = Image.network(x.img!, width: 100, errorBuilder: (context, exception, stackTrace) {
+                      print(exception);
+                      return SizedBox(width: 100);
+                    });
+                  }
+                  return GestureDetector(
+                    behavior: HitTestBehavior.translucent,
+                    onTap: () => launch('https://www.patreon.com/${x.account}'),
+                    child: Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                      children: [
+                        Row(children: [
+                          image,
+                          Text(x.name ?? x.account),
+                        ]),
+                        Row(children: [
+                          Column(children: [
+                            Text('${x.patrons}'),
+                            Text('патронів'),
+                          ]),
+                          Column(children: [
+                            Text('${x.earnings}'),
+                            Text('на місяць'),
+                          ]),
+                        ]),
+                      ]
+                    )
+                  );
+                }
+              )),
+            ]);
           } else if (s.hasError) {
             w = Text(s.error.toString());
           } else {
