@@ -52,31 +52,33 @@ class Creator {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  // final List<String> accounts = <String>['rsukraine_org_ua', 'raguli', 'serhiyzhadan', 'itworksonmypc', 'radioaristocrats', 'zhadanisobaki', 'user?u=28899940', 'donorua', 'NowasteUkraine', 'radioskovoroda', 'dostupno2020', 'ukrainianweek', 'Bykvu', 'itpassions', 'jarvis_net_ua', 'milinua', 'dovkolabotanika', 'informnapalm', 'strugachka', 'slidstvo_info', 'vertigoUA', 'liroom', 'learningtogetherua', 'radioskorbota', 'lustrum', 'portnikov', 'mefreel', 'heroyika', 'lowcostua', 'cikavaideya', 'pad0n', 'pankarpan', 'rendarosua', 'nonamepodcast', 'KhmarynkaUA', 'oum_spadshchyna', 'nestorvolya', 'Pingvins', 'manifestplatform', 'pityatko', 'balytska', 'knyzhkova_dylerka', 'zagin', 'stop_goose', 'animeK', 'PaniVchytelka', 'GulbanuBibicheva', 'svitlana', 'robmenus', 'TheAsya', 'enma_and_books', 'kliusmarichka', 'liubovgoknyg', 'user?u=10599103', 'mangua', 'asambleyA', 'miketvua', 'verumT', 'kinshov', 'gamer_fm', 'gamestreetua', 'PSUkraine', 'oldboiua', 'paralel3', 'uacomix', 'VorobieiBohdan', 'vsesvit_ua', 'nicopogarskiy', 'prihodnik', 'WBG', 'Shablyk', 'Hromadske_Radio', 'rist_center', 'kozak_media', 'inforules', 'behindthenews', 'iyura', 'kultpodcast', 'naukaua', 'bez_mezh_studios', 'teoriyagry', 'sbt_localization', 'musetang', 'pershosvit', 'diasporiana', 'bbproject', 'radiopodil', 'autogeek', 'vertigoUA', 'kgbfiles', 'vsesvitua', 'need_science', 'uareview', 'Salertino', 'fvua'];
-
   final Map<String, Set<String>> cats = {
     'Всі': {},
-    'Благоустрій': {'chaplinskyvlog'},
-    'Військове': {'Lykhovii', },
-    'Гумористичне': {'torontotv', 'kolegistudio', },
-    'Допомога': {'prytula', 'savelife_in_ua', 'uanimals', },
-    'Ігри': {'PlayUA', 'mariamblog'},
+    'Авто': {'MaksPodzigun', 'autogeek', },
+    'Благоустрій': {'chaplinskyvlog', 'dostupno2020', 'stop_goose', },
+    'Військове': {'Lykhovii', 'milinua', 'informnapalm', },
+    'Гумор': {'torontotv', 'kolegistudio', 'dostupno2020', 'dovkolabotanika', 'ninaukraine', 'verumT', 'uareview', },
+    'Дизайн': {'telegrafdesign', },
+    'Дітям': {'user?u=28899940', 'learningtogetherua', 'KhmarynkaUA', 'oum_spadshchyna', 'PaniVchytelka', 'pershosvit', },
+    'Допомога': {'prytula', 'savelife_in_ua', 'uanimals', 'rsukraine_org_ua', 'serhiyzhadan', 'donorua', 'dostupno2020', 'heroyika', },
+    'Екологія': {'NowasteUkraine', },
+    'Ігри': {'PlayUA', 'mariamblog', 'vertigoUA', 'pad0n', 'rendarosua', 'gamer_fm', 'gamestreetua', 'PSUkraine', 'oldboiua', 'WBG', 'teoriyagry', },
     'Інвестиції': {'familybudgetcomua'},
-    'Історія': {'imtgsh', 'historyUA', },
-    'Кіно': {'Geek_Journal', 'mariamblog'},
-    'Книги': {'annika_blog', 'vyshnevyjcvit', 'mariamblog', },
-    'Культура': {'undergroundhumanities', 'vmistozher'},
-    'Музика': {'UkrainianLiveClassic', },
-    'Наука': {'CikavaNauka', 'rationalist', },
-    'Озвучування': {'AdrianZP', 'gwean_maslinka', 'mariamblog'},
-    'Подорожі': {'ukrainer', 'user?u=44661751', },
-    'Політика': {'skrypinua', 'sternenko', 'vatashow', 'bihusinfo', },
-    'Природа': {'propohody'},
-    'Спорт': {'MaksPodzigun'},
-    'Творчість': {'user?u=16774315', 'telegrafdesign', },
+    'Історія': {'imtgsh', 'historyUA', 'kozak_media', 'kgbfiles', },
+    'Кіно': {'Geek_Journal', 'mariamblog', 'vertigoUA', 'pankarpan', 'zagin', 'animeK', 'mangua', 'asambleyA', 'miketvua', 'Salertino', },
+    'Книги': {'annika_blog', 'vyshnevyjcvit', 'mariamblog', 'vertigoUA', 'knyzhkova_dylerka', 'GulbanuBibicheva', 'svitlana', 'robmenus', 'TheAsya', 'enma_and_books', 'kliusmarichka', 'liubovgoknyg', 'mangua', 'asambleyA', 'paralel3', 'kultpodcast', 'diasporiana', },
+    'Культура': {'undergroundhumanities', 'vmistozher', 'raguli', },
+    'Музика': {'UkrainianLiveClassic', 'zhadanisobaki', 'liroom', 'mefreel', },
+    'Наука': {'CikavaNauka', 'rationalist', 'dovkolabotanika', 'pityatko', 'VorobieiBohdan', 'vsesvit_ua', 'naukaua', 'vsesvitua', },
+    'Подорожі': {'ukrainer', 'user?u=44661751', 'lowcostua', },
+    'Політика': {'skrypinua', 'sternenko', 'vatashow', 'bihusinfo', 'raguli', 'torontotv', 'ukrainianweek', 'textyorgua', 'Bykvu', 'informnapalm', 'slidstvo_info', 'portnikov', 'nestorvolya', },
+    'Природа': {'propohody', 'user?u=44661751', },
+    'Радіо': {'radioaristocrats', 'radioskovoroda', 'Hromadske_Radio', },
+    'Творчість': {'user?u=16774315', 'uacomix', 'nicopogarskiy', 'prihodnik', 'Shablyk', 'bez_mezh_studios', 'sbt_localization', 'AdrianZP', 'gwean_maslinka', 'mariamblog', 'strugachka', 'cikavaideya', 'TheAsya', 'user?u=10599103', 'bbproject', 'fvua'},
     'Театр': {'les_kurbas_theatre', },
-    'Texнології': {'tokar', 'viewua', },
-    'Різне': {'shitiknowlive', 'textyorgua', },
+    'Texнології': {'tokar', 'viewua', 'itpassions', 'jarvis_net_ua', 'nonamepodcast', 'Pingvins', 'manifestplatform', 'naukaua', },
+    'Різне': {'shitiknowlive', 'itworksonmypc', 'radioskorbota', 'lustrum', 'manifestplatform', 'balytska', 'kinshov', 'rist_center', 'inforules', 'behindthenews', 'iyura', 'musetang', 'radiopodil', 'need_science', },
+    'Иншомовні': {'thealphacentauri', 'yanina', 'sershenzaritskaya', 'faideyren', 'bellatrixaiden', 'mukha', 'tanyacroft'},
   };
   String activeCat = 'Всі';
   bool expanded = false;
@@ -116,7 +118,7 @@ class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
     Set<String> accounts;
-    if (activeCat == 'Всі') accounts = cats.keys.expand((x) => cats[x]!).toSet();
+    if (activeCat == 'Всі') accounts = cats.keys.where((x) => x != 'Иншомовні').expand((x) => cats[x]!).toSet();
     else accounts = cats[activeCat]!;
     return Scaffold(
       appBar: AppBar(
@@ -164,17 +166,17 @@ class _MyHomePageState extends State<MyHomePage> {
                   ).toList()
                 )
               else
-              GestureDetector(
-                behavior: HitTestBehavior.translucent,
-                onTap: () => setState(() => expanded = true),
-                child: Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                  children: [
-                    ChoiceChip(label: Text(activeCat), selected: true),
-                    Icon(Icons.expand_more, color: Colors.pink),
-                  ]
-                )
-              ),
+                GestureDetector(
+                  behavior: HitTestBehavior.translucent,
+                  onTap: () => setState(() => expanded = true),
+                  child: Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                    children: [
+                      ChoiceChip(label: Text(activeCat), selected: true),
+                      Icon(Icons.expand_more, color: Colors.pink),
+                    ]
+                  )
+                ),
               Expanded(child: ListView.builder(
                 itemCount: xs.length,
                 itemBuilder: (BuildContext context, int index) {
@@ -188,7 +190,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   }
                   return GestureDetector(
                     behavior: HitTestBehavior.translucent,
-                    onTap: () => launch('https://www.patreon.com/${x.account}'),
+                    onTap: () => launch('https://www.patreon.com/${x.account}'), 
                     child: Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
