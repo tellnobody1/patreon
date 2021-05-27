@@ -18,7 +18,7 @@ final Map<String, Set<String>> cats = {
   'Музика': {'UkrainianLiveClassic', 'zhadanisobaki', 'liroom', 'mefreel', },
   'Наука': {'CikavaNauka', 'rationalist', 'dovkolabotanika', 'pityatko', 'VorobieiBohdan', 'vsesvit_ua', 'naukaua', 'vsesvitua', },
   'Подорожі': {'ukrainer', 'user?u=44661751', 'lowcostua', },
-  'Політика': {'skrypinua', 'sternenko', 'vatashow', 'bihusinfo', 'raguli', 'torontotv', 'ukrainianweek', 'textyorgua', 'Bykvu', 'informnapalm', 'slidstvo_info', 'portnikov', 'nestorvolya', },
+  'Політика': {'skrypinua', 'sternenko', 'vatashow', 'bihusinfo', 'raguli', 'torontotv', 'ukrainianweek', 'textyorgua', 'Bykvu', 'informnapalm', 'slidstvo_info', 'portnikov', 'nestorvolya', 'valerii'},
   'Природа': {'propohody', 'user?u=44661751', },
   'Радіо': {'radioaristocrats', 'radioskovoroda', 'Hromadske_Radio', },
   'Творчість': {'user?u=16774315', 'uacomix', 'nicopogarskiy', 'prihodnik', 'Shablyk', 'bez_mezh_studios', 'sbt_localization', 'AdrianZP', 'gwean_maslinka', 'mariamblog', 'strugachka', 'cikavaideya', 'TheAsya', 'user?u=10599103', 'bbproject', 'fvua'},

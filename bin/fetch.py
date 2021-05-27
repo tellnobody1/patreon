@@ -20,7 +20,7 @@ cats = {
   'Музика': {'UkrainianLiveClassic', 'zhadanisobaki', 'liroom', 'mefreel', },
   'Наука': {'CikavaNauka', 'rationalist', 'dovkolabotanika', 'pityatko', 'VorobieiBohdan', 'vsesvit_ua', 'naukaua', 'vsesvitua', },
   'Подорожі': {'ukrainer', 'user?u=44661751', 'lowcostua', },
-  'Політика': {'skrypinua', 'sternenko', 'vatashow', 'bihusinfo', 'raguli', 'torontotv', 'ukrainianweek', 'textyorgua', 'Bykvu', 'informnapalm', 'slidstvo_info', 'portnikov', 'nestorvolya', },
+  'Політика': {'skrypinua', 'sternenko', 'vatashow', 'bihusinfo', 'raguli', 'torontotv', 'ukrainianweek', 'textyorgua', 'Bykvu', 'informnapalm', 'slidstvo_info', 'portnikov', 'nestorvolya', 'valerii'},
   'Природа': {'propohody', 'user?u=44661751', },
   'Радіо': {'radioaristocrats', 'radioskovoroda', 'Hromadske_Radio', },
   'Творчість': {'user?u=16774315', 'uacomix', 'nicopogarskiy', 'prihodnik', 'Shablyk', 'bez_mezh_studios', 'sbt_localization', 'AdrianZP', 'gwean_maslinka', 'mariamblog', 'strugachka', 'cikavaideya', 'TheAsya', 'user?u=10599103', 'bbproject', 'fvua'},
@@ -42,14 +42,17 @@ for account in sorted({x for v in cats.values() for x in v}):
   patrons = f"'{patrons1[0]}'" if patrons1 else 'null'
 
   earnings1 = tree.xpath('//div[@data-tag=\'CampaignPatronEarningStats-earnings\']/h2/text()')
-  earnings = f"'{earnings1[0].replace('$', '\\$')}'" if earnings1 else 'null'
+  dollar = '\\$'
+  earnings = f"'{earnings1[0].replace('$', dollar)}'" if earnings1 else 'null'
 
   img1 = tree.xpath("//div[@data-tag='CampaignPatronEarningStats-patron-count']/../../../../../../../../../*/*/*/*/@src")
   img = f"'{img1[0]}'" if img1 else 'null'
 
   text = tree.xpath("//div[@data-tag='CampaignPatronEarningStats-patron-count']/../../../../../../preceding-sibling::*/*/*/text()")
-  name = f"'{text[0].replace("'", "\\'")}'" if len(text) >= 1 else 'null'
-  about = f"'{text[1].replace("'", "\\'")}'" if len(text) >= 2 else 'null'
+  apostrophe1 = "'"
+  apostrophe2 = "\\'"
+  name = f"'{text[0].replace(apostrophe1, apostrophe2)}'" if len(text) >= 1 else 'null'
+  about = f"'{text[1].replace(apostrophe1, apostrophe2)}'" if len(text) >= 2 else 'null'
 
   f.write(f"  '{account}': Creator(account: '{account}', patrons: {patrons}, earnings: {earnings}, img: {img}, name: {name}, about: {about}),\n")
 
