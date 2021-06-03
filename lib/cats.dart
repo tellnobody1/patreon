@@ -6,7 +6,7 @@ final Map<String, Set<String>> cats = {
   'Військове': {'Lykhovii', 'milinua', 'informnapalm', 'AngryUA'},
   'Гумор': {'torontotv', 'kolegistudio', 'dostupno2020', 'dovkolabotanika', 'ninaukraine', 'verumT', 'uareview', 'pereozvuchka_ua'},
   'Дизайн': {'telegrafdesign', },
-  'Дітям': {'user?u=28899940', 'learningtogetherua', 'KhmarynkaUA', 'oum_spadshchyna', 'PaniVchytelka', 'pershosvit', },
+  'Дітям': {'user?u=28899940', 'KhmarynkaUA', 'oum_spadshchyna', 'PaniVchytelka', 'pershosvit', },
   'Допомога': {'prytula', 'savelife_in_ua', 'uanimals', 'rsukraine_org_ua', 'serhiyzhadan', 'donorua', 'dostupno2020', 'heroyika', },
   'Екологія': {'NowasteUkraine', },
   'Ігри': {'PlayUA', 'mariamblog', 'vertigoUA', 'pad0n', 'rendarosua', 'gamer_fm', 'gamestreetua', 'PSUkraine', 'oldboiua', 'WBG', 'teoriyagry', },
