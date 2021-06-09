@@ -4,7 +4,7 @@ import urllib.request
 cats = {
   'Всі': {},
   'Авто': {'MaksPodzigun', 'autogeek', },
-  'Благоустрій': {'chaplinskyvlog', 'dostupno2020', 'stop_goose', },
+  'Благоустрій': {'chaplinskyvlog', 'dostupno2020' },
   'Військове': {'Lykhovii', 'milinua', 'informnapalm', 'AngryUA'},
   'Гумор': {'torontotv', 'kolegistudio', 'dostupno2020', 'dovkolabotanika', 'ninaukraine', 'verumT', 'uareview', 'pereozvuchka_ua'},
   'Дизайн': {'telegrafdesign', },
@@ -27,14 +27,14 @@ cats = {
   'Творчість': {'user?u=16774315', 'uacomix', 'nicopogarskiy', 'prihodnik', 'Shablyk', 'bez_mezh_studios', 'sbt_localization', 'AdrianZP', 'gwean_maslinka', 'mariamblog', 'strugachka', 'cikavaideya', 'TheAsya', 'user?u=10599103', 'bbproject', 'fvua', 'JBPetersonUkraine'},
   'Театр': {'les_kurbas_theatre', },
   'Texнології': {'tokar', 'viewua', 'itpassions', 'jarvis_net_ua', 'nonamepodcast', 'Pingvins', 'manifestplatform', 'naukaua', },
-  'Різне': {'shitiknowlive', 'itworksonmypc', 'radioskorbota', 'lustrum', 'manifestplatform', 'balytska', 'kinshov', 'rist_center', 'inforules', 'behindthenews', 'iyura', 'musetang', 'radiopodil', 'need_science', },
+  'Різне': {'shitiknowlive', 'itworksonmypc', 'radioskorbota', 'lustrum', 'manifestplatform', 'balytska', 'kinshov', 'rist_center', 'inforules', 'behindthenews', 'iyura', 'musetang', 'radiopodil', 'need_science', 'volyasovich' },
   'Иншомовні': {'thealphacentauri', 'yanina', 'sershenzaritskaya', 'faideyren', 'bellatrixaiden', 'mukha', 'tanyacroft', 'allyourhtml'},
 }
 
 f = open('lib/data.dart', 'w')
-f.write('final Map<String, Creator> data = {\n')
+f.write("import 'creator.dart';\n\nfinal Map<String, Creator> data = {\n")
 
-for account in sorted({x for v in cats.values() for x in v}):
+for account in sorted({x for v in cats.values() for x in v}, key=str.casefold):
 
   page = urllib.request.urlopen(f'https://www.patreon.com/{account}').read()
   tree = html.fromstring(page)
@@ -59,3 +59,13 @@ for account in sorted({x for v in cats.values() for x in v}):
 
 f.write('};\n')
 f.close()
+
+f2 = open('lib/cats.dart', 'w')
+f2.write('final Map<String, Set<String>> cats = {\n')
+
+for c in cats.keys():
+  xs = '{' + ', '.join(map(lambda x: f"'{x}'", sorted(cats[c], key=str.casefold))) + '},'
+  f2.write(f"  '{c}': {xs}\n")
+
+f2.write('};\n')
+f2.close()
