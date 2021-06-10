@@ -12,7 +12,7 @@ final Map<String, Set<String>> cats = {
   'Інвестиції': {'familybudgetcomua'},
   'Історія': {'historyUA', 'imtgsh', 'kgbfiles', 'kozak_media'},
   'Кіно': {'animeK', 'asambleyA', 'Geek_Journal', 'mangua', 'mariamblog', 'miketvua', 'pankarpan', 'Salertino', 'vertigoUA', 'zagin'},
-  'Книги': {'annika_blog', 'asambleyA', 'diasporiana', 'enma_and_books', 'GulbanuBibicheva', 'kliusmarichka', 'knyzhkova_dylerka', 'kultpodcast', 'liubovgoknyg', 'mangua', 'mariamblog', 'paralel3', 'robmenus', 'svitlana', 'TheAsya', 'vertigoUA', 'vyshnevyjcvit'},
+  'Книги': {'annika_blog', 'asambleyA', 'beautyandgloom', 'diasporiana', 'enma_and_books', 'GulbanuBibicheva', 'kliusmarichka', 'knyzhkova_dylerka', 'kultpodcast', 'liubovgoknyg', 'mangua', 'mariamblog', 'paralel3', 'robmenus', 'svitlana', 'TheAsya', 'vertigoUA', 'vyshnevyjcvit'},
   'Культура': {'raguli', 'undergroundhumanities', 'vmistozher'},
   'Музей': {'odesafineartsmuseum'},
   'Музика': {'liroom', 'mefreel', 'slukh', 'uaestrada', 'ukrainedancing', 'UkrainianLiveClassic', 'zhadanisobaki'},

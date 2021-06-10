@@ -15,7 +15,7 @@ cats = {
   'Інвестиції': {'familybudgetcomua'},
   'Історія': {'imtgsh', 'historyUA', 'kozak_media', 'kgbfiles', },
   'Кіно': {'Geek_Journal', 'mariamblog', 'vertigoUA', 'pankarpan', 'zagin', 'animeK', 'mangua', 'asambleyA', 'miketvua', 'Salertino', },
-  'Книги': {'annika_blog', 'vyshnevyjcvit', 'mariamblog', 'vertigoUA', 'knyzhkova_dylerka', 'GulbanuBibicheva', 'svitlana', 'robmenus', 'TheAsya', 'enma_and_books', 'kliusmarichka', 'liubovgoknyg', 'mangua', 'asambleyA', 'paralel3', 'kultpodcast', 'diasporiana', },
+  'Книги': {'annika_blog', 'vyshnevyjcvit', 'mariamblog', 'vertigoUA', 'knyzhkova_dylerka', 'GulbanuBibicheva', 'svitlana', 'robmenus', 'TheAsya', 'enma_and_books', 'kliusmarichka', 'liubovgoknyg', 'mangua', 'asambleyA', 'paralel3', 'kultpodcast', 'diasporiana', 'beautyandgloom'},
   'Культура': {'undergroundhumanities', 'vmistozher', 'raguli', },
   'Музей': {'odesafineartsmuseum'},
   'Музика': {'UkrainianLiveClassic', 'zhadanisobaki', 'liroom', 'mefreel', 'slukh', 'uaestrada', 'ukrainedancing'},
@@ -32,9 +32,11 @@ cats = {
 }
 
 f = open('lib/data.dart', 'w')
+# f = open('lib/data2.dart', 'w')
 f.write("import 'creator.dart';\n\nfinal Map<String, Creator> data = {\n")
 
 for account in sorted({x for v in cats.values() for x in v}, key=str.casefold):
+# for account in { '' }:
 
   page = urllib.request.urlopen(f'https://www.patreon.com/{account}').read()
   tree = html.fromstring(page)
