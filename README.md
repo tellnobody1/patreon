@@ -8,7 +8,7 @@ Open [index.html](https://uaapps.github.io/patreon/).
 
 ## Android
 
-Get an [apk](build/app/outputs/flutter-apk/app-release.apk).
+Get an apk on [Releases](https://github.com/uaapps/patreon/releases) page.
 
 ## Release
 

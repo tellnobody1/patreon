@@ -27,13 +27,6 @@
 .pub-cache/
 .pub/
 /build/*
-!/build/app/
-/build/app/*
-!/build/app/outputs
-/build/app/outputs/*
-!/build/app/outputs/flutter-apk/
-/build/app/outputs/flutter-apk/*
-!/build/app/outputs/flutter-apk/app-release.apk
 
 # Web related
 lib/generated_plugin_registrant.dart
