@@ -28,7 +28,7 @@ cats = {
   'Театр': {'les_kurbas_theatre', },
   'Texнології': {'tokar', 'viewua', 'itpassions', 'jarvis_net_ua', 'nonamepodcast', 'Pingvins', 'manifestplatform', 'naukaua', },
   'Різне': {'shitiknowlive', 'itworksonmypc', 'radioskorbota', 'lustrum', 'manifestplatform', 'balytska', 'kinshov', 'rist_center', 'inforules', 'behindthenews', 'iyura', 'musetang', 'radiopodil', 'need_science', 'volyasovich' },
-  'Иншомовні': {'thealphacentauri', 'yanina', 'sershenzaritskaya', 'faideyren', 'bellatrixaiden', 'mukha', 'tanyacroft', 'allyourhtml'},
+  'Иншомовні': {'thealphacentauri', 'yanina', 'sershenzaritskaya', 'faideyren', 'bellatrixaiden', 'mukha', 'tanyacroft', 'allyourhtml', '5HT'},
 }
 
 f = open('lib/data.dart', 'w')

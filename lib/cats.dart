@@ -25,5 +25,5 @@ final Map<String, Set<String>> cats = {
   'Театр': {'les_kurbas_theatre'},
   'Texнології': {'itpassions', 'jarvis_net_ua', 'manifestplatform', 'naukaua', 'nonamepodcast', 'Pingvins', 'tokar', 'viewua'},
   'Різне': {'balytska', 'behindthenews', 'inforules', 'itworksonmypc', 'iyura', 'kinshov', 'lustrum', 'manifestplatform', 'musetang', 'need_science', 'radiopodil', 'radioskorbota', 'rist_center', 'shitiknowlive', 'volyasovich'},
-  'Иншомовні': {'allyourhtml', 'bellatrixaiden', 'faideyren', 'mukha', 'sershenzaritskaya', 'tanyacroft', 'thealphacentauri', 'yanina'},
+  'Иншомовні': {'5HT', 'allyourhtml', 'bellatrixaiden', 'faideyren', 'mukha', 'sershenzaritskaya', 'tanyacroft', 'thealphacentauri', 'yanina'},
 };

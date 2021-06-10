@@ -1,6 +1,7 @@
 import 'creator.dart';
 
 final Map<String, Creator> data = {
+  '5HT': Creator(account: '5HT', patrons: '8', earnings: '\$52', img: 'https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/191131/d28000e19b9f460eb27d6f2fc763ccdd/2.jpeg?token-time=2145916800&token-hash=tdO8k7JnsrxRw4pAyD-YxxlZv3jrJw16kMrNlLeUFDo%3D', name: 'Namdak Tonpa', about: 'is creating N2O'),
   'AdrianZP': Creator(account: 'AdrianZP', patrons: '111', earnings: '\$496', img: 'https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/1352003/de8ca2dbe24640dea8d165831f1517dd/3.jpg?token-time=2145916800&token-hash=IglT6KnPDAICCzsIpkpoFlR1Owvb5P0J_VC-W2lZJT8%3D', name: 'AdrianZP', about: 'is creating Ukrainian dubbing, education & other video'),
   'allyourhtml': Creator(account: 'allyourhtml', patrons: '165', earnings: '\$326', img: 'https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/1402325/ad3c8dbab67a4d32b5da6f4b0ec7a4e6/1.jpg?token-time=2145916800&token-hash=SfQ9dpCjQfkvjCf-ZAxZc4NlLE-lzvN3ShUTPALFOH4%3D', name: 'Yuri Artiukh', about: 'is creating frontend videos'),
   'AngryUA': Creator(account: 'AngryUA', patrons: '1', earnings: '\$4', img: 'https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/3759712/247d9c6ec49349198396b48c911f89f2/1.png?token-time=2145916800&token-hash=5aDIUYH72Fm2R8_NOVBGGAB2qekCSAXpGuetTz_ROD4%3D', name: 'Злі Українці', about: 'is creating Контент в підтримку Української Армії'),
