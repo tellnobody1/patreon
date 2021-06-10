@@ -16,6 +16,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.pink,
       ),
       home: MyHomePage(),
+      debugShowCheckedModeBanner: false,
     );
   }
 }
@@ -44,7 +45,7 @@ class _MyHomePageState extends State<MyHomePage> {
     xs.sort((a, b) {
       if (a.patrons == null && b.patrons == null) {
         if (a.earnings == null && b.earnings == null)
-          return (a.name ?? "").compareTo(b.name ?? "");
+          return a.name.compareTo(b.name);
         else if (a.earnings == null)
           return 1;
         else if (b.earnings == null)
@@ -59,7 +60,20 @@ class _MyHomePageState extends State<MyHomePage> {
         return int.parse(a.patrons!.replaceFirst(RegExp(","), "")).compareTo(int.parse(b.patrons!.replaceFirst(RegExp(","), "")));
     });
     return Scaffold(
-      appBar: AppBar(title: Text("Патреон")),
+      appBar: AppBar(
+        title: Text("Патреон"),
+        actions: [
+          PopupMenuButton(
+            itemBuilder: (_) => [
+              PopupMenuItem(value: "github.com/uaapps/patreon/issues/new", child: Text("Додати творця")),
+              PopupMenuItem(value: "github.com/uaapps/patreon/issues/new", child: Text("Поставити питання")),
+              PopupMenuItem(value: "github.com/uaapps/patreon", child: Text("Джерельний код")),
+            ],
+            onSelected: (route) => launch('https://${route}'),
+            icon: Icon(Icons.more_vert),
+          ),
+        ],
+      ),
       body:
         Column(children: [
           if (expanded)
@@ -89,44 +103,37 @@ class _MyHomePageState extends State<MyHomePage> {
                 ]
               )
             ),
-          Expanded(child: ListView.builder(
+          Expanded(child: ListView.separated(
             itemCount: xs.length,
             itemBuilder: (BuildContext context, int index) {
               var x = xs[index];
               Widget image = SizedBox(width: 100);
               if (x.img != null) {
-                image = Image.network(x.img!, width: 100, errorBuilder: (context, exception, stackTrace) {
+                image = Image.network(x.img!, width: 100, height: 100, errorBuilder: (context, exception, stackTrace) {
                   print(exception);
-                  return SizedBox(width: 100);
+                  return SizedBox(width: 100, height: 100);
                 });
               }
               return GestureDetector(
                 behavior: HitTestBehavior.translucent,
-                onTap: () => launch('https://www.patreon.com/${x.account}'), 
-                child: Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                  children: [
-                    Row(children: [
-                      image,
-                      Column(children: [
-                        Text(x.name ?? x.account),
-                        Text(x.about?.replaceFirst('is creating', 'створює').replaceFirst('are creating', 'створюють') ?? ""),
-                      ]),
-                    ]),
-                    Row(children: [
-                      Column(children: [
-                        Text('${x.patrons}'),
-                        Text('патронів'),
-                      ]),
-                      Column(children: [
-                        Text('${x.earnings}'),
-                        Text('на місяць'),
-                      ]),
-                    ]),
-                  ]
-                )
+                onTap: () => launch('https://www.patreon.com/${x.account}'),
+                child: Row(children: [
+                  image,
+                  Expanded(child: Padding(child: RichText(text: TextSpan(children: [
+                    TextSpan(text: x.name, style: TextStyle(fontWeight: FontWeight.bold, color: Colors.black)),
+                    TextSpan(text: ' '),
+                    TextSpan(text: x.about.replaceFirst('is creating', 'створює').replaceFirst('are creating', 'створюють'), style: TextStyle(color: Colors.black)),
+                  ])), padding: EdgeInsets.only(left: 7))),
+                  Container(child: Column(
+                    children: [
+                      Text(x.patrons ?? 'сховали'),
+                      Text(x.earnings ?? 'сховали'),
+                    ], mainAxisAlignment: MainAxisAlignment.center, crossAxisAlignment: CrossAxisAlignment.center
+                  ), width: 100, height: 100),
+                ])
               );
-            }
+            },
+            separatorBuilder: (_1, _2) => Divider(),
           )),
         ]),
     );

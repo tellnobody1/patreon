@@ -1,4 +1,4 @@
-package com.example.uapatreon
+package io.github.uaapps.patreon
 
 import io.flutter.embedding.android.FlutterActivity
 
