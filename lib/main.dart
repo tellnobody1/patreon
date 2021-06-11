@@ -129,7 +129,7 @@ class _MyHomePageState extends State<MyHomePage> {
                       Text(x.patrons ?? 'сховали'),
                       Text(x.earnings ?? 'сховали'),
                     ], mainAxisAlignment: MainAxisAlignment.center, crossAxisAlignment: CrossAxisAlignment.center
-                  ), width: 100, height: 100),
+                  ), width: 70, height: 100),
                 ])
               );
             },
