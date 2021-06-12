@@ -31,15 +31,12 @@ class MyHomePage extends StatefulWidget {
 class _MyHomePageState extends State<MyHomePage> {
   String activeCat = 'Всі';
   bool expanded = false;
-  
-  Creator fetchFor(String account) {
-    return data[account]!;
-  }
+  final scrollController = ScrollController();
 
   @override
   Widget build(BuildContext context) {
     Set<String> accounts;
-    if (activeCat == 'Всі') accounts = cats.keys.where((x) => x != 'Иншомовні').expand((x) => cats[x]!).toSet();
+    if (activeCat == 'Всі') accounts = cats.keys.where((x) => x != 'Иншомовні' && x != 'Регіональне').expand((x) => cats[x]!).toSet();
     else accounts = cats[activeCat]!;
     var xs = accounts.map((a) => data[a]!).toList();
     xs.sort((a, b) {
@@ -65,11 +62,10 @@ class _MyHomePageState extends State<MyHomePage> {
         actions: [
           PopupMenuButton(
             itemBuilder: (_) => [
-              PopupMenuItem(value: "github.com/uaapps/patreon/issues/new", child: Text("Додати творця")),
-              PopupMenuItem(value: "github.com/uaapps/patreon/issues/new", child: Text("Поставити питання")),
-              PopupMenuItem(value: "github.com/uaapps/patreon", child: Text("Джерельний код")),
+              PopupMenuItem(value: "https://t.me/uaapps", child: Text("Підтримок")),
+              PopupMenuItem(value: "https://github.com/uaapps/patreon", child: Text("Джерельний код")),
             ],
-            onSelected: (route) => launch('https://${route}'),
+            onSelected: (route) => launch('${route}'),
             icon: Icon(Icons.more_vert),
           ),
         ],
@@ -87,6 +83,7 @@ class _MyHomePageState extends State<MyHomePage> {
                       activeCat = key;
                       expanded = false;
                     });
+                    scrollController.jumpTo(scrollController.position.minScrollExtent);
                   }
                 )
               ).toList()
@@ -104,8 +101,9 @@ class _MyHomePageState extends State<MyHomePage> {
               )
             ),
           Expanded(child: ListView.separated(
+            controller: scrollController,
             itemCount: xs.length,
-            itemBuilder: (BuildContext context, int index) {
+            itemBuilder: (_, index) {
               var x = xs[index];
               Widget image = SizedBox(width: 100);
               if (x.img != null) {
