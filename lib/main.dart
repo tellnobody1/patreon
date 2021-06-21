@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 import 'cats.dart';
-import 'creator.dart';
 import 'data.dart';
 
 void main() => runApp(MyApp());
@@ -65,7 +64,7 @@ class _MyHomePageState extends State<MyHomePage> {
               PopupMenuItem(value: "https://t.me/uaapps", child: Text("Підтримок")),
               PopupMenuItem(value: "https://github.com/uaapps/patreon", child: Text("Джерельний код")),
             ],
-            onSelected: (route) => launch('${route}'),
+            onSelected: (route) => launch('$route'),
             icon: Icon(Icons.more_vert),
           ),
         ],
