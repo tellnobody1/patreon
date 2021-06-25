@@ -4,6 +4,7 @@ import urllib.request
 cats = {
   'Всі': {},
   'Авто': {'autogeek'},
+  'Архітектура': {'chaplinskyvlog', 'merezhyvo'},
   'Благоустрій': {'chaplinskyvlog', 'dostupno2020', 'office_transformation', 'StopTheMoose'},
   'Військове': {'Lykhovii', 'milinua', 'informnapalm', 'AngryUA'},
   'Готування': {'besahy'},
@@ -23,7 +24,7 @@ cats = {
   'Навчання': {'need_science', 'volyasovich', 'inforules', 'blogmayster', 'dustanciyka', 'nareshticlub', 'vlad_storyteller'},
   'Наука': {'CikavaNauka', 'rationalist', 'dovkolabotanika', 'pityatko', 'VorobieiBohdan', 'vsesvit_ua', 'naukaua', 'vsesvitua', 'enjoythescience', 'fazugenealogy', 'uagenealogy', 'Lakuna'},
   'Переклад': {'amanogawa', 'anitubeinua', 'sbt_localization', 'gwean_maslinka', 'strugachka', 'cikavaideya', 'fvua', 'JBPetersonUkraine'},
-  'Подорожі': {'ukrainer', 'user?u=44661751', 'lowcostua', 'nebolviv', 'dvokolisni_hroniky', 'findwayua', 'merezhyvo'},
+  'Подорожі': {'ukrainer', 'user?u=44661751', 'lowcostua', 'nebolviv', 'dvokolisni_hroniky', 'findwayua'},
   'Політика': {'skrypinua', 'sternenko', 'vatashow', 'bihusinfo', 'raguli', 'torontotv', 'ukrainianweek', 'textyorgua', 'Bykvu', 'informnapalm', 'slidstvo_info', 'portnikov', 'nestorvolya', 'valerii', 'islndtv', 'mokrec', 'svidomi', 'zvedeno'},
   'Природа': {'propohody', 'user?u=44661751', },
   'Професійне': {'bazilikmedia', 'rist_center', 'loyer', 'oleksandr_ant', 'olesyabobruyko', 'user?u=50286152'},

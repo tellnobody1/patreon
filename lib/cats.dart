@@ -1,6 +1,7 @@
 final Map<String, Set<String>> cats = {
   'Всі': {},
   'Авто': {'autogeek'},
+  'Архітектура': {'chaplinskyvlog', 'merezhyvo'},
   'Благоустрій': {'chaplinskyvlog', 'dostupno2020', 'office_transformation', 'StopTheMoose'},
   'Військове': {'AngryUA', 'informnapalm', 'Lykhovii', 'milinua'},
   'Готування': {'besahy'},
@@ -20,7 +21,7 @@ final Map<String, Set<String>> cats = {
   'Навчання': {'blogmayster', 'dustanciyka', 'inforules', 'nareshticlub', 'need_science', 'vlad_storyteller', 'volyasovich'},
   'Наука': {'CikavaNauka', 'dovkolabotanika', 'enjoythescience', 'fazugenealogy', 'Lakuna', 'naukaua', 'pityatko', 'rationalist', 'uagenealogy', 'VorobieiBohdan', 'vsesvit_ua', 'vsesvitua'},
   'Переклад': {'amanogawa', 'anitubeinua', 'cikavaideya', 'fvua', 'gwean_maslinka', 'JBPetersonUkraine', 'sbt_localization', 'strugachka'},
-  'Подорожі': {'dvokolisni_hroniky', 'findwayua', 'lowcostua', 'merezhyvo', 'nebolviv', 'ukrainer', 'user?u=44661751'},
+  'Подорожі': {'dvokolisni_hroniky', 'findwayua', 'lowcostua', 'nebolviv', 'ukrainer', 'user?u=44661751'},
   'Політика': {'bihusinfo', 'Bykvu', 'informnapalm', 'islndtv', 'mokrec', 'nestorvolya', 'portnikov', 'raguli', 'skrypinua', 'slidstvo_info', 'sternenko', 'svidomi', 'textyorgua', 'torontotv', 'ukrainianweek', 'valerii', 'vatashow', 'zvedeno'},
   'Природа': {'propohody', 'user?u=44661751'},
   'Професійне': {'bazilikmedia', 'loyer', 'oleksandr_ant', 'olesyabobruyko', 'rist_center', 'user?u=50286152'},
