@@ -39,21 +39,21 @@ class _MyHomePageState extends State<MyHomePage> {
     else accounts = cats[activeCat]!;
     var xs = accounts.map((a) => data[a]!).toList();
     xs.sort((a, b) {
-      if (a.patrons == null && b.patrons == null) {
-        if (a.earnings == null && b.earnings == null)
-          return a.name.compareTo(b.name);
-        else if (a.earnings == null)
-          return 1;
-        else if (b.earnings == null)
-          return -1;
-        else
-          return int.parse(a.earnings!.replaceFirst(RegExp(","), "")).compareTo(int.parse(b.earnings!.replaceFirst(RegExp(","), "")));
-      } else if (a.patrons == null)
-        return 1;
-      else if (b.patrons == null)
-        return -1;
-      else
-        return int.parse(a.patrons!.replaceFirst(RegExp(","), "")).compareTo(int.parse(b.patrons!.replaceFirst(RegExp(","), "")));
+      var x = a.patrons?.replaceFirst(RegExp(","), "") ?? "0";
+      var y = b.patrons?.replaceFirst(RegExp(","), "") ?? "0";
+      if (x == "0" && y != "0") return 1;
+      else if (x != "0" && y == "0") return -1;
+      else {
+        if (x != y) return int.parse(x).compareTo(int.parse(y));
+        else {
+          var x = a.earnings?.replaceFirst(",", "").replaceFirst('€', '').replaceFirst('\$', '').replaceFirst('£', '') ?? "0";
+          var y = b.earnings?.replaceFirst(",", "").replaceFirst('€', '').replaceFirst('\$', '').replaceFirst('£', '') ?? "0";
+          if (x == y) return a.name.toLowerCase().compareTo(b.name.toLowerCase());
+          else if (x == "0") return 1;
+          else if (y == "0") return -1;
+          else return int.parse(x).compareTo(int.parse(y));
+        }
+      }
     });
     return Scaffold(
       appBar: AppBar(

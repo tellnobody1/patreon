@@ -48,21 +48,61 @@ for account in sorted({x for v in cats.values() for x in v}, key=str.casefold):
   page = urllib.request.urlopen(f'https://www.patreon.com/{account}').read()
   tree = html.fromstring(page)
 
-  patrons1 = tree.xpath('//div[@data-tag=\'CampaignPatronEarningStats-patron-count\']/h2/text()')
+  patrons1 = tree.xpath("//div[@data-tag='CampaignPatronEarningStats-patron-count']/h2/text()")
   patrons = f"'{patrons1[0]}'" if patrons1 else 'null'
 
-  earnings1 = tree.xpath('//div[@data-tag=\'CampaignPatronEarningStats-earnings\']/h2/text()')
+  earnings1 = tree.xpath("//div[@data-tag='CampaignPatronEarningStats-earnings']/h2/text()")
   dollar = '\\$'
   earnings = f"'{earnings1[0].replace('$', dollar)}'" if earnings1 else 'null'
 
-  img1 = tree.xpath("//div[@data-tag='CampaignPatronEarningStats-patron-count']/../../../../../../../../../*/*/*/*/@src")
-  img = f"'{img1[0]}'" if img1 else 'null'
+  img_path = tree.xpath("//*[@data-tag='reward-tier-card']/../../../../../../../../../../*/*/*/*/*/@src")
+  if img_path:
+    img = f"'{img_path[0]}'"
+  else:
+    img_path = tree.xpath("//*[@data-tag='reward-tier-card']/../../../../../../../../../../*/*/*/*/@src")
+    if img_path:
+      img = f"'{img_path[0]}'"
+    else:
+      img_path = tree.xpath("//div[@data-tag='CampaignPatronEarningStats-patron-count']/../../../../../../../../../*/*/*/*/@src")
+      if img_path:
+        img = f"'{img_path[0]}'"
+      else:
+        img_path = tree.xpath("//*[@data-tag='creator-page-grid-cta']/../../../../../../*/*/*/*/@src")
+        if img_path:
+          img = f"'{img_path[0]}'"
+        else:
+          img = 'null'
+    
+  ap1 = "'"
+  ap2 = "\\'"
 
-  text = tree.xpath("//div[@data-tag='CampaignPatronEarningStats-patron-count']/../../../../../../preceding-sibling::*/*/*/text()")
-  apostrophe1 = "'"
-  apostrophe2 = "\\'"
-  name = f"'{text[0].replace(apostrophe1, apostrophe2)}'" if len(text) >= 1 else 'null'
-  about = f"'{text[1].replace(apostrophe1, apostrophe2)}'" if len(text) >= 2 else 'null'
+  name_path = tree.xpath("//*[@data-tag='reward-tier-card']/../../../../../../../../*/*/*[1]/text()")
+  if name_path:
+    name = f"'{name_path[0].replace(ap1, ap2)}'"
+  else:
+    name_path = tree.xpath("//div[@data-tag='CampaignPatronEarningStats-patron-count']/../../../../../../../*/*/*[1]/text()")
+    if name_path:
+      name = f"'{name_path[0].replace(ap1, ap2)}'"
+    else:
+      name_path = tree.xpath("//div[@data-tag='creator-page-grid-cta']/../../../../*/*/*[1]/text()")
+      if name_path:
+        name = f"'{name_path[0].replace(ap1, ap2)}'"
+      else:
+        name = 'null'
+
+  about_path = tree.xpath("//*[@data-tag='reward-tier-card']/../../../../../../../../*/*/*[2]/text()")
+  if about_path:
+    about = f"'{about_path[0].replace(ap1, ap2)}'"
+  else:
+    about_path = tree.xpath("//div[@data-tag='CampaignPatronEarningStats-patron-count']/../../../../../../../*/*/*[2]/text()")
+    if about_path:
+      about = f"'{about_path[0].replace(ap1, ap2)}'"
+    else:
+      about_path = tree.xpath("//div[@data-tag='creator-page-grid-cta']/../../../../*/*/*[1]/text()")
+      if about_path:
+        about = f"'{about_path[0].replace(ap1, ap2)}'"
+      else:
+        about = 'null'
 
   f.write(f"  '{account}': Creator(account: '{account}', patrons: {patrons}, earnings: {earnings}, img: {img}, name: {name}, about: {about}),\n")
 
