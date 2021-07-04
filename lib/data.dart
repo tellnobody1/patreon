@@ -1,6 +1,7 @@
 import 'creator.dart';
 
 final Map<String, Creator> data = {
+  '23daphnia': Creator(account: '23daphnia', patrons: '2', earnings: '\$21', img: 'https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/5974987/d92fddcafeff466ebe2b8f1c271416ed/2.jpg?token-time=2145916800&token-hash=ahQiI-kSkcEYqW4nQc-G2IQ8mitFKPFkBubz16rkKbg%3D', name: 'Alla Komarova', about: 'is creating читаємо гарні книги'),
   '5HT': Creator(account: '5HT', patrons: '8', earnings: '\$52', img: 'https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/191131/d28000e19b9f460eb27d6f2fc763ccdd/2.jpeg?token-time=2145916800&token-hash=tdO8k7JnsrxRw4pAyD-YxxlZv3jrJw16kMrNlLeUFDo%3D', name: 'Namdak Tonpa', about: 'is creating N2O'),
   'AdrianZP': Creator(account: 'AdrianZP', patrons: '114', earnings: '\$451', img: 'https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/1352003/de8ca2dbe24640dea8d165831f1517dd/3.jpg?token-time=2145916800&token-hash=IglT6KnPDAICCzsIpkpoFlR1Owvb5P0J_VC-W2lZJT8%3D', name: 'AdrianZP', about: 'is creating Ukrainian dubbing, education & other video'),
   'allyourhtml': Creator(account: 'allyourhtml', patrons: '178', earnings: '\$345', img: 'https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/1402325/ad3c8dbab67a4d32b5da6f4b0ec7a4e6/1.jpg?token-time=2145916800&token-hash=SfQ9dpCjQfkvjCf-ZAxZc4NlLE-lzvN3ShUTPALFOH4%3D', name: 'Yuri Artiukh', about: 'is creating frontend videos'),

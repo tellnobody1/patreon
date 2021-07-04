@@ -14,7 +14,7 @@ final Map<String, Set<String>> cats = {
   'Ігри': {'DITHOM', 'gamer_fm', 'gamestreetua', 'Geek_Informator', 'oldboiua', 'pad0n', 'PlayUA', 'PSUkraine', 'rendarosua', 'teoriyagry', 'TheAsya', 'vertigoUA', 'WBG'},
   'Історія': {'docult', 'historyUA', 'historywall', 'imtgsh', 'kgbfiles', 'kozak_media', 'svitlotin', 'wildfoxfilm'},
   'Кіно': {'animeK', 'asambleyA', 'Geek_Informator', 'Geek_Journal', 'mangua', 'mariamblog', 'miketvua', 'pankarpan', 'Salertino', 'vertigoUA', 'zagin'},
-  'Книги': {'annika_blog', 'asambleyA', 'beautyandgloom', 'chtyvo', 'diasporiana', 'enma_and_books', 'GulbanuBibicheva', 'kliusmarichka', 'knyzhkova_dylerka', 'kultpodcast', 'liubovgoknyg', 'mangua', 'mariamblog', 'paralel3', 'robmenus', 'svitlana', 'TheAsya', 'vertigoUA', 'vrajennya', 'vyshnevyjcvit'},
+  'Книги': {'23daphnia', 'annika_blog', 'asambleyA', 'beautyandgloom', 'chtyvo', 'diasporiana', 'enma_and_books', 'GulbanuBibicheva', 'kliusmarichka', 'knyzhkova_dylerka', 'kultpodcast', 'liubovgoknyg', 'mangua', 'mariamblog', 'paralel3', 'robmenus', 'svitlana', 'TheAsya', 'vertigoUA', 'vrajennya', 'vyshnevyjcvit'},
   'Культура': {'raguli', 'undergroundhumanities', 'vmistozher'},
   'Музей': {'odesafineartsmuseum'},
   'Музика': {'bbproject', 'dailymetal_radiogarta', 'eileena', 'fromfaraway', 'liroom', 'LvivNationalPhilharmonic', 'mefreel', 'musetang', 'neformat', 'otvinta', 'palindrom', 'pivpodcast', 'slukh', 'uaestrada', 'ukrainedancing', 'UkrainianLiveClassic', 'wszystko_band', 'zhadanisobaki'},

@@ -17,7 +17,7 @@ cats = {
   'Ігри': {'PlayUA', 'vertigoUA', 'pad0n', 'rendarosua', 'gamer_fm', 'gamestreetua', 'PSUkraine', 'oldboiua', 'WBG', 'teoriyagry', 'TheAsya', 'DITHOM', 'Geek_Informator'},
   'Історія': {'imtgsh', 'historyUA', 'kozak_media', 'kgbfiles', 'docult', 'historywall', 'svitlotin', 'wildfoxfilm'},
   'Кіно': {'Geek_Journal', 'mariamblog', 'vertigoUA', 'pankarpan', 'zagin', 'animeK', 'mangua', 'asambleyA', 'miketvua', 'Salertino', 'Geek_Informator'},
-  'Книги': {'annika_blog', 'vyshnevyjcvit', 'mariamblog', 'vertigoUA', 'knyzhkova_dylerka', 'GulbanuBibicheva', 'svitlana', 'robmenus', 'TheAsya', 'enma_and_books', 'kliusmarichka', 'liubovgoknyg', 'mangua', 'asambleyA', 'paralel3', 'kultpodcast', 'diasporiana', 'beautyandgloom', 'chtyvo', 'vrajennya'},
+  'Книги': {'23daphnia', 'annika_blog', 'vyshnevyjcvit', 'mariamblog', 'vertigoUA', 'knyzhkova_dylerka', 'GulbanuBibicheva', 'svitlana', 'robmenus', 'TheAsya', 'enma_and_books', 'kliusmarichka', 'liubovgoknyg', 'mangua', 'asambleyA', 'paralel3', 'kultpodcast', 'diasporiana', 'beautyandgloom', 'chtyvo', 'vrajennya'},
   'Культура': {'undergroundhumanities', 'vmistozher', 'raguli', },
   'Музей': {'odesafineartsmuseum'},
   'Музика': {'UkrainianLiveClassic', 'zhadanisobaki', 'liroom', 'mefreel', 'slukh', 'uaestrada', 'ukrainedancing', 'bbproject', 'musetang', 'dailymetal_radiogarta', 'eileena', 'fromfaraway', 'LvivNationalPhilharmonic', 'neformat', 'otvinta', 'palindrom', 'pivpodcast', 'wszystko_band'},
