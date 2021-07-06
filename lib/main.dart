@@ -61,7 +61,8 @@ class _MyHomePageState extends State<MyHomePage> {
         actions: [
           PopupMenuButton(
             itemBuilder: (_) => [
-              PopupMenuItem(value: "https://t.me/uaapps", child: Text("Підтримок")),
+              PopupMenuItem(value: "https://t.me/uaapps", child: Text("Пропозиції")),
+              PopupMenuItem(value: "https://github.com/uaapps/patreon/releases/download/1.0/app-release.apk", child: Text("Android")),
               PopupMenuItem(value: "https://github.com/uaapps/patreon", child: Text("Джерельний код")),
             ],
             onSelected: (route) => launch('$route'),

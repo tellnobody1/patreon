@@ -1,7 +1,7 @@
 final Map<String, Set<String>> cats = {
   'Всі': {},
   'Авто': {'autogeek'},
-  'Архітектура': {'chaplinskyvlog', 'merezhyvo'},
+  'Архітектура': {'chaplinskyvlog', 'merezhyvo', 'ukrmod'},
   'Благоустрій': {'chaplinskyvlog', 'dostupno2020', 'office_transformation', 'StopTheMoose'},
   'Військове': {'AngryUA', 'informnapalm', 'Lykhovii', 'milinua'},
   'Готування': {'besahy'},

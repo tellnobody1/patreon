@@ -4,7 +4,7 @@ import urllib.request
 cats = {
   'Всі': {},
   'Авто': {'autogeek'},
-  'Архітектура': {'chaplinskyvlog', 'merezhyvo'},
+  'Архітектура': {'chaplinskyvlog', 'merezhyvo', 'ukrmod'},
   'Благоустрій': {'chaplinskyvlog', 'dostupno2020', 'office_transformation', 'StopTheMoose'},
   'Військове': {'Lykhovii', 'milinua', 'informnapalm', 'AngryUA'},
   'Готування': {'besahy'},
