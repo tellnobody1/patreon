@@ -75,16 +75,20 @@ class _MyHomePageState extends State<MyHomePage> {
           if (expanded)
             Wrap(
               children: cats.keys.map((key) =>
-                ChoiceChip(
-                  label: Text(key),
-                  selected: key == activeCat,
-                  onSelected: (_) {
-                    setState(() {
-                      activeCat = key;
-                      expanded = false;
-                    });
-                    scrollController.jumpTo(scrollController.position.minScrollExtent);
-                  }
+                Container(
+                  margin: EdgeInsets.symmetric(vertical: 3, horizontal: 2),
+                  child: 
+                    ChoiceChip(
+                      label: Text(key),
+                      selected: key == activeCat,
+                      onSelected: (_) {
+                        setState(() {
+                          activeCat = key;
+                          expanded = false;
+                        });
+                        scrollController.jumpTo(scrollController.position.minScrollExtent);
+                      }
+                    )
                 )
               ).toList()
             )
@@ -95,8 +99,8 @@ class _MyHomePageState extends State<MyHomePage> {
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
-                  ChoiceChip(label: Text(activeCat), selected: true),
-                  Icon(Icons.expand_more, color: Colors.pink),
+                  Container(child: ChoiceChip(label: Text(activeCat), selected: true), margin: EdgeInsets.symmetric(vertical: 3, horizontal: 5)),
+                  Container(child: Icon(Icons.expand_more, color: Colors.pink), margin: EdgeInsets.symmetric(vertical: 3, horizontal: 7)),
                 ]
               )
             ),
@@ -105,23 +109,30 @@ class _MyHomePageState extends State<MyHomePage> {
             itemCount: xs.length,
             itemBuilder: (_, index) {
               var x = xs[index];
-              Widget image = SizedBox(width: 100);
-              if (x.img != null) {
-                image = Image.network(x.img!, width: 100, height: 100, errorBuilder: (context, exception, stackTrace) {
-                  print(exception);
-                  return SizedBox(width: 100, height: 100);
-                });
-              }
+              Widget image = x.img != null ?
+                Container(
+                  width: 100, 
+                  height: 100, 
+                  decoration: BoxDecoration(
+                    shape: BoxShape.circle, 
+                    image: DecorationImage(
+                      image: NetworkImage(x.img!), 
+                      fit: BoxFit.cover
+                    )
+                  )
+                )
+                :
+                SizedBox(width: 100);
               return GestureDetector(
                 behavior: HitTestBehavior.translucent,
                 onTap: () => launch('https://www.patreon.com/${x.account}'),
                 child: Row(children: [
-                  image,
-                  Expanded(child: Padding(child: RichText(text: TextSpan(children: [
+                  Container(child: image, margin: EdgeInsets.symmetric(horizontal: 5)),
+                  Expanded(child: RichText(text: TextSpan(children: [
                     TextSpan(text: x.name, style: TextStyle(fontWeight: FontWeight.bold, color: Colors.black)),
                     TextSpan(text: ' '),
                     TextSpan(text: x.about, style: TextStyle(color: Colors.black)),
-                  ])), padding: EdgeInsets.only(left: 7))),
+                  ]))),
                   Container(child: Column(
                     children: (x.patrons == null && x.earnings == null) ? [ Text('сховали') ] : x.patrons == '0' ? [ Text('0') ] : [
                       Text(x.patrons ?? 'сховали'),
