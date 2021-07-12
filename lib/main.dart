@@ -10,7 +10,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Патреон',
+      title: 'Українські творці з Patreon',
       theme: ThemeData(
         primarySwatch: Colors.pink,
       ),
@@ -120,10 +120,10 @@ class _MyHomePageState extends State<MyHomePage> {
                   Expanded(child: Padding(child: RichText(text: TextSpan(children: [
                     TextSpan(text: x.name, style: TextStyle(fontWeight: FontWeight.bold, color: Colors.black)),
                     TextSpan(text: ' '),
-                    TextSpan(text: x.about.replaceFirst('is creating', 'створює').replaceFirst('are creating', 'створюють'), style: TextStyle(color: Colors.black)),
+                    TextSpan(text: x.about, style: TextStyle(color: Colors.black)),
                   ])), padding: EdgeInsets.only(left: 7))),
                   Container(child: Column(
-                    children: [
+                    children: x.patrons == null && x.earnings == null ? [ Text('сховали') ] : [
                       Text(x.patrons ?? 'сховали'),
                       Text(x.earnings ?? 'сховали'),
                     ], mainAxisAlignment: MainAxisAlignment.center, crossAxisAlignment: CrossAxisAlignment.center
