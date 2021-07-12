@@ -62,7 +62,7 @@ class _MyHomePageState extends State<MyHomePage> {
           PopupMenuButton(
             itemBuilder: (_) => [
               PopupMenuItem(value: "https://t.me/uaapps", child: Text("Пропозиції")),
-              PopupMenuItem(value: "https://github.com/uaapps/patreon/releases/download/1.0/app-release.apk", child: Text("Android")),
+              PopupMenuItem(value: "https://github.com/uaapps/patreon/releases/download/1.0/app-release.apk", child: Text("Android APK")),
               PopupMenuItem(value: "https://github.com/uaapps/patreon", child: Text("Джерельний код")),
             ],
             onSelected: (route) => launch('$route'),
@@ -123,8 +123,9 @@ class _MyHomePageState extends State<MyHomePage> {
                     TextSpan(text: x.about, style: TextStyle(color: Colors.black)),
                   ])), padding: EdgeInsets.only(left: 7))),
                   Container(child: Column(
-                    children: x.patrons == null && x.earnings == null ? [ Text('сховали') ] : [
+                    children: (x.patrons == null && x.earnings == null) ? [ Text('сховали') ] : x.patrons == '0' ? [ Text('0') ] : [
                       Text(x.patrons ?? 'сховали'),
+                      Divider(),
                       Text(x.earnings ?? 'сховали'),
                     ], mainAxisAlignment: MainAxisAlignment.center, crossAxisAlignment: CrossAxisAlignment.center
                   ), width: 70, height: 100),
