@@ -1,11 +1,11 @@
 {
-    "name": "Патреон",
+    "name": "Українські творці з Patreon",
     "short_name": "Патреон",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "Патреон українською",
+    "description": "Підтримати маловідомих творців з українського патреону",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [

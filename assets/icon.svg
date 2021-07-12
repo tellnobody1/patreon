@@ -2,66 +2,26 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="410"
-   height="410"
-   viewBox="0 0 108.47916 108.47917"
+   width="100mm"
+   height="100mm"
+   viewBox="0 0 100 100"
    version="1.1"
    id="svg5"
-   sodipodi:docname="icon.svg"
-   inkscape:version="1.1 (c4e8f9e, 2021-05-24)"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
-  <sodipodi:namedview
-     id="namedview7"
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1.0"
-     inkscape:pageshadow="2"
-     inkscape:pageopacity="0.0"
-     inkscape:pagecheckerboard="0"
-     inkscape:document-units="mm"
-     showgrid="false"
-     inkscape:zoom="1.502144"
-     inkscape:cx="143.79447"
-     inkscape:cy="159.43878"
-     inkscape:window-width="1687"
-     inkscape:window-height="1003"
-     inkscape:window-x="93"
-     inkscape:window-y="41"
-     inkscape:window-maximized="0"
-     inkscape:current-layer="layer1"
-     units="px" />
   <defs
      id="defs2" />
   <g
-     inkscape:label="Шар 1"
-     inkscape:groupmode="layer"
      id="layer1">
     <path
-       id="path31"
-       style="fill:#225cb6;fill-opacity:1;fill-rule:evenodd;stroke-width:0.266228"
-       d="M 24.473958,35.718752 C 24.473958,15.991831 41.354224,1.0308838e-6 62.17709,2.0308838e-6 82.999958,1.0308838e-6 99.880218,15.991831 99.880218,35.718752"
-       sodipodi:nodetypes="csc" />
-    <path
-       id="path31-3"
-       style="fill:#f9d649;fill-opacity:1;fill-rule:evenodd;stroke-width:0.266228"
-       d="m 100.01252,35.718752 c 0,19.726917 -16.88026,35.718757 -37.703128,35.718757 -20.822877,0 -37.703142,-15.991841 -37.703142,-35.718757"
-       sodipodi:nodetypes="csc" />
-    <rect
-       style="fill:#bb261a;fill-opacity:1;stroke-width:0.189614"
-       id="rect605"
-       width="15.875"
-       height="35.71875"
-       x="8.7312498"
-       y="0" />
-    <rect
-       style="fill:#1e1a17;fill-opacity:1;stroke-width:0.270625"
-       id="rect605-5"
-       width="15.875"
-       height="72.760414"
-       x="8.7312498"
-       y="35.71875" />
+       style="fill:none;stroke:#000000;stroke-width:1.80787;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 31.312675,0.28168151 C 27.13634,13.077582 22.96005,25.873342 32.108868,39.443615 c 9.148818,13.570274 31.621612,27.91451 32.342961,37.99107 0.721349,10.07656 -20.308232,15.885066 -41.338315,21.69371"
+       id="path878" />
+    <circle
+       style="fill:#bb261a;stroke-width:2.86499;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path1879"
+       cx="60.695221"
+       cy="22.04183"
+       r="19.675299" />
   </g>
 </svg>
