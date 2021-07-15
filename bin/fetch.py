@@ -40,8 +40,9 @@ cats = {
 }
 
 f = open('lib/data.dart', 'w')
-# f = open('lib/data2.dart', 'w')
+f2 = open('lib/data2.dart', 'w')
 f.write("import 'creator.dart';\n\nfinal Map<String, Creator> data = {\n")
+f2.write("import 'creator.dart';\n\nfinal Map<String, Creator2> data2 = {\n")
 
 for account in sorted({x for v in cats.values() for x in v}, key=str.casefold):
 # for account in { '' }:
@@ -105,17 +106,20 @@ for account in sorted({x for v in cats.values() for x in v}, key=str.casefold):
       else:
         about = 'null'
 
-  f.write(f"  '{account}': Creator(account: '{account}', patrons: {patrons}, earnings: {earnings}, img: {img}, name: {name}, about: {about}),\n")
+  f.write(f"  '{account}': Creator(account: '{account}', patrons: {patrons}, earnings: {earnings}),\n")
+  f2.write(f"  '{account}': Creator2(img: {img}, name: {name}, about: {about}),\n")
 
 f.write('};\n')
+f2.write('};\n')
 f.close()
+f2.close()
 
-f2 = open('lib/cats.dart', 'w')
-f2.write('final Map<String, Set<String>> cats = {\n')
+f3 = open('lib/cats.dart', 'w')
+f3.write('final Map<String, Set<String>> cats = {\n')
 
 for c in cats.keys():
   xs = '{' + ', '.join(map(lambda x: f"'{x}'", sorted(cats[c], key=str.casefold))) + '},'
-  f2.write(f"  '{c}': {xs}\n")
+  f3.write(f"  '{c}': {xs}\n")
 
-f2.write('};\n')
-f2.close()
+f3.write('};\n')
+f3.close()
