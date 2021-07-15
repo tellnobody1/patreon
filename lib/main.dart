@@ -1,8 +1,11 @@
+import 'dart:math';
+
 import 'package:flutter/material.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 import 'cats.dart';
 import 'data.dart';
+import 'data2.dart';
 
 void main() => runApp(MyApp());
 
@@ -31,6 +34,7 @@ class _MyHomePageState extends State<MyHomePage> {
   String activeCat = 'Всі';
   bool expanded = false;
   final scrollController = ScrollController();
+  final random = new Random();
 
   @override
   Widget build(BuildContext context) {
@@ -48,7 +52,7 @@ class _MyHomePageState extends State<MyHomePage> {
         else {
           var x = a.earnings?.replaceFirst(",", "").replaceFirst('€', '').replaceFirst('\$', '').replaceFirst('£', '') ?? "0";
           var y = b.earnings?.replaceFirst(",", "").replaceFirst('€', '').replaceFirst('\$', '').replaceFirst('£', '') ?? "0";
-          if (x == y) return a.name.toLowerCase().compareTo(b.name.toLowerCase());
+          if (x == y) return random.nextInt(3) - 1;
           else if (x == "0") return 1;
           else if (y == "0") return -1;
           else return int.parse(x).compareTo(int.parse(y));
@@ -78,17 +82,17 @@ class _MyHomePageState extends State<MyHomePage> {
                 Container(
                   margin: EdgeInsets.symmetric(vertical: 3, horizontal: 2),
                   child: 
-                    ChoiceChip(
-                      label: Text(key),
-                      selected: key == activeCat,
-                      onSelected: (_) {
-                        setState(() {
-                          activeCat = key;
-                          expanded = false;
-                        });
-                        scrollController.jumpTo(scrollController.position.minScrollExtent);
-                      }
-                    )
+                ChoiceChip(
+                  label: Text(key),
+                  selected: key == activeCat,
+                  onSelected: (_) {
+                    setState(() {
+                      activeCat = key;
+                      expanded = false;
+                    });
+                    scrollController.jumpTo(scrollController.position.minScrollExtent);
+                  }
+                )
                 )
               ).toList()
             )
@@ -108,15 +112,16 @@ class _MyHomePageState extends State<MyHomePage> {
             controller: scrollController,
             itemCount: xs.length,
             itemBuilder: (_, index) {
-              var x = xs[index];
-              Widget image = x.img != null ?
+              final x = xs[index];
+              final y = data2[x.account];
+              Widget image = y?.img != null ?
                 Container(
                   width: 100, 
                   height: 100, 
                   decoration: BoxDecoration(
                     shape: BoxShape.circle, 
                     image: DecorationImage(
-                      image: NetworkImage(x.img!), 
+                      image: NetworkImage(y!.img!), 
                       fit: BoxFit.cover
                     )
                   )
@@ -129,9 +134,9 @@ class _MyHomePageState extends State<MyHomePage> {
                 child: Row(children: [
                   Container(child: image, margin: EdgeInsets.symmetric(horizontal: 5)),
                   Expanded(child: RichText(text: TextSpan(children: [
-                    TextSpan(text: x.name, style: TextStyle(fontWeight: FontWeight.bold, color: Colors.black)),
+                    TextSpan(text: y?.name, style: TextStyle(fontWeight: FontWeight.bold, color: Colors.black)),
                     TextSpan(text: ' '),
-                    TextSpan(text: x.about, style: TextStyle(color: Colors.black)),
+                    TextSpan(text: y?.about, style: TextStyle(color: Colors.black)),
                   ]))),
                   Container(child: Column(
                     children: (x.patrons == null && x.earnings == null) ? [ Text('сховали') ] : x.patrons == '0' ? [ Text('0') ] : [
@@ -143,7 +148,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 ])
               );
             },
-            separatorBuilder: (_1, _2) => Divider(),
+            separatorBuilder: (x, y) => Divider(),
           )),
         ]),
     );
