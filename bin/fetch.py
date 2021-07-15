@@ -39,13 +39,24 @@ cats = {
   'Иншомовні': {'vatatv', 'UA_direct_democracy', 'lee_online', 'happypaw', 'Did_Oles_Falcon_UA', 'thealphacentauri', 'yanina', 'sershenzaritskaya', 'faideyren', 'bellatrixaiden', 'mukha', 'tanyacroft', 'allyourhtml', '5HT', 'rudnyi', 'vidminniotsinky'},
 }
 
-f = open('lib/data.dart', 'w')
-f2 = open('lib/data2.dart', 'w')
-f.write("import 'creator.dart';\n\nfinal Map<String, Creator> data = {\n")
-f2.write("import 'creator.dart';\n\nfinal Map<String, Creator2> data2 = {\n")
+suffix = ''
+f = open(f'lib/data{suffix}.dart', 'w')
+f_about = open(f'lib/data.about{suffix}.dart', 'w')
+f_name = open(f'lib/data.name{suffix}.dart', 'w')
+f_img= open(f'lib/data.img{suffix}.dart', 'w')
 
-for account in sorted({x for v in cats.values() for x in v}, key=str.casefold):
-# for account in { '' }:
+f.write("import 'creator.dart';\n\nfinal Map<String, Creator> data = {\n")
+f_about.write("final Map<String, String> data_about = {\n")
+f_name.write("final Map<String, String> data_name = {\n")
+f_img.write("final Map<String, String> data_img = {\n")
+
+i = 1
+xs = sorted({x for v in cats.values() for x in v}, key=str.casefold)
+# xs = {}
+n = len(xs)
+for account in xs:
+  print(f"{i}/{n}", end='\r')
+  i = i + 1
 
   page = urllib.request.urlopen(f'https://www.patreon.com/{account}').read()
   tree = html.fromstring(page)
@@ -59,60 +70,67 @@ for account in sorted({x for v in cats.values() for x in v}, key=str.casefold):
 
   img_path = tree.xpath("//*[@data-tag='reward-tier-card']/../../../../../../../../../../*/*/*/*/*/@src")
   if img_path:
-    img = f"'{img_path[0]}'"
+    img = img_path[0]
   else:
     img_path = tree.xpath("//*[@data-tag='reward-tier-card']/../../../../../../../../../../*/*/*/*/@src")
     if img_path:
-      img = f"'{img_path[0]}'"
+      img = img_path[0]
     else:
       img_path = tree.xpath("//div[@data-tag='CampaignPatronEarningStats-patron-count']/../../../../../../../../../*/*/*/*/@src")
       if img_path:
-        img = f"'{img_path[0]}'"
+        img = img_path[0]
       else:
         img_path = tree.xpath("//*[@data-tag='creator-page-grid-cta']/../../../../../../*/*/*/*/@src")
         if img_path:
-          img = f"'{img_path[0]}'"
+          img = img_path[0]
         else:
-          img = 'null'
+          img = ''
     
   ap1 = "'"
   ap2 = "\\'"
 
   name_path = tree.xpath("//*[@data-tag='reward-tier-card']/../../../../../../../../*/*/*[1]/text()")
   if name_path:
-    name = f"'{name_path[0].replace(ap1, ap2)}'"
+    name = name_path[0].replace(ap1, ap2)
   else:
     name_path = tree.xpath("//div[@data-tag='CampaignPatronEarningStats-patron-count']/../../../../../../../*/*/*[1]/text()")
     if name_path:
-      name = f"'{name_path[0].replace(ap1, ap2)}'"
+      name = name_path[0].replace(ap1, ap2)
     else:
       name_path = tree.xpath("//div[@data-tag='creator-page-grid-cta']/../../../../*/*/*[1]/text()")
       if name_path:
-        name = f"'{name_path[0].replace(ap1, ap2)}'"
+        name = name_path[0].replace(ap1, ap2)
       else:
-        name = 'null'
+        name = ''
 
   about_path = tree.xpath("//*[@data-tag='reward-tier-card']/../../../../../../../../*/*/*[2]/text()")
   if about_path:
-    about = f"'{about_path[0].replace(ap1, ap2)}'"
+    about = about_path[0].replace(ap1, ap2)
   else:
     about_path = tree.xpath("//div[@data-tag='CampaignPatronEarningStats-patron-count']/../../../../../../../*/*/*[2]/text()")
     if about_path:
-      about = f"'{about_path[0].replace(ap1, ap2)}'"
+      about = about_path[0].replace(ap1, ap2)
     else:
       about_path = tree.xpath("//div[@data-tag='creator-page-grid-cta']/../../../../*/*/*[1]/text()")
       if about_path:
-        about = f"'{about_path[0].replace(ap1, ap2)}'"
+        about = about_path[0].replace(ap1, ap2)
       else:
-        about = 'null'
+        about = ''
 
   f.write(f"  '{account}': Creator(account: '{account}', patrons: {patrons}, earnings: {earnings}),\n")
-  f2.write(f"  '{account}': Creator2(img: {img}, name: {name}, about: {about}),\n")
+  f_img.write(f"  '{account}': '{img}',\n")
+  f_name.write(f"  '{account}': '{name}',\n")
+  f_about.write(f"  '{account}': '{about.replace('is creating', 'створює')}',\n")
 
 f.write('};\n')
-f2.write('};\n')
+f_name.write('};\n')
+f_about.write('};\n')
+f_img.write('};\n')
+
 f.close()
-f2.close()
+f_name.close()
+f_about.close()
+f_img.close()
 
 f3 = open('lib/cats.dart', 'w')
 f3.write('final Map<String, Set<String>> cats = {\n')
