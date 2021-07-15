@@ -5,7 +5,9 @@ import 'package:url_launcher/url_launcher.dart';
 
 import 'cats.dart';
 import 'data.dart';
-import 'data2.dart';
+import 'data.img.dart';
+import 'data.name.dart';
+import 'data.about.dart';
 
 void main() => runApp(MyApp());
 
@@ -113,15 +115,17 @@ class _MyHomePageState extends State<MyHomePage> {
             itemCount: xs.length,
             itemBuilder: (_, index) {
               final x = xs[index];
-              final y = data2[x.account];
-              Widget image = y?.img != null ?
+              final img = data_img[x.account];
+              final name = data_name[x.account];
+              final about = data_about[x.account];
+              Widget image = img != null ?
                 Container(
                   width: 100, 
                   height: 100, 
                   decoration: BoxDecoration(
                     shape: BoxShape.circle, 
                     image: DecorationImage(
-                      image: NetworkImage(y!.img!), 
+                      image: NetworkImage(img), 
                       fit: BoxFit.cover
                     )
                   )
@@ -134,9 +138,9 @@ class _MyHomePageState extends State<MyHomePage> {
                 child: Row(children: [
                   Container(child: image, margin: EdgeInsets.symmetric(horizontal: 5)),
                   Expanded(child: RichText(text: TextSpan(children: [
-                    TextSpan(text: y?.name, style: TextStyle(fontWeight: FontWeight.bold, color: Colors.black)),
+                    TextSpan(text: name, style: TextStyle(fontWeight: FontWeight.bold, color: Colors.black)),
                     TextSpan(text: ' '),
-                    TextSpan(text: y?.about, style: TextStyle(color: Colors.black)),
+                    TextSpan(text: about, style: TextStyle(color: Colors.black)),
                   ]))),
                   Container(child: Column(
                     children: (x.patrons == null && x.earnings == null) ? [ Text('сховали') ] : x.patrons == '0' ? [ Text('0') ] : [
