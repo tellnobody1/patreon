@@ -41,23 +41,23 @@ class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
     Set<String> accounts;
-    if (activeCat == 'Всі') accounts = cats.keys.where((x) => x != 'Иншомовні' && x != 'Регіональне').expand((x) => cats[x]!).toSet();
+    var isAll = activeCat == 'Всі';
+    if (isAll) accounts = cats.keys.where((x) => x != 'Иншомовні' && x != 'Регіональне').expand((x) => cats[x]!).toSet();
     else accounts = cats[activeCat]!;
-    var xs = accounts.map((a) => data[a]!).toList();
+    var xs = accounts.map((a) => data[a]!).where((x) => !isAll || !x.limit()).toList();
     xs.sort((a, b) {
-      var x = a.patrons?.replaceFirst(RegExp(","), "") ?? "0";
-      var y = b.patrons?.replaceFirst(RegExp(","), "") ?? "0";
-      if (x == "0" && y != "0") return 1;
-      else if (x != "0" && y == "0") return -1;
+      if (a.limit() && b.limit()) return random.nextInt(3) - 1;
+      else if (a.limit()) return 1;
+      else if (b.limit()) return -1;
       else {
-        if (x != y) return int.parse(x).compareTo(int.parse(y));
+        var ap = a.patrons ?? 0;
+        var bp = b.patrons ?? 0;
+        if (ap != bp) return ap.compareTo(bp);
         else {
-          var x = a.earnings?.replaceFirst(",", "").replaceFirst('€', '').replaceFirst('\$', '').replaceFirst('£', '') ?? "0";
-          var y = b.earnings?.replaceFirst(",", "").replaceFirst('€', '').replaceFirst('\$', '').replaceFirst('£', '') ?? "0";
-          if (x == y) return random.nextInt(3) - 1;
-          else if (x == "0") return 1;
-          else if (y == "0") return -1;
-          else return int.parse(x).compareTo(int.parse(y));
+          var ae = a.earnings?.value ?? 0;
+          var be = b.earnings?.value ?? 0;
+          if (ae != be) return ae.compareTo(be);
+          else return random.nextInt(3) - 1;
         }
       }
     });
@@ -84,17 +84,17 @@ class _MyHomePageState extends State<MyHomePage> {
                 Container(
                   margin: EdgeInsets.symmetric(vertical: 3, horizontal: 2),
                   child: 
-                ChoiceChip(
-                  label: Text(key),
-                  selected: key == activeCat,
-                  onSelected: (_) {
-                    setState(() {
-                      activeCat = key;
-                      expanded = false;
-                    });
-                    scrollController.jumpTo(scrollController.position.minScrollExtent);
-                  }
-                )
+                    ChoiceChip(
+                      label: Text(key),
+                      selected: key == activeCat,
+                      onSelected: (_) {
+                        setState(() {
+                          activeCat = key;
+                          expanded = false;
+                        });
+                        scrollController.jumpTo(scrollController.position.minScrollExtent);
+                      }
+                    )
                 )
               ).toList()
             )
@@ -120,8 +120,8 @@ class _MyHomePageState extends State<MyHomePage> {
               final about = data_about[x.account];
               Widget image = img != null ?
                 Container(
-                  width: 100, 
-                  height: 100, 
+                  width: 70, 
+                  height: 70, 
                   decoration: BoxDecoration(
                     shape: BoxShape.circle, 
                     image: DecorationImage(
@@ -131,7 +131,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   )
                 )
                 :
-                SizedBox(width: 100);
+                SizedBox(width: 70);
               return GestureDetector(
                 behavior: HitTestBehavior.translucent,
                 onTap: () => launch('https://www.patreon.com/${x.account}'),
@@ -143,12 +143,12 @@ class _MyHomePageState extends State<MyHomePage> {
                     TextSpan(text: about, style: TextStyle(color: Colors.black)),
                   ]))),
                   Container(child: Column(
-                    children: (x.patrons == null && x.earnings == null) ? [ Text('сховали') ] : x.patrons == '0' ? [ Text('0') ] : [
-                      Text(x.patrons ?? 'сховали'),
+                    children: (x.patrons == null && x.earnings == null) ? [ Text('сховали') ] : x.patrons == 0 ? [ Text('0') ] : [
+                      Text(x.patrons?.toString() ?? 'сховали'),
                       Divider(),
-                      Text(x.earnings ?? 'сховали'),
+                      Text(x.earnings != null ? x.earnings!.format() : 'сховали'),
                     ], mainAxisAlignment: MainAxisAlignment.center, crossAxisAlignment: CrossAxisAlignment.center
-                  ), width: 70, height: 100),
+                  ), width: 70, height: 70),
                 ])
               );
             },
