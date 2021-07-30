@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Українські творці з Patreon',
+      title: 'Українські творці на Patreon',
       theme: ThemeData(
         primarySwatch: Colors.pink,
       ),
@@ -63,7 +63,7 @@ class _MyHomePageState extends State<MyHomePage> {
     });
     return Scaffold(
       appBar: AppBar(
-        title: Text("Патреон"),
+        title: Text("Українські творці на патреоні"),
         actions: [
           PopupMenuButton(
             itemBuilder: (_) => [
