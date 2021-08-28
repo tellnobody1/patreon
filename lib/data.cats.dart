@@ -33,5 +33,5 @@ final Map<String, Set<String>> cats = {
   'Texнології': {'itpassions', 'jarvis_net_ua', 'manifestplatform', 'naukaua', 'nonamepodcast', 'Pingvins', 'tokar', 'viewua'},
   'Різне': {'balytska', 'behindthenews', 'ChasIstoriy', 'deadlinetalkshow', 'inshe', 'itworksonmypc', 'iyura', 'kinshov', 'krutoznavstvo', 'liganet', 'lustrum', 'manifestplatform', 'obrazpublicua', 'ppidcast', 'radiopodil', 'radioskorbota', 'shitiknowlive', 'soblya', 'tatysho', 'techtoloka', 'totem_publisher', 'zasnovnyky'},
   'Регіональне': {'berehtyIF', 'cukr', 'konotopcity', 'lyukmedia', 'razvelibardak', 'volynonline', 'zhyteli_kyieva'},
-  'Иншомовні': {'5HT', 'allyourhtml', 'bellatrixaiden', 'Did_Oles_Falcon_UA', 'faideyren', 'happypaw', 'lee_online', 'mukha', 'rudnyi', 'sershenzaritskaya', 'tanyacroft', 'thealphacentauri', 'UA_direct_democracy', 'vatatv', 'vidminniotsinky', 'yanina'},
+  'Иншомовні': {'5HT', 'allyourhtml', 'bellatrixaiden', 'Did_Oles_Falcon_UA', 'faideyren', 'happypaw', 'lee_online', 'letslearnukrainian', 'mukha', 'rudnyi', 'sershenzaritskaya', 'tanyacroft', 'thealphacentauri', 'UA_direct_democracy', 'vatatv', 'vidminniotsinky', 'yanina'},
 };

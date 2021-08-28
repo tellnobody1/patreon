@@ -36,7 +36,7 @@ cats = {
   'Texнології': {'tokar', 'viewua', 'itpassions', 'jarvis_net_ua', 'nonamepodcast', 'Pingvins', 'manifestplatform', 'naukaua', },
   'Різне': {'obrazpublicua', 'shitiknowlive', 'itworksonmypc', 'radioskorbota', 'lustrum', 'manifestplatform', 'balytska', 'kinshov', 'behindthenews', 'iyura', 'radiopodil', 'ChasIstoriy', 'deadlinetalkshow', 'inshe', 'krutoznavstvo', 'liganet', 'ppidcast', 'soblya', 'tatysho', 'techtoloka', 'totem_publisher', 'zasnovnyky'},
   'Регіональне': {'berehtyIF', 'cukr', 'konotopcity', 'lyukmedia', 'razvelibardak', 'volynonline', 'zhyteli_kyieva'},
-  'Иншомовні': {'vatatv', 'UA_direct_democracy', 'lee_online', 'happypaw', 'Did_Oles_Falcon_UA', 'thealphacentauri', 'yanina', 'sershenzaritskaya', 'faideyren', 'bellatrixaiden', 'mukha', 'tanyacroft', 'allyourhtml', '5HT', 'rudnyi', 'vidminniotsinky'},
+  'Иншомовні': {'letslearnukrainian', 'vatatv', 'UA_direct_democracy', 'lee_online', 'happypaw', 'Did_Oles_Falcon_UA', 'thealphacentauri', 'yanina', 'sershenzaritskaya', 'faideyren', 'bellatrixaiden', 'mukha', 'tanyacroft', 'allyourhtml', '5HT', 'rudnyi', 'vidminniotsinky'},
 }
 
 suffix = ''
@@ -132,7 +132,7 @@ f_name.close()
 f_about.close()
 f_img.close()
 
-f3 = open('lib/cats.dart', 'w')
+f3 = open('lib/data.cats.dart', 'w')
 f3.write('final Map<String, Set<String>> cats = {\n')
 
 for c in cats.keys():

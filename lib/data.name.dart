@@ -96,6 +96,7 @@ final Map<String, String> data_name = {
   'Lakuna': 'Andrij Ghorbunov',
   'lee_online': 'lee_online',
   'les_kurbas_theatre': 'Les Kurbas Theatre',
+  'letslearnukrainian': 'Let\'s Learn Ukrainian',
   'liganet': 'Liga.net',
   'liroom': 'LiRoom',
   'liubovgoknyg': 'Любов до книг',

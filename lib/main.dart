@@ -3,7 +3,7 @@ import 'dart:math';
 import 'package:flutter/material.dart';
 import 'package:url_launcher/url_launcher.dart';
 
-import 'cats.dart';
+import 'data.cats.dart';
 import 'data.dart';
 import 'data.img.dart';
 import 'data.name.dart';
