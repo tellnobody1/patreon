@@ -1,5 +1,6 @@
 import 'dart:math';
 
+import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:url_launcher/url_launcher.dart';
 
@@ -119,15 +120,14 @@ class _MyHomePageState extends State<MyHomePage> {
               final name = data_name[x.account];
               final about = data_about[x.account];
               Widget image = img != null ?
-                Container(
-                  width: 70, 
-                  height: 70, 
-                  decoration: BoxDecoration(
-                    shape: BoxShape.circle, 
-                    image: DecorationImage(
-                      image: NetworkImage(img), 
-                      fit: BoxFit.cover
-                    )
+                ClipOval(child:
+                  CachedNetworkImage(
+                    imageUrl: img,
+                    placeholder: (context, url) => CircularProgressIndicator(),
+                    errorWidget: (context, url, error) => Icon(Icons.error),
+                    fit: BoxFit.cover,
+                    width: 70,
+                    height: 70,
                   )
                 )
                 :
@@ -152,7 +152,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 ])
               );
             },
-            separatorBuilder: (x, y) => Divider(),
+            separatorBuilder: (context, index) => Divider(),
           )),
         ]),
     );

@@ -86,7 +86,6 @@ final Map<String, Creator> data = {
   'kartofanchyk': Creator(account: 'kartofanchyk', patrons: 1, earnings: Earnings(currency: '\$', value: 21)),
   'kgbfiles': Creator(account: 'kgbfiles', patrons: 40, earnings: Earnings(currency: '\$', value: 118)),
   'KhmarynkaUA': Creator(account: 'KhmarynkaUA', patrons: 3, earnings: Earnings(currency: '\$', value: 7)),
-  'kinshov': Creator(account: 'kinshov', patrons: 2, earnings: Earnings(currency: '\$', value: 2)),
   'kliusmarichka': Creator(account: 'kliusmarichka', patrons: 3, earnings: Earnings(currency: '\$', value: 15)),
   'knyzhkova_dylerka': Creator(account: 'knyzhkova_dylerka', patrons: 10, earnings: Earnings(currency: '\$', value: 20)),
   'kolegistudio': Creator(account: 'kolegistudio', patrons: 305, earnings: Earnings(currency: '\$', value: 1298)),

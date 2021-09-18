@@ -84,7 +84,6 @@ final Map<String, String> data_name = {
   'kartofanchyk': 'Картофанчик',
   'kgbfiles': 'KGB files in Telegram',
   'KhmarynkaUA': 'Хмаринка',
-  'kinshov': 'Олександр Кіншов',
   'kliusmarichka': 'Клюс Марічка',
   'knyzhkova_dylerka': 'Книжкова дилерка',
   'kolegistudio': 'Наші Без Раші',
