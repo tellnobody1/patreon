@@ -7,7 +7,7 @@ cats = {
   'Архітектура': {'chaplinskyvlog', 'merezhyvo', 'ukrmod'},
   'Військове': {'Lykhovii', 'milinua', 'informnapalm', 'AngryUA'},
   'Готування': {'besahy'},
-  'Гроші': {'familybudgetcomua', 'costua', 'diypodcast'},
+  'Гроші': {'familybudgetcomua', 'costua', 'diypodcast', 'vovkst'},
   'Гумор': {'TA_studio', 'torontotv', 'kolegistudio', 'dostupno2020', 'dovkolabotanika', 'ninaukraine', 'verumT', 'uareview', 'pereozvuchka_ua', 'AniUA', 'horobyna', 'hotperevod', 'kartofanchyk', 'shobsho', 'taytake'},
   'Дизайн': {'telegrafdesign', },
   'Дітям': {'user?u=28899940', 'KhmarynkaUA', 'oum_spadshchyna', 'PaniVchytelka', 'pershosvit', },
@@ -15,8 +15,8 @@ cats = {
   'Екологія': {'NowasteUkraine', },
   'Ігри': {'Tayemna_kimnata', 'PlayUA', 'vertigoUA', 'pad0n', 'rendarosua', 'gamer_fm', 'gamestreetua', 'PSUkraine', 'oldboiua', 'WBG', 'teoriyagry', 'TheAsya', 'DITHOM', 'Geek_Informator'},
   'Історія': {'imtgsh', 'historyUA', 'kozak_media', 'kgbfiles', 'docult', 'historywall', 'svitlotin', 'wildfoxfilm'},
-  'Кіно': {'Geek_Journal', 'mariamblog', 'vertigoUA', 'pankarpan', 'zagin', 'animeK', 'mangua', 'asambleyA', 'miketvua', 'Salertino', 'Geek_Informator'},
-  'Книги': {'chytomo', 'kuznetsovalife', '23daphnia', 'annika_blog', 'vyshnevyjcvit', 'mariamblog', 'vertigoUA', 'knyzhkova_dylerka', 'GulbanuBibicheva', 'svitlana', 'robmenus', 'TheAsya', 'enma_and_books', 'kliusmarichka', 'liubovgoknyg', 'mangua', 'asambleyA', 'paralel3', 'kultpodcast', 'diasporiana', 'beautyandgloom', 'chtyvo', 'vrajennya'},
+  'Кіно': {'Geek_Journal', 'mariamblog', 'vertigoUA', 'pankarpan', 'zagin', 'animeK', 'mangua', 'asambleyA', 'miketvua', 'Salertino', 'Geek_Informator', 'takflix'},
+  'Книги': {'chytomo', 'kuznetsovalife', '23daphnia', 'annika_blog', 'vyshnevyjcvit', 'mariamblog', 'vertigoUA', 'knyzhkova_dylerka', 'GulbanuBibicheva', 'svitlana', 'robmenus', 'TheAsya', 'enma_and_books', 'kliusmarichka', 'liubovgoknyg', 'mangua', 'asambleyA', 'paralel3', 'kultpodcast', 'diasporiana', 'beautyandgloom', 'chtyvo', 'vrajennya', 'symonenko'},
   'Культура': {'undergroundhumanities', 'vmistozher', 'raguli', },
   'Містознавство': {'chaplinskyvlog', 'dostupno2020', 'office_transformation', 'StopTheMoose'},
   'Музей': {'odesafineartsmuseum'},
@@ -62,11 +62,11 @@ for account in xs:
   tree = html.fromstring(page)
 
   patrons1 = tree.xpath("//div[@data-tag='CampaignPatronEarningStats-patron-count']/h2/text()")
-  patrons = f"'{patrons1[0]}'" if patrons1 else 'null'
+  patrons = f"{patrons1[0]}" if patrons1 else 'null'
 
   earnings1 = tree.xpath("//div[@data-tag='CampaignPatronEarningStats-earnings']/h2/text()")
   dollar = '\\$'
-  earnings = f"'{earnings1[0].replace('$', dollar)}'" if earnings1 else 'null'
+  earnings = f"'Earnings(currency: '\\$', value: {earnings1[0].replace('$', '')}))'" if earnings1 else 'null'
 
   img_path = tree.xpath("//*[@data-tag='reward-tier-card']/../../../../../../../../../../*/*/*/*/*/@src")
   if img_path:
