@@ -2,25 +2,16 @@
 
 Патреон українською.
 
-## Web
+## Use
 
-Open [index.html](https://uaapps.github.io/patreon/).
-
-## Android
-
-Get an apk on [Releases](https://github.com/uaapps/patreon/releases) page.
+```sh
+open https://uaapps.github.io/patreon/
+```
 
 ## Release
 
 ```sh
-bin/apk
 bin/web
-```
-
-## Data Fetch
-
-```sh
-bin/fetch
 ```
 
 ## Build & Run
