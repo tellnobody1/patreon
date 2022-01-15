@@ -61,6 +61,7 @@ final Map<String, String> data_about = {
   'gamestreetua': 'створює ігровий портал',
   'Geek_Informator': 'створює news and reviews (videogames, movies, technologies, comics)',
   'Geek_Journal': 'створює youtube videos',
+  'goalsonfire': 'створює відео про змістовне життя, фінанси та інвестиції в Україні',
   'GulbanuBibicheva': 'створює videos',
   'gwean_maslinka': 'створює озвучення аніме українською',
   'happypaw': 'створює videos',
