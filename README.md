@@ -12,6 +12,9 @@
 | Повернись живим | crypto | | [source](https://www.comebackalive.in.ua/uk/donate) |
 | Повернись живим | iban   | | [source](https://www.comebackalive.in.ua/uk/donate) |
 | Повернись живим | приват | | [source](https://www.comebackalive.in.ua/uk/donate) |
+| diasporiana | meest | | [source](https://diasporiana.org.ua/dopomoha/) |
+| diasporiana | card  | | [source](https://diasporiana.org.ua/dopomoha/) |
+| les kurbas theatre | card | | [source](https://kurbas.lviv.ua/uk/donate/) |
 
 # patreon
 
