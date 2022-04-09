@@ -2,8 +2,7 @@
 
 | Name      | Type   |                                 |                                        |
 | --------- | ------ | ------------------------------- | -------------------------------------- |
-| sternenko | mono   |                                 | [source](https://t.me/ssternenko/1270) |
-| sternenko | приват |                                 | [source](https://t.me/ssternenko/1270) |
+| sternenko | card   |                                 | [source](https://t.me/ssternenko/1270) |
 | sternenko | paypal |                                 | [source](https://t.me/ssternenko/1270) |
 | sternenko | merch  | https://smerch.com.ua           | [source](https://t.me/ssternenko/1270) |
 | sternenko | google | https://youtube.com/c/STERNENKO | [source](https://t.me/ssternenko/1270) |
@@ -12,6 +11,7 @@
 | Повернись живим | swift  | | [source](https://www.comebackalive.in.ua/uk/donate) |
 | Повернись живим | crypto | | [source](https://www.comebackalive.in.ua/uk/donate) |
 | Повернись живим | iban   | | [source](https://www.comebackalive.in.ua/uk/donate) |
+| Повернись живим | приват | | [source](https://www.comebackalive.in.ua/uk/donate) |
 
 # patreon
 
