@@ -2,19 +2,19 @@
 
 | Name | Type |   |
 | ---- | ---- | - |
-| sternenko | card                                       | [source](https://t.me/ssternenko/1270) |
-| sternenko | paypal                                     | [source](https://t.me/ssternenko/1270) |
-| sternenko | [merch](https://smerch.com.ua)             | [source](https://t.me/ssternenko/1270) |
-| sternenko | [youtube](https://youtube.com/c/STERNENKO) | [source](https://t.me/ssternenko/1270) |
+| Sternenko | card                                       | [source](https://t.me/ssternenko/1270) |
+| Sternenko | paypal                                     | [source](https://t.me/ssternenko/1270) |
+| Sternenko | [merch](https://smerch.com.ua)             | [source](https://t.me/ssternenko/1270) |
+| Sternenko | [youtube](https://youtube.com/c/STERNENKO) | [source](https://t.me/ssternenko/1270) |
 | Віталій Портников | [youtube](https://youtube.com/c/portnikov) |
 | Повернись живим | fondy  | [source](https://www.comebackalive.in.ua/uk/donate) |
 | Повернись живим | swift  | [source](https://www.comebackalive.in.ua/uk/donate) |
 | Повернись живим | crypto | [source](https://www.comebackalive.in.ua/uk/donate) |
 | Повернись живим | iban   | [source](https://www.comebackalive.in.ua/uk/donate) |
 | Повернись живим | приват | [source](https://www.comebackalive.in.ua/uk/donate) |
-| diasporiana | meest | [source](https://diasporiana.org.ua/dopomoha/) |
-| diasporiana | card  | [source](https://diasporiana.org.ua/dopomoha/) |
-| les kurbas theatre | card | [source](https://kurbas.lviv.ua/uk/donate/) |
+| Diasporiana | meest | [source](https://diasporiana.org.ua/dopomoha/) |
+| Diasporiana | card  | [source](https://diasporiana.org.ua/dopomoha/) |
+| Les Kurbas Theatre | card | [source](https://kurbas.lviv.ua/uk/donate/) |
 
 # patreon
 
