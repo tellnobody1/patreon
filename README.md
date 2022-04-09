@@ -4,7 +4,7 @@
 | --------- | ------ | ------------------------------- | -------------------------------------- |
 | sternenko | mono   |                                 | [source](https://t.me/ssternenko/1270) |
 | sternenko | приват |                                 | [source](https://t.me/ssternenko/1270) |
-| sternenko | paypal | sternenkopaypal@gmail.com       | [source](https://t.me/ssternenko/1270) |
+| sternenko | paypal |                                 | [source](https://t.me/ssternenko/1270) |
 | sternenko | merch  | https://smerch.com.ua           | [source](https://t.me/ssternenko/1270) |
 | sternenko | google | https://youtube.com/c/STERNENKO | [source](https://t.me/ssternenko/1270) |
 | Віталій Портников | google | https://youtube.com/c/portnikov | |
