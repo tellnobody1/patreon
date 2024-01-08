@@ -47,18 +47,18 @@ class _MyHomePageState extends State<MyHomePage> {
     else accounts = cats[activeCat]!;
     var xs = accounts.map((a) => data[a]!).where((x) => !isAll || !x.limit()).toList();
     xs.sort((a, b) {
-      if (a.limit() && b.limit()) return random.nextInt(3) - 1;
-      else if (a.limit()) return 1;
-      else if (b.limit()) return -1;
+      if (a.limit() && b.limit()) return 1 - random.nextInt(3);
+      else if (a.limit()) return -1;
+      else if (b.limit()) return 1;
       else {
         var ap = a.patrons ?? 0;
         var bp = b.patrons ?? 0;
-        if (ap != bp) return ap.compareTo(bp);
+        if (ap != bp) return -ap.compareTo(bp);
         else {
           var ae = a.earnings?.value ?? 0;
           var be = b.earnings?.value ?? 0;
-          if (ae != be) return ae.compareTo(be);
-          else return random.nextInt(3) - 1;
+          if (ae != be) return -ae.compareTo(be);
+          else return 1 - random.nextInt(3);
         }
       }
     });
