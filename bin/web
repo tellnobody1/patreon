@@ -2,3 +2,5 @@ flutter build web --web-renderer html --release
 rm -rf docs/
 mkdir docs
 cp -R build/web/* docs/
+touch docs/CNAME
+echo "patreon.uaapps.xyz" >> docs/CNAME
