@@ -34,7 +34,7 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  String activeCat = 'Всі';
+  String activeCat = 'Найпопулярніші';
   bool expanded = false;
   final scrollController = ScrollController();
   final random = new Random();
@@ -42,7 +42,7 @@ class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
     Set<String> accounts;
-    var isAll = activeCat == 'Всі';
+    var isAll = activeCat == 'Найпопулярніші';
     if (isAll) accounts = cats.keys.where((x) => x != 'Иншомовні' && x != 'Регіональне').expand((x) => cats[x]!).toSet();
     else accounts = cats[activeCat]!;
     var xs = accounts.map((a) => data[a]!).where((x) => !isAll || !x.limit()).toList();
@@ -69,7 +69,6 @@ class _MyHomePageState extends State<MyHomePage> {
           PopupMenuButton(
             itemBuilder: (_) => [
               PopupMenuItem(value: "https://github.com/uaapps/patreon/issues", child: Text("Пропозиції")),
-              PopupMenuItem(value: "https://github.com/uaapps/patreon", child: Text("Джерельний код")),
             ],
             onSelected: (route) => launch('$route'),
             icon: Icon(Icons.more_vert),
