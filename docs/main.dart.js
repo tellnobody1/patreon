@@ -6470,7 +6470,7 @@ m="..."}}if(m!=null)b.push(m)
 b.push(q)
 b.push(r)},
 aji(a,b,c,d,e){return new A.lg(a,b.h("@<0>").bf(c).bf(d).bf(e).h("lg<1,2,3,4>"))},
-J(a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,a0,a1){var s
+I(a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,a0,a1){var s
 if(B.a===c){s=J.o(a)
 b=J.o(b)
 return A.d9(A.v(A.v($.d_(),s),b))}if(B.a===d){s=J.o(a)
@@ -21739,12 +21739,11 @@ a_n:function a_n(a,b,c){this.d=a
 this.e=b
 this.f=c},
 q(a,b,c){return new A.eD(a,c,b)},
-I(a,b){return new A.RY(a,b)},
+J(a){return new A.RY(a)},
 eD:function eD(a,b,c){this.a=a
 this.b=b
 this.c=c},
-RY:function RY(a,b){this.a=a
-this.b=b},
+RY:function RY(a){this.a=a},
 aAl(){var s,r,q,p,o,n,m,l,k,j=null
 if($.aa==null){s=A.b([],t.GA)
 r=$.a3
@@ -24834,7 +24833,7 @@ if(this===b)return!0
 if(J.L(b)!==A.u(this))return!1
 return b instanceof A.os&&this.a6q(b)},
 gu(a){var s=this
-return A.J(s.cx,s.f,s.y,s.r,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
+return A.I(s.cx,s.f,s.y,s.r,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
 a6q(a){var s,r,q,p,o,n,m,l=this
 if(l.cx!==a.cx)return!1
 s=l.d
@@ -26116,7 +26115,7 @@ gaaZ(){return A.fy(this.a)},
 j(a,b){if(b==null)return!1
 if(J.L(b)!==A.u(this))return!1
 return b instanceof A.xO&&b.b===this.b&&A.Ox(b.a,this.a)},
-gu(a){return A.J(A.bS(this.a),this.b,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
+gu(a){return A.I(A.bS(this.a),this.b,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
 i(a){return"ImageFilter.matrix("+A.h(this.a)+", "+this.b.i(0)+")"}}
 A.C1.prototype={$ijA:1}
 A.u9.prototype={}
@@ -29887,7 +29886,7 @@ if(n==null)n=r.a(n)
 f=!0}if(!f)break}return e}}
 A.a6h.prototype={
 gu(a){var s=this
-return A.J(s.a,s.b,s.c,s.d,s.e,s.f,s.r,s.w,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
+return A.I(s.a,s.b,s.c,s.d,s.e,s.f,s.r,s.w,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
 j(a,b){var s=this
 if(b==null)return!1
 return b instanceof A.fh&&b.a===s.a&&b.b===s.b&&b.c===s.c&&b.d==s.d&&b.e===s.e&&b.f===s.f&&b.r===s.r&&b.w===s.w}}
@@ -30557,7 +30556,7 @@ ut(){var s=this.a
 return A.azh(s,s,this.b)}}
 A.jO.prototype={
 gu(a){var s=this
-return A.J(s.a,s.b,s.c,s.d,s.e,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
+return A.I(s.a,s.b,s.c,s.d,s.e,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
 j(a,b){var s=this
 if(b==null)return!1
 return b instanceof A.jO&&b.a===s.a&&b.b===s.b&&b.c===s.c&&b.d===s.d&&b.e===s.e},
@@ -30619,7 +30618,7 @@ a.a6a(i,b.a+p.r+j,b.b+p.w,s.dx,q)
 m.gc0().kt()}}
 A.ii.prototype={
 gu(a){var s=this
-return A.J(s.a,s.b,s.c,s.d,s.e,s.f,s.r,s.w,s.x,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
+return A.I(s.a,s.b,s.c,s.d,s.e,s.f,s.r,s.w,s.x,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
 j(a,b){var s=this
 if(b==null)return!1
 if(s===b)return!0
@@ -30750,7 +30749,7 @@ m=k+(m+n.ce$)}else{k===$&&A.a()
 m=m.a.f-k}i=a-m}else return n}h=q==null?f:q.a
 if(h==null||h>i)q=new A.yf(i,n)}return q==null?f:q.b},
 gu(a){var s=this
-return A.J(s.a,s.b,s.c,s.e,s.f,s.r,s.w,s.x,s.y,null,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
+return A.I(s.a,s.b,s.c,s.e,s.f,s.r,s.w,s.x,s.y,null,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
 j(a,b){var s,r=this
 if(b==null)return!1
 if(r===b)return!0
@@ -30766,7 +30765,7 @@ if(s===b)return!0
 if(J.L(b)!==A.u(s))return!1
 return b instanceof A.rU&&b.a===s.a&&b.b==s.b&&b.c==s.c&&b.e==s.e&&b.f==s.f&&b.r==s.r&&b.w==s.w&&J.c(b.x,s.x)&&J.c(b.y,s.y)&&b.z==s.z&&J.c(b.Q,s.Q)},
 gu(a){var s=this
-return A.J(s.a,s.b,s.c,s.d,s.e,s.f,s.r,s.w,s.x,s.y,s.z,s.Q,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
+return A.I(s.a,s.b,s.c,s.d,s.e,s.f,s.r,s.w,s.x,s.y,s.z,s.Q,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
 i(a){return this.bC(0)}}
 A.rV.prototype={
 gLW(){var s=this.y
@@ -30786,14 +30785,14 @@ if(b==null)return!1
 if(s===b)return!0
 return b instanceof A.rV&&J.c(b.a,s.a)&&J.c(b.b,s.b)&&J.c(b.c,s.c)&&b.d==s.d&&b.f==s.f&&b.w==s.w&&b.CW==s.CW&&b.y===s.y&&b.at==s.at&&b.ax==s.ax&&b.ay==s.ay&&b.ch==s.ch&&b.e==s.e&&J.c(b.cx,s.cx)&&b.cy==s.cy&&b.db==s.db&&A.Ox(b.dx,s.dx)&&A.Ox(b.z,s.z)&&A.Ox(b.Q,s.Q)&&A.Ox(b.as,s.as)},
 gu(a){var s=this,r=null,q=s.dx,p=s.as,o=s.z,n=o==null?r:A.bS(o),m=q==null?r:A.bS(q)
-return A.J(s.a,s.b,s.c,s.d,s.f,s.r,s.w,s.CW,s.y,n,s.at,s.ax,s.ay,s.ch,s.cx,s.cy,s.db,m,s.e,A.J(r,p==null?r:A.bS(p),B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a))},
+return A.I(s.a,s.b,s.c,s.d,s.f,s.r,s.w,s.CW,s.y,n,s.at,s.ax,s.ay,s.ch,s.cx,s.cy,s.db,m,s.e,A.I(r,p==null?r:A.bS(p),B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a))},
 i(a){return this.bC(0)}}
 A.wr.prototype={
 j(a,b){if(b==null)return!1
 if(this===b)return!0
 return b instanceof A.wr&&b.gu(0)===this.gu(0)},
 gu(a){var s,r=this,q=r.f
-if(q===$){s=A.J(r.a,r.b,r.c,null,null,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)
+if(q===$){s=A.I(r.a,r.b,r.c,null,null,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)
 r.f!==$&&A.a_()
 r.f=s
 q=s}return q}}
@@ -30848,7 +30847,7 @@ A.nX.prototype={
 F(){return"FragmentFlow."+this.b}}
 A.lb.prototype={
 gu(a){var s=this
-return A.J(s.a,s.b,s.c,s.d,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
+return A.I(s.a,s.b,s.c,s.d,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
 j(a,b){var s=this
 if(b==null)return!1
 return b instanceof A.lb&&b.a===s.a&&b.b===s.b&&b.c==s.c&&b.d===s.d},
@@ -31023,7 +31022,7 @@ gv2(){return Math.max(this.b,this.c)},
 OJ(){var s=this
 return A.aE(["text",s.a,"selectionBase",s.b,"selectionExtent",s.c,"composingBase",s.d,"composingExtent",s.e],t.N,t.z)},
 gu(a){var s=this
-return A.J(s.a,s.b,s.c,s.d,s.e,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
+return A.I(s.a,s.b,s.c,s.d,s.e,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
 j(a,b){var s=this
 if(b==null)return!1
 if(s===b)return!0
@@ -32135,7 +32134,7 @@ if(s===b)return!0
 if(J.L(b)!==A.u(s))return!1
 return b instanceof A.pn&&b.a===s.a&&b.b===s.b&&b.c===s.c&&b.d===s.d},
 gu(a){var s=this
-return A.J(s.a,s.b,s.c,s.d,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
+return A.I(s.a,s.b,s.c,s.d,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
 i(a){var s,r=this,q=r.a
 if(q===1/0&&r.c===1/0)return"ViewConstraints(biggest)"
 if(q===0&&r.b===1/0&&r.c===0&&r.d===1/0)return"ViewConstraints(unconstrained)"
@@ -33397,19 +33396,19 @@ A.L9.prototype={
 rB(){return[this.a,this.b]},
 j(a,b){if(b==null)return!1
 return b instanceof A.L9&&this.$s===b.$s&&J.c(this.a,b.a)&&J.c(this.b,b.b)},
-gu(a){return A.J(this.$s,this.a,this.b,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)}}
+gu(a){return A.I(this.$s,this.a,this.b,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)}}
 A.La.prototype={
 rB(){return[this.a,this.b,this.c]},
 j(a,b){var s=this
 if(b==null)return!1
 return b instanceof A.La&&s.$s===b.$s&&J.c(s.a,b.a)&&J.c(s.b,b.b)&&J.c(s.c,b.c)},
 gu(a){var s=this
-return A.J(s.$s,s.a,s.b,s.c,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)}}
+return A.I(s.$s,s.a,s.b,s.c,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)}}
 A.Lb.prototype={
 rB(){return this.a},
 j(a,b){if(b==null)return!1
 return b instanceof A.Lb&&this.$s===b.$s&&A.awS(this.a,b.a)},
-gu(a){return A.J(this.$s,A.bS(this.a),B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)}}
+gu(a){return A.I(this.$s,A.bS(this.a),B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)}}
 A.D0.prototype={
 i(a){return"RegExp/"+this.a+"/"+this.b.flags},
 ga_K(){var s=this,r=s.c
@@ -36120,7 +36119,7 @@ return new A.eE(A.Bt(this.a+B.f.bz(p-o,s)+q,o,n),o,n)},
 hk(a){return A.d4(this.b-a.b,this.a-a.a,0)},
 j(a,b){if(b==null)return!1
 return b instanceof A.eE&&this.a===b.a&&this.b===b.b&&this.c===b.c},
-gu(a){return A.J(this.a,this.b,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
+gu(a){return A.I(this.a,this.b,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
 BA(a){var s=this.a,r=a.a
 if(s>=r)s=s===r&&this.b<a.b
 else s=!0
@@ -36878,7 +36877,7 @@ $S:137}
 A.DT.prototype={
 j(a,b){if(b==null)return!1
 return b instanceof A.DT&&b.a===this.a&&b.b===this.b},
-gu(a){return A.J(this.a,this.b,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
+gu(a){return A.I(this.a,this.b,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
 i(a){return"OffsetBase("+B.c.O(this.a,1)+", "+B.c.O(this.b,1)+")"}}
 A.l.prototype={
 ge7(){var s=this.a,r=this.b
@@ -36891,7 +36890,7 @@ a9(a,b){return new A.l(this.a*b,this.b*b)},
 dr(a,b){return new A.l(this.a/b,this.b/b)},
 j(a,b){if(b==null)return!1
 return b instanceof A.l&&b.a===this.a&&b.b===this.b},
-gu(a){return A.J(this.a,this.b,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
+gu(a){return A.I(this.a,this.b,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
 i(a){return"Offset("+B.c.O(this.a,1)+", "+B.c.O(this.b,1)+")"}}
 A.E.prototype={
 gS(a){return this.a<=0||this.b<=0},
@@ -36911,7 +36910,7 @@ else s=r
 return s},
 j(a,b){if(b==null)return!1
 return b instanceof A.E&&b.a===this.a&&b.b===this.b},
-gu(a){return A.J(this.a,this.b,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
+gu(a){return A.I(this.a,this.b,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
 i(a){return"Size("+B.c.O(this.a,1)+", "+B.c.O(this.b,1)+")"}}
 A.x.prototype={
 guQ(a){var s=this
@@ -36943,7 +36942,7 @@ if(s===b)return!0
 if(A.u(s)!==J.L(b))return!1
 return b instanceof A.x&&b.a===s.a&&b.b===s.b&&b.c===s.c&&b.d===s.d},
 gu(a){var s=this
-return A.J(s.a,s.b,s.c,s.d,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
+return A.I(s.a,s.b,s.c,s.d,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
 i(a){var s=this
 return"Rect.fromLTRB("+B.c.O(s.a,1)+", "+B.c.O(s.b,1)+", "+B.c.O(s.c,1)+", "+B.c.O(s.d,1)+")"}}
 A.aO.prototype={
@@ -36956,7 +36955,7 @@ if(b==null)return!1
 if(s===b)return!0
 if(A.u(s)!==J.L(b))return!1
 return b instanceof A.aO&&b.a===s.a&&b.b===s.b},
-gu(a){return A.J(this.a,this.b,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
+gu(a){return A.I(this.a,this.b,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
 i(a){var s=this.a,r=this.b
 return s===r?"Radius.circular("+B.c.O(s,1)+")":"Radius.elliptical("+B.c.O(s,1)+", "+B.c.O(r,1)+")"}}
 A.fW.prototype={
@@ -36997,7 +36996,7 @@ if(s===b)return!0
 if(A.u(s)!==J.L(b))return!1
 return b instanceof A.fW&&b.a===s.a&&b.b===s.b&&b.c===s.c&&b.d===s.d&&b.e===s.e&&b.f===s.f&&b.r===s.r&&b.w===s.w&&b.z===s.z&&b.Q===s.Q&&b.x===s.x&&b.y===s.y},
 gu(a){var s=this
-return A.J(s.a,s.b,s.c,s.d,s.e,s.f,s.r,s.w,s.z,s.Q,s.x,s.y,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
+return A.I(s.a,s.b,s.c,s.d,s.e,s.f,s.r,s.w,s.z,s.Q,s.x,s.y,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
 i(a){var s,r,q=this,p=B.c.O(q.a,1)+", "+B.c.O(q.b,1)+", "+B.c.O(q.c,1)+", "+B.c.O(q.d,1),o=q.e,n=q.f,m=q.r,l=q.w
 if(new A.aO(o,n).j(0,new A.aO(m,l))){s=q.x
 r=q.y
@@ -37070,7 +37069,7 @@ F(){return"BlurStyle."+this.b}}
 A.of.prototype={
 j(a,b){if(b==null)return!1
 return b instanceof A.of&&b.a===this.a&&b.b===this.b},
-gu(a){return A.J(this.a,this.b,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
+gu(a){return A.I(this.a,this.b,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
 i(a){return"MaskFilter.blur("+this.a.i(0)+", "+B.c.O(this.b,1)+")"}}
 A.Ce.prototype={
 F(){return"FilterQuality."+this.b}}
@@ -37081,7 +37080,7 @@ j(a,b){var s=this
 if(b==null)return!1
 if(s===b)return!0
 return b instanceof A.kf&&b.a.j(0,s.a)&&b.b.j(0,s.b)&&b.c===s.c},
-gu(a){return A.J(this.a,this.b,this.c,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
+gu(a){return A.I(this.a,this.b,this.c,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
 i(a){return"TextShadow("+this.a.i(0)+", "+this.b.i(0)+", "+A.h(this.c)+")"}}
 A.jJ.prototype={
 gE(a){return this.b}}
@@ -37106,7 +37105,7 @@ if(this===b)return!0
 s=!1
 if(b instanceof A.jR)if(b.gns()===this.gns())s=b.gtR()==this.gtR()
 return s},
-gu(a){return A.J(this.gns(),null,this.gtR(),B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
+gu(a){return A.I(this.gns(),null,this.gtR(),B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
 i(a){return this.a13("_")},
 a13(a){var s=this.gns()
 if(this.c!=null)s+=a+A.h(this.gtR())
@@ -37145,14 +37144,14 @@ A.hm.prototype={
 j(a,b){if(b==null)return!1
 if(J.L(b)!==A.u(this))return!1
 return b instanceof A.hm&&b.a===this.a&&b.b===this.b},
-gu(a){return A.J(this.a,this.b,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
+gu(a){return A.I(this.a,this.b,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
 i(a){return"FontVariation('"+this.a+"', "+A.h(this.b)+")"}}
 A.im.prototype={
 j(a,b){var s=this
 if(b==null)return!1
 if(s===b)return!0
 return b instanceof A.im&&s.a.j(0,b.a)&&s.b.j(0,b.b)&&s.c===b.c},
-gu(a){return A.J(this.a,this.b,this.c,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
+gu(a){return A.I(this.a,this.b,this.c,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
 i(a){return"Glyph("+this.a.i(0)+", textRange: "+this.b.i(0)+", direction: "+this.c.i(0)+")"}}
 A.iT.prototype={
 F(){return"TextAlign."+this.b}}
@@ -37181,7 +37180,7 @@ if(J.L(b)!==A.u(this))return!1
 s=!1
 if(b instanceof A.Gu)s=b.c===this.c
 return s},
-gu(a){return A.J(!0,!0,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
+gu(a){return A.I(!0,!0,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
 i(a){return"TextHeightBehavior(applyHeightToFirstAscent: true, applyHeightToLastDescent: true, leadingDistribution: "+this.c.i(0)+")"}}
 A.kn.prototype={
 F(){return"TextDirection."+this.b}}
@@ -37192,7 +37191,7 @@ if(s===b)return!0
 if(J.L(b)!==A.u(s))return!1
 return b instanceof A.e0&&b.a===s.a&&b.b===s.b&&b.c===s.c&&b.d===s.d&&b.e===s.e},
 gu(a){var s=this
-return A.J(s.a,s.b,s.c,s.d,s.e,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
+return A.I(s.a,s.b,s.c,s.d,s.e,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
 i(a){var s=this
 return"TextBox.fromLTRBD("+B.c.O(s.a,1)+", "+B.c.O(s.b,1)+", "+B.c.O(s.c,1)+", "+B.c.O(s.d,1)+", "+s.e.i(0)+")"}}
 A.Gt.prototype={
@@ -37201,14 +37200,14 @@ A.ac.prototype={
 j(a,b){if(b==null)return!1
 if(J.L(b)!==A.u(this))return!1
 return b instanceof A.ac&&b.a===this.a&&b.b===this.b},
-gu(a){return A.J(this.a,this.b,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
+gu(a){return A.I(this.a,this.b,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
 i(a){return A.u(this).i(0)+"(offset: "+this.a+", affinity: "+this.b.i(0)+")"}}
 A.c9.prototype={
 glG(){return this.a>=0&&this.b>=0},
 j(a,b){if(b==null)return!1
 if(this===b)return!0
 return b instanceof A.c9&&b.a===this.a&&b.b===this.b},
-gu(a){return A.J(B.f.gu(this.a),B.f.gu(this.b),B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
+gu(a){return A.I(B.f.gu(this.a),B.f.gu(this.b),B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
 i(a){return"TextRange(start: "+this.a+", end: "+this.b+")"}}
 A.jY.prototype={
 j(a,b){if(b==null)return!1
@@ -37233,7 +37232,7 @@ A.Cy.prototype={
 j(a,b){if(b==null)return!1
 if(J.L(b)!==A.u(this))return!1
 return b instanceof A.Cy},
-gu(a){return A.J(null,null,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
+gu(a){return A.I(null,null,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
 i(a){return"GestureSettings(physicalTouchSlop: null, physicalDoubleTapSlop: null)"}}
 A.Pg.prototype={
 vP(a){var s,r,q
@@ -37383,7 +37382,7 @@ if(this.b===s)s=this.d===b.d
 else s=!1
 return s}return!1},
 gu(a){var s=this
-return A.J(s.b,s.d,s.r,s.w,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
+return A.I(s.b,s.d,s.r,s.w,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
 i(a){return'CachedNetworkImageProvider("'+this.b+'", scale: '+this.d+")"}}
 A.Q2.prototype={
 $0(){var s=null
@@ -38197,7 +38196,7 @@ s=!1
 if(b instanceof A.AB){r=b.b
 if(r.a===q.b.a){r=b.d
 s=r.a===q.d.a}}return s},
-gu(a){return A.J(null,this.b,null,this.d,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)}}
+gu(a){return A.I(null,this.b,null,this.d,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)}}
 A.Hk.prototype={}
 A.Hb.prototype={
 W(a){},
@@ -38627,7 +38626,7 @@ if(s===b)return!0
 if(J.L(b)!==A.u(s))return!1
 return b instanceof A.ed&&b.b.a===s.b.a&&b.e.j(0,s.e)&&b.f.j(0,s.f)&&b.r.j(0,s.r)&&b.w.j(0,s.w)&&b.x.j(0,s.x)&&b.y.j(0,s.y)&&b.z.j(0,s.z)&&b.Q.j(0,s.Q)},
 gu(a){var s=this
-return A.J(s.b.a,s.e,s.f,s.r,s.x,s.y,s.w,s.Q,s.z,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
+return A.I(s.b.a,s.e,s.f,s.r,s.x,s.y,s.w,s.Q,s.z,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
 i(a){var s=this,r=new A.QO(s),q=A.b([r.$2("color",s.e)],t.s)
 if(s.goM())q.push(r.$2("darkColor",s.f))
 if(s.goK())q.push(r.$2("highContrastColor",s.r))
@@ -38969,14 +38968,14 @@ s=!1
 if(b instanceof A.rk)if(b.a.j(0,r.a)){s=J.c(b.b,r.b)
 s}return s},
 gu(a){var s=this
-return A.J(s.a,s.b,s.c,s.d,s.e,s.f,s.r,s.w,s.x,s.y,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)}}
+return A.I(s.a,s.b,s.c,s.d,s.e,s.f,s.r,s.w,s.x,s.y,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)}}
 A.za.prototype={
 j(a,b){var s=this
 if(b==null)return!1
 if(s===b)return!0
 if(J.L(b)!==A.u(s))return!1
 return b instanceof A.za&&b.a.j(0,s.a)&&b.b.j(0,s.b)},
-gu(a){return A.J(this.a,this.b,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)}}
+gu(a){return A.I(this.a,this.b,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)}}
 A.If.prototype={}
 A.rl.prototype={
 M(a){var s=null
@@ -39008,7 +39007,7 @@ if(s){b.gpj()
 r.gpj()}}return s},
 gu(a){var s=this,r=s.gl5(),q=s.gip(),p=s.glL(),o=s.gqE(),n=s.gpn(),m=s.gm3()
 s.gpj()
-return A.J(r,q,p,o,n,m,!1,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)}}
+return A.I(r,q,p,o,n,m,!1,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)}}
 A.up.prototype={
 is(a){var s=this,r=new A.Zq(a),q=s.gl5(),p=r.$1(s.gip()),o=r.$1(s.glL()),n=s.gqE()
 n=n==null?null:n.is(a)
@@ -39204,7 +39203,7 @@ A.cX.prototype={
 j(a,b){if(b==null)return!1
 if(J.L(b)!==A.u(this))return!1
 return A.k(this).h("cX<cX.T>").b(b)&&J.c(b.a,this.a)},
-gu(a){return A.J(A.u(this),this.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
+gu(a){return A.I(A.u(this),this.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
 i(a){var s=A.k(this),r=s.h("cX.T"),q=this.a,p=A.bE(r)===B.N2?"<'"+A.h(q)+"'>":"<"+A.h(q)+">"
 if(A.u(this)===A.bE(s.h("cX<cX.T>")))return"["+p+"]"
 return"["+A.bE(r).i(0)+" "+p+"]"}}
@@ -39405,7 +39404,7 @@ hM(a){var s=this.b,r=B.f.bj(s,a)
 if(r!==0)this.b=s+(a-r)}}
 A.h2.prototype={
 gu(a){var s=this
-return A.J(s.b,s.d,s.f,s.r,s.w,s.x,s.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
+return A.I(s.b,s.d,s.f,s.r,s.w,s.x,s.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
 j(a,b){var s=this
 if(b==null)return!1
 if(J.L(b)!==A.u(s))return!1
@@ -39876,7 +39875,7 @@ A.O6.prototype={}
 A.O7.prototype={}
 A.O8.prototype={}
 A.rx.prototype={
-gu(a){return A.J(this.a,23,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
+gu(a){return A.I(this.a,23,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
 j(a,b){if(b==null)return!1
 if(J.L(b)!==A.u(this))return!1
 return b instanceof A.rx&&b.a==this.a},
@@ -40665,7 +40664,7 @@ return this},
 j(a,b){if(b==null)return!1
 return b instanceof A.ft&&b.a.j(0,this.a)},
 gu(a){var s=this.a
-return A.J(s.a,s.b,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
+return A.I(s.a,s.b,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
 i(a){var s=this.a
 return"Velocity("+B.c.O(s.a,1)+", "+B.c.O(s.b,1)+")"}}
 A.ks.prototype={
@@ -41076,7 +41075,7 @@ gqI(){return this.gJu().z},
 gqF(){return this.gJu().r}}
 A.nk.prototype={
 gu(a){var s=this
-return A.J(s.gcp(),s.gd8(),s.c,s.d,s.gbm(),s.gbE(),s.r,s.gfm(),s.gmP(),s.y,s.z,s.Q,s.gqI(),s.gqF(),s.ax,B.a,B.a,B.a,B.a,B.a)},
+return A.I(s.gcp(),s.gd8(),s.c,s.d,s.gbm(),s.gbE(),s.r,s.gfm(),s.gmP(),s.y,s.z,s.Q,s.gqI(),s.gqF(),s.ax,B.a,B.a,B.a,B.a,B.a)},
 j(a,b){var s,r=this
 if(b==null)return!1
 if(r===b)return!0
@@ -41239,7 +41238,7 @@ return o.a*r.a/q+o.b*r.b/q},
 $S:169}
 A.qZ.prototype={
 gu(a){var s=this
-return A.J(s.a,s.b,s.c,s.d,s.e,s.f,s.r,s.w,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
+return A.I(s.a,s.b,s.c,s.d,s.e,s.f,s.r,s.w,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
 j(a,b){var s=this
 if(b==null)return!1
 if(s===b)return!0
@@ -41248,7 +41247,7 @@ return b instanceof A.qZ&&J.c(b.a,s.a)&&J.c(b.b,s.b)&&b.c==s.c&&b.d==s.d&&J.c(b.
 A.Hu.prototype={}
 A.u_.prototype={
 gu(a){var s=this
-return A.J(s.a,s.b,s.c,s.d,s.e,s.f,s.r,s.w,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
+return A.I(s.a,s.b,s.c,s.d,s.e,s.f,s.r,s.w,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
 j(a,b){var s=this
 if(b==null)return!1
 if(s===b)return!0
@@ -41257,7 +41256,7 @@ return b instanceof A.u_&&J.c(b.a,s.a)&&J.c(b.b,s.b)&&J.c(b.c,s.c)&&J.c(b.d,s.d)
 A.JN.prototype={}
 A.r2.prototype={
 gu(a){var s=this
-return A.J(s.a,s.b,s.c,s.d,s.e,s.f,s.r,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
+return A.I(s.a,s.b,s.c,s.d,s.e,s.f,s.r,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
 j(a,b){var s=this
 if(b==null)return!1
 if(s===b)return!0
@@ -41266,7 +41265,7 @@ return b instanceof A.r2&&J.c(b.a,s.a)&&b.b==s.b&&b.d==s.d&&J.c(b.e,s.e)&&J.c(b.
 A.HA.prototype={}
 A.r3.prototype={
 gu(a){var s=this
-return A.J(s.a,s.b,s.c,s.d,s.e,s.f,s.r,s.w,s.x,s.y,s.z,s.Q,s.as,s.at,B.a,B.a,B.a,B.a,B.a,B.a)},
+return A.I(s.a,s.b,s.c,s.d,s.e,s.f,s.r,s.w,s.x,s.y,s.z,s.Q,s.as,s.at,B.a,B.a,B.a,B.a,B.a,B.a)},
 j(a,b){var s,r=this
 if(b==null)return!1
 if(r===b)return!0
@@ -41277,7 +41276,7 @@ s}return s}}
 A.HB.prototype={}
 A.r4.prototype={
 gu(a){var s=this
-return A.J(s.gcp(),s.gbE(),s.c,s.d,s.e,s.gbm(),s.r,s.w,s.x,s.gAC(),s.gAD(),s.Q,s.gV(),B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
+return A.I(s.gcp(),s.gbE(),s.c,s.d,s.e,s.gbm(),s.r,s.w,s.x,s.gAC(),s.gAD(),s.Q,s.gV(),B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
 j(a,b){var s,r=this
 if(b==null)return!1
 if(r===b)return!0
@@ -41294,7 +41293,7 @@ gV(){return this.as}}
 A.HC.prototype={}
 A.r7.prototype={
 gu(a){var s=this
-return A.J(s.a,s.b,s.c,s.d,s.e,s.f,s.r,s.w,s.x,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
+return A.I(s.a,s.b,s.c,s.d,s.e,s.f,s.r,s.w,s.x,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
 j(a,b){var s,r=this
 if(b==null)return!1
 if(r===b)return!0
@@ -41677,11 +41676,11 @@ if(b==null)return!1
 if(J.L(b)!==A.u(s))return!1
 return b instanceof A.AZ&&b.gbr().j(0,s.gbr())&&b.gbX().j(0,s.gbX())&&J.c(b.w,s.w)&&J.c(b.y,s.y)&&J.c(b.z,s.z)&&J.c(b.at,s.at)&&b.ax==s.ax},
 gu(a){var s=this
-return A.J(B.x8,88,36,s.gbr(),s.gbX(),!1,s.w,s.x,s.y,s.z,s.Q,s.as,s.at,s.ax,B.a,B.a,B.a,B.a,B.a,B.a)}}
+return A.I(B.x8,88,36,s.gbr(),s.gbX(),!1,s.w,s.x,s.y,s.z,s.Q,s.as,s.at,s.ax,B.a,B.a,B.a,B.a,B.a,B.a)}}
 A.HG.prototype={}
 A.ra.prototype={
 gu(a){var s=this
-return A.J(s.a,s.b,s.c,s.d,s.e,s.f,s.r,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
+return A.I(s.a,s.b,s.c,s.d,s.e,s.f,s.r,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
 j(a,b){var s=this
 if(b==null)return!1
 if(s===b)return!0
@@ -41690,7 +41689,7 @@ return b instanceof A.ra&&J.c(b.b,s.b)&&J.c(b.c,s.c)&&J.c(b.d,s.d)&&b.e==s.e&&J.
 A.HK.prototype={}
 A.rb.prototype={
 gu(a){var s=this
-return A.J(s.a,s.b,s.c,s.d,s.e,s.f,s.r,s.w,s.x,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
+return A.I(s.a,s.b,s.c,s.d,s.e,s.f,s.r,s.w,s.x,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
 j(a,b){var s=this
 if(b==null)return!1
 if(s===b)return!0
@@ -42010,7 +42009,7 @@ if(s===b)return!0
 if(J.L(b)!==A.u(s))return!1
 return b instanceof A.HN&&b.a.rf(0,s.a)&&b.b.rf(0,s.b)&&b.c.rf(0,s.c)&&b.d===s.d&&b.e.j(0,s.e)&&b.r.j(0,s.r)&&b.w===s.w&&J.c(b.y,s.y)&&b.z===s.z},
 gu(a){var s=this
-return A.J(s.a,s.b,s.c,s.d,s.e,s.r,s.w,!0,s.y,s.z,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)}}
+return A.I(s.a,s.b,s.c,s.d,s.e,s.r,s.w,!0,s.y,s.z,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)}}
 A.yj.prototype={
 saaL(a){if(this.ah.j(0,a))return
 this.ah=a
@@ -42838,12 +42837,12 @@ if(j==null)j=b
 c5=c7.I
 if(c5==null)c5=a
 c6=c7.k4
-return A.J(c7.a,c8,c9,d0,s,r,q,p,o,l,i,h,g,f,e,d,c,A.J(b,a,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0,b1,b2,b3,b4,b5,A.J(b6,b7,b8,b9,c0,c1,c2,c3,c4,n,m,k,j,c5,c6==null?b:c6,B.a,B.a,B.a,B.a,B.a),B.a),B.a,B.a)}}
+return A.I(c7.a,c8,c9,d0,s,r,q,p,o,l,i,h,g,f,e,d,c,A.I(b,a,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0,b1,b2,b3,b4,b5,A.I(b6,b7,b8,b9,c0,c1,c2,c3,c4,n,m,k,j,c5,c6==null?b:c6,B.a,B.a,B.a,B.a,B.a),B.a),B.a,B.a)}}
 A.HS.prototype={}
 A.u0.prototype={}
 A.rq.prototype={
 gu(a){var s=this
-return A.J(s.a,s.b,s.c,s.d,s.e,s.f,s.r,s.w,s.x,s.y,s.z,s.Q,s.as,s.at,s.ax,B.a,B.a,B.a,B.a,B.a)},
+return A.I(s.a,s.b,s.c,s.d,s.e,s.f,s.r,s.w,s.x,s.y,s.z,s.Q,s.as,s.at,s.ax,B.a,B.a,B.a,B.a,B.a)},
 j(a,b){var s,r=this
 if(b==null)return!1
 if(r===b)return!0
@@ -42898,7 +42897,7 @@ s=r==null?s.k3:r}else s=r
 return s}}
 A.nJ.prototype={
 gu(a){var s=this
-return A.J(s.ga0(),s.b,s.c,s.d,s.e,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
+return A.I(s.ga0(),s.b,s.c,s.d,s.e,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
 j(a,b){var s=this
 if(b==null)return!1
 if(s===b)return!0
@@ -42908,7 +42907,7 @@ ga0(){return this.a}}
 A.IA.prototype={}
 A.rI.prototype={
 gu(a){var s=this
-return A.J(s.a,s.b,s.c,s.d,s.e,s.f,s.r,s.w,s.x,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
+return A.I(s.a,s.b,s.c,s.d,s.e,s.f,s.r,s.w,s.x,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
 j(a,b){var s,r=this
 if(b==null)return!1
 if(r===b)return!0
@@ -42918,7 +42917,7 @@ if(b instanceof A.rI)if(J.c(b.a,r.a))if(J.c(b.b,r.b))if(b.c==r.c)if(J.c(b.d,r.d)
 return s}}
 A.IF.prototype={}
 A.rJ.prototype={
-gu(a){return A.J(this.a,this.b,this.c,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
+gu(a){return A.I(this.a,this.b,this.c,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
 j(a,b){var s,r=this
 if(b==null)return!1
 if(r===b)return!0
@@ -42937,7 +42936,7 @@ A.IJ.prototype={}
 A.j2.prototype={}
 A.t2.prototype={
 gu(a){var s=this
-return A.J(s.a,s.b,s.c,s.d,s.e,s.f,s.r,s.w,s.x,s.y,s.z,s.Q,s.as,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
+return A.I(s.a,s.b,s.c,s.d,s.e,s.f,s.r,s.w,s.x,s.y,s.z,s.Q,s.as,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
 j(a,b){var s,r=this
 if(b==null)return!1
 if(r===b)return!0
@@ -42989,7 +42988,7 @@ A.Ns.prototype={}
 A.Nt.prototype={}
 A.ta.prototype={
 gu(a){var s=this
-return A.J(s.gd8(),s.gcp(),s.gB_(),s.gBs(),s.gwe(),s.f,s.r,s.w,s.x,s.y,s.gbX(),s.Q,s.geX(),s.at,s.ax,s.ay,s.ch,s.CW,s.gAN(),A.J(s.gAO(),s.db,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a))},
+return A.I(s.gd8(),s.gcp(),s.gB_(),s.gBs(),s.gwe(),s.f,s.r,s.w,s.x,s.y,s.gbX(),s.Q,s.geX(),s.at,s.ax,s.ay,s.ch,s.CW,s.gAN(),A.I(s.gAO(),s.db,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a))},
 j(a,b){var s,r=this
 if(b==null)return!1
 if(r===b)return!0
@@ -44050,7 +44049,7 @@ return b instanceof A.Cj},
 i(a){return A.asv(-1)}}
 A.CY.prototype={
 gu(a){var s=null
-return A.J(s,s,s,s,s,s,s,B.At,B.fV,!1,s,!1,s,s,s,s,s,s,!1,A.J(s,s,s,s,s,s,s,s,s,s,s,!1,s,s,B.a,B.a,B.a,B.a,B.a,B.a))},
+return A.I(s,s,s,s,s,s,s,B.At,B.fV,!1,s,!1,s,s,s,s,s,s,!1,A.I(s,s,s,s,s,s,s,s,s,s,s,!1,s,s,B.a,B.a,B.a,B.a,B.a,B.a))},
 j(a,b){var s
 if(b==null)return!1
 if(this===b)return!0
@@ -44061,7 +44060,7 @@ s}return s}}
 A.Ju.prototype={}
 A.tP.prototype={
 gu(a){var s=this
-return A.J(s.a,s.b,s.c,s.d,s.e,s.f,s.r,s.w,s.x,s.y,s.z,s.Q,s.as,s.at,s.ax,s.ay,s.ch,s.CW,s.cx,s.cy)},
+return A.I(s.a,s.b,s.c,s.d,s.e,s.f,s.r,s.w,s.x,s.y,s.z,s.Q,s.as,s.at,s.ax,s.ay,s.ch,s.CW,s.cx,s.cy)},
 j(a,b){var s,r=this
 if(b==null)return!1
 if(r===b)return!0
@@ -44264,7 +44263,7 @@ return b instanceof A.oh&&J.c(b.a,this.a)}}
 A.JX.prototype={}
 A.uk.prototype={
 gu(a){var s=this
-return A.J(s.a,s.b,s.c,s.d,s.e,s.f,s.r,s.w,s.x,s.y,s.z,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
+return A.I(s.a,s.b,s.c,s.d,s.e,s.f,s.r,s.w,s.x,s.y,s.z,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
 j(a,b){var s,r=this
 if(b==null)return!1
 if(r===b)return!0
@@ -44275,7 +44274,7 @@ return s}}
 A.K7.prototype={}
 A.ul.prototype={
 gu(a){var s=this
-return A.J(s.a,s.b,s.c,s.d,s.e,s.f,s.r,s.w,s.x,s.y,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
+return A.I(s.a,s.b,s.c,s.d,s.e,s.f,s.r,s.w,s.x,s.y,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
 j(a,b){var s=this
 if(b==null)return!1
 if(s===b)return!0
@@ -44284,7 +44283,7 @@ return b instanceof A.ul&&b.a==s.a&&J.c(b.b,s.b)&&b.c==s.c&&J.c(b.d,s.d)&&J.c(b.
 A.K8.prototype={}
 A.um.prototype={
 gu(a){var s=this
-return A.J(s.a,s.b,s.c,s.d,s.e,s.f,s.r,s.w,s.x,s.y,s.z,s.Q,s.as,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
+return A.I(s.a,s.b,s.c,s.d,s.e,s.f,s.r,s.w,s.x,s.y,s.z,s.Q,s.as,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
 j(a,b){var s=this
 if(b==null)return!1
 if(s===b)return!0
@@ -44835,7 +44834,7 @@ return s.KB(A.X(97,r>>>16&255,r>>>8&255,r&255))}return s.KB(r.gt2().k3)},
 $S:220}
 A.ox.prototype={
 gu(a){var s=this
-return A.J(s.ga0(),s.gbX(),s.gqj(),s.d,s.gbm(),s.gbE(),s.gCX(),s.gq8(),s.x,s.y,s.z,s.Q,s.as,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
+return A.I(s.ga0(),s.gbX(),s.gqj(),s.d,s.gbm(),s.gbE(),s.gCX(),s.gq8(),s.x,s.y,s.z,s.Q,s.as,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
 j(a,b){var s=this
 if(b==null)return!1
 if(s===b)return!0
@@ -44937,7 +44936,7 @@ this.d5()
 this.mN()}}
 A.oA.prototype={
 gu(a){var s=this
-return A.J(s.ga0(),s.b,s.c,s.gtM(),s.e,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
+return A.I(s.ga0(),s.b,s.c,s.gtM(),s.e,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
 j(a,b){var s=this
 if(b==null)return!1
 if(s===b)return!0
@@ -44948,7 +44947,7 @@ gtM(){return this.d}}
 A.L0.prototype={}
 A.uV.prototype={
 gu(a){var s=this
-return A.J(s.a,s.b,s.c,s.d,s.e,s.f,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
+return A.I(s.a,s.b,s.c,s.d,s.e,s.f,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
 j(a,b){var s,r=this
 if(b==null)return!1
 if(r===b)return!0
@@ -45015,7 +45014,7 @@ if(b==null)return!1
 if(!s.QP(0,b))return!1
 return b instanceof A.wZ&&b.r===s.r&&b.e===s.e&&b.f===s.f},
 gu(a){var s=this
-return A.J(A.ag.prototype.gu.call(s,0),s.r,s.e,s.f,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)}}
+return A.I(A.ag.prototype.gu.call(s,0),s.r,s.e,s.f,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)}}
 A.Hy.prototype={
 M(a){return this.c}}
 A.aaB.prototype={
@@ -45649,7 +45648,7 @@ $0(){this.a.fy=!1},
 $S:0}
 A.vK.prototype={
 gu(a){var s=this
-return A.J(s.a,s.b,s.c,s.d,s.e,s.f,s.r,s.w,s.x,s.y,s.z,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
+return A.I(s.a,s.b,s.c,s.d,s.e,s.f,s.r,s.w,s.x,s.y,s.z,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
 j(a,b){var s=this
 if(b==null)return!1
 if(s===b)return!0
@@ -45658,7 +45657,7 @@ return b instanceof A.vK&&b.a==s.a&&b.b==s.b&&b.c==s.c&&b.d==s.d&&J.c(b.e,s.e)&&
 A.LW.prototype={}
 A.vL.prototype={
 gu(a){var s=this
-return A.J(s.a,s.b,s.c,s.d,s.e,s.f,s.r,s.w,s.x,s.y,s.z,s.Q,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
+return A.I(s.a,s.b,s.c,s.d,s.e,s.f,s.r,s.w,s.x,s.y,s.z,s.Q,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
 j(a,b){var s,r=this
 if(b==null)return!1
 if(r===b)return!0
@@ -45669,7 +45668,7 @@ return s}}
 A.LX.prototype={}
 A.vM.prototype={
 gu(a){var s=this
-return A.J(s.a,s.b,s.c,s.d,s.e,s.f,s.r,s.w,s.x,s.y,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
+return A.I(s.a,s.b,s.c,s.d,s.e,s.f,s.r,s.w,s.x,s.y,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
 j(a,b){var s=this
 if(b==null)return!1
 if(s===b)return!0
@@ -45677,7 +45676,7 @@ if(J.L(b)!==A.u(s))return!1
 return b instanceof A.vM&&J.c(b.a,s.a)&&b.b==s.b&&J.c(b.c,s.c)&&J.c(b.d,s.d)&&J.c(b.e,s.e)&&b.f==s.f&&J.c(b.r,s.r)&&J.c(b.w,s.w)&&J.c(b.x,s.x)&&J.c(b.y,s.y)}}
 A.LY.prototype={}
 A.vN.prototype={
-gu(a){return A.J(this.a,this.b,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
+gu(a){return A.I(this.a,this.b,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
 j(a,b){var s
 if(b==null)return!1
 if(this===b)return!0
@@ -45688,7 +45687,7 @@ return s}}
 A.LZ.prototype={}
 A.w3.prototype={
 gu(a){var s=this
-return A.J(s.a,s.b,s.c,s.d,s.e,s.r,s.f,s.w,s.x,s.y,s.z,s.Q,s.as,s.at,s.ax,s.ay,s.CW,s.cx,s.cy,A.J(s.db,s.dx,s.dy,s.fr,s.fx,s.fy,s.go,s.id,s.k1,s.k2,s.k3,s.k4,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a))},
+return A.I(s.a,s.b,s.c,s.d,s.e,s.r,s.f,s.w,s.x,s.y,s.z,s.Q,s.as,s.at,s.ax,s.ay,s.CW,s.cx,s.cy,A.I(s.db,s.dx,s.dy,s.fr,s.fx,s.fy,s.go,s.id,s.k1,s.k2,s.k3,s.k4,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a))},
 j(a,b){var s,r=this
 if(b==null)return!1
 if(r===b)return!0
@@ -45701,7 +45700,7 @@ A.w7.prototype={
 F(){return"SnackBarClosedReason."+this.b}}
 A.w8.prototype={
 gu(a){var s=this
-return A.J(s.a,s.b,s.c,s.d,s.e,s.f,s.r,s.w,s.x,null,s.z,s.Q,s.as,s.at,s.ax,B.a,B.a,B.a,B.a,B.a)},
+return A.I(s.a,s.b,s.c,s.d,s.e,s.f,s.r,s.w,s.x,null,s.z,s.Q,s.as,s.at,s.ax,B.a,B.a,B.a,B.a,B.a)},
 j(a,b){var s,r=this
 if(b==null)return!1
 if(r===b)return!0
@@ -45712,7 +45711,7 @@ return s}}
 A.Mo.prototype={}
 A.wj.prototype={
 gu(a){var s=this
-return A.J(s.a,s.b,s.c,s.d,s.e,s.f,s.r,s.w,s.x,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
+return A.I(s.a,s.b,s.c,s.d,s.e,s.f,s.r,s.w,s.x,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
 j(a,b){var s,r=this
 if(b==null)return!1
 if(r===b)return!0
@@ -45723,7 +45722,7 @@ return s}}
 A.Mx.prototype={}
 A.wm.prototype={
 gu(a){var s=this
-return A.J(s.a,s.b,s.c,s.d,s.e,s.f,s.r,s.w,s.x,s.y,s.z,s.Q,s.as,s.at,s.ax,B.a,B.a,B.a,B.a,B.a)},
+return A.I(s.a,s.b,s.c,s.d,s.e,s.f,s.r,s.w,s.x,s.y,s.z,s.Q,s.as,s.at,s.ax,B.a,B.a,B.a,B.a,B.a)},
 j(a,b){var s,r=this
 if(b==null)return!1
 if(r===b)return!0
@@ -45740,7 +45739,7 @@ if(J.L(b)!==A.u(this))return!1
 return b instanceof A.wo&&J.c(b.a,this.a)}}
 A.MC.prototype={}
 A.ww.prototype={
-gu(a){return A.J(this.a,this.b,this.c,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
+gu(a){return A.I(this.a,this.b,this.c,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
 j(a,b){var s=this
 if(b==null)return!1
 if(s===b)return!0
@@ -45847,7 +45846,7 @@ if(s===b)return!0
 if(J.L(b)!==A.u(s))return!1
 return b instanceof A.dl&&J.c(s.a,b.a)&&J.c(s.b,b.b)&&J.c(s.c,b.c)&&J.c(s.d,b.d)&&J.c(s.e,b.e)&&J.c(s.f,b.f)&&J.c(s.r,b.r)&&J.c(s.w,b.w)&&J.c(s.x,b.x)&&J.c(s.y,b.y)&&J.c(s.z,b.z)&&J.c(s.Q,b.Q)&&J.c(s.as,b.as)&&J.c(s.at,b.at)&&J.c(s.ax,b.ax)},
 gu(a){var s=this
-return A.J(s.a,s.b,s.c,s.d,s.e,s.f,s.r,s.w,s.x,s.y,s.z,s.Q,s.as,s.at,s.ax,B.a,B.a,B.a,B.a,B.a)}}
+return A.I(s.a,s.b,s.c,s.d,s.e,s.f,s.r,s.w,s.x,s.y,s.z,s.Q,s.as,s.at,s.ax,B.a,B.a,B.a,B.a,B.a)}}
 A.MG.prototype={}
 A.wx.prototype={
 M(a){var s,r,q,p,o,n,m=this,l=null,k=a.ag(t.ri),j=k==null?l:k.w.c
@@ -46113,7 +46112,7 @@ return a.a5l(A.F(a.c+new A.l(s,r).a9(0,4).b,0,a.d),q)},
 j(a,b){if(b==null)return!1
 if(J.L(b)!==A.u(this))return!1
 return b instanceof A.iY&&b.a===this.a&&b.b===this.b},
-gu(a){return A.J(this.a,this.b,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
+gu(a){return A.I(this.a,this.b,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
 ca(){return this.R0()+"(h: "+A.hb(this.a)+", v: "+A.hb(this.b)+")"}}
 A.MI.prototype={}
 A.Nj.prototype={}
@@ -46137,7 +46136,7 @@ $S:11}
 A.MK.prototype={}
 A.wB.prototype={
 gu(a){var s=this
-return A.J(s.a,s.b,s.c,s.d,s.e,s.f,s.r,s.w,s.y,s.x,s.z,s.Q,s.as,s.ax,s.at,B.a,B.a,B.a,B.a,B.a)},
+return A.I(s.a,s.b,s.c,s.d,s.e,s.f,s.r,s.w,s.y,s.x,s.z,s.Q,s.as,s.ax,s.at,B.a,B.a,B.a,B.a,B.a)},
 j(a,b){var s=this
 if(b==null)return!1
 if(s===b)return!0
@@ -46427,7 +46426,7 @@ this.d5()
 this.mN()}}
 A.wE.prototype={
 gu(a){var s=this,r=null
-return A.J(s.a,s.b,s.c,s.d,s.e,s.f,s.r,s.w,s.x,r,r,r,r,r,B.a,B.a,B.a,B.a,B.a,B.a)},
+return A.I(s.a,s.b,s.c,s.d,s.e,s.f,s.r,s.w,s.x,r,r,r,r,r,B.a,B.a,B.a,B.a,B.a,B.a)},
 j(a,b){var s,r=this
 if(b==null)return!1
 if(r===b)return!0
@@ -46453,7 +46452,7 @@ if(s===b)return!0
 if(J.L(b)!==A.u(s))return!1
 return b instanceof A.pk&&b.a.j(0,s.a)&&b.b.j(0,s.b)&&b.c.j(0,s.c)&&b.d.j(0,s.d)&&b.e.j(0,s.e)},
 gu(a){var s=this
-return A.J(s.a,s.b,s.c,s.d,s.e,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)}}
+return A.I(s.a,s.b,s.c,s.d,s.e,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)}}
 A.N8.prototype={}
 A.l7.prototype={
 i(a){var s=this
@@ -46462,7 +46461,7 @@ if(s.ghR()===0)return A.adB(s.ghN(),s.ghS())
 return A.adC(s.ghR(),s.ghS())+" + "+A.adB(s.ghN(),0)},
 j(a,b){if(b==null)return!1
 return b instanceof A.l7&&b.ghR()===this.ghR()&&b.ghN()===this.ghN()&&b.ghS()===this.ghS()},
-gu(a){return A.J(this.ghR(),this.ghN(),this.ghS(),B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)}}
+gu(a){return A.I(this.ghR(),this.ghN(),this.ghS(),B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)}}
 A.dr.prototype={
 ghR(){return this.a},
 ghN(){return 0},
@@ -46561,7 +46560,7 @@ if(s===b)return!0
 if(J.L(b)!==A.u(s))return!1
 return b instanceof A.r1&&b.ge_().j(0,s.ge_())&&b.gfK().j(0,s.gfK())&&b.gfF().j(0,s.gfF())&&b.ghc().j(0,s.ghc())&&b.ge0().j(0,s.ge0())&&b.gfJ().j(0,s.gfJ())&&b.ghd().j(0,s.ghd())&&b.gfE().j(0,s.gfE())},
 gu(a){var s=this
-return A.J(s.ge_(),s.gfK(),s.gfF(),s.ghc(),s.ge0(),s.gfJ(),s.ghd(),s.gfE(),B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)}}
+return A.I(s.ge_(),s.gfK(),s.gfF(),s.ghc(),s.ge0(),s.gfJ(),s.ghd(),s.gfE(),B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)}}
 A.cC.prototype={
 ge_(){return this.a},
 gfK(){return this.b},
@@ -46621,7 +46620,7 @@ if(s===b)return!0
 if(J.L(b)!==A.u(s))return!1
 return b instanceof A.by&&b.a.j(0,s.a)&&b.b===s.b&&b.c===s.c&&b.d===s.d},
 gu(a){var s=this
-return A.J(s.a,s.b,s.c,s.d,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
+return A.I(s.a,s.b,s.c,s.d,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
 ca(){return"BorderSide"}}
 A.bv.prototype={
 fL(a,b,c){return null},
@@ -46774,7 +46773,7 @@ if(s===b)return!0
 if(J.L(b)!==A.u(s))return!1
 return b instanceof A.d0&&b.a.j(0,s.a)&&b.b.j(0,s.b)&&b.c.j(0,s.c)&&b.d.j(0,s.d)},
 gu(a){var s=this
-return A.J(s.a,s.b,s.c,s.d,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
+return A.I(s.a,s.b,s.c,s.d,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
 i(a){var s,r,q=this
 if(q.gq7())return"Border.all("+q.a.i(0)+")"
 s=A.b([],t.s)
@@ -46868,7 +46867,7 @@ if(s===b)return!0
 if(J.L(b)!==A.u(s))return!1
 return b instanceof A.dz&&b.a.j(0,s.a)&&b.b.j(0,s.b)&&b.c.j(0,s.c)&&b.d.j(0,s.d)},
 gu(a){var s=this
-return A.J(s.a,s.b,s.c,s.d,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
+return A.I(s.a,s.b,s.c,s.d,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
 i(a){var s=this,r=A.b([],t.s),q=s.a
 if(!q.j(0,B.o))r.push("top: "+q.i(0))
 q=s.b
@@ -46901,7 +46900,7 @@ if(b instanceof A.eA)if(J.c(b.a,r.a))if(J.c(b.b,r.b))if(J.c(b.c,r.c))if(J.c(b.d,
 return s},
 gu(a){var s=this,r=s.e
 r=r==null?null:A.bS(r)
-return A.J(s.a,s.b,s.c,s.d,r,s.f,null,s.w,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
+return A.I(s.a,s.b,s.c,s.d,r,s.f,null,s.w,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
 Bq(a,b,c){var s
 switch(this.w.a){case 0:s=this.d
 if(s!=null)return s.Z(c).ct(new A.x(0,0,0+a.a,0+a.b)).p(0,b)
@@ -46974,7 +46973,7 @@ if(J.L(b)!==A.u(s))return!1
 if(b instanceof A.dP)if(b.a.j(0,s.a))b.b.j(0,s.b)
 return!1},
 gu(a){var s=this
-return A.J(s.a,s.b,s.c,s.d,s.e,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
+return A.I(s.a,s.b,s.c,s.d,s.e,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
 i(a){var s=this
 return"BoxShadow("+s.a.i(0)+", "+s.b.i(0)+", "+A.hb(s.c)+", "+A.hb(s.d)+", "+A.h(s.e)+")"}}
 A.cS.prototype={
@@ -47022,7 +47021,7 @@ return new A.x(r+m,o,s-m,p)}},
 j(a,b){if(b==null)return!1
 if(J.L(b)!==A.u(this))return!1
 return b instanceof A.cS&&b.a.j(0,this.a)&&b.b===this.b},
-gu(a){return A.J(this.a,this.b,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
+gu(a){return A.I(this.a,this.b,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
 i(a){var s=this.b
 if(s!==0)return"CircleBorder("+this.a.i(0)+", eccentricity: "+A.h(s)+")"
 return"CircleBorder("+this.a.i(0)+")"}}
@@ -47057,7 +47056,7 @@ if(b==null)return!1
 if(s===b)return!0
 if(J.L(b)!==A.u(s))return!1
 return s.QQ(0,b)&&A.k(s).h("jw<jw.T>").b(b)&&A.Oy(b.b,s.b)},
-gu(a){return A.J(A.u(this),this.a,this.b,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
+gu(a){return A.I(A.u(this),this.a,this.b,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
 i(a){return"ColorSwatch(primary value: "+this.QR(0)+")"}}
 A.fD.prototype={
 ca(){return"Decoration"},
@@ -47082,7 +47081,7 @@ if(b==null)return!1
 if(s===b)return!0
 if(J.L(b)!==A.u(s))return!1
 return b instanceof A.Hx&&J.c(b.a,s.a)&&J.c(b.b,s.b)&&b.c===s.c},
-gu(a){return A.J(this.a,this.b,this.c,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
+gu(a){return A.I(this.a,this.b,this.c,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
 i(a){return"_BlendedDecorationImage("+A.h(this.a)+", "+A.h(this.b)+", "+A.h(this.c)+")"}}
 A.a5r.prototype={
 Co(a,b,c,d,e,f){var s,r,q=this
@@ -47121,7 +47120,7 @@ j(a,b){var s=this
 if(b==null)return!1
 return b instanceof A.cc&&b.gdG()===s.gdG()&&b.gdH()===s.gdH()&&b.geN()===s.geN()&&b.geL()===s.geL()&&b.gaq()===s.gaq()&&b.gau()===s.gau()},
 gu(a){var s=this
-return A.J(s.gdG(),s.gdH(),s.geN(),s.geL(),s.gaq(),s.gau(),B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)}}
+return A.I(s.gdG(),s.gdH(),s.geN(),s.geL(),s.gaq(),s.gau(),B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)}}
 A.bc.prototype={
 gdG(){return this.a},
 gaq(){return this.b},
@@ -47307,7 +47306,7 @@ if(b==null)return!1
 if(J.L(b)!==A.u(s))return!1
 return b instanceof A.tt&&b.a==s.a&&b.b==s.b&&J.c(b.c,s.c)&&b.d==s.d&&J.c(b.e,s.e)&&b.f==s.f},
 gu(a){var s=this
-return A.J(s.a,s.b,s.c,s.e,s.f,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
+return A.I(s.a,s.b,s.c,s.e,s.f,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
 i(a){var s=this,r=""+"ImageConfiguration(",q=s.a,p=q!=null
 if(p)r+="bundle: "+q.i(0)
 q=s.b
@@ -47405,7 +47404,7 @@ A.a6U.prototype={}
 A.fO.prototype={
 dL(){return new A.fO(this.a.dL(),this.b,this.c)},
 i(a){return this.a.i(0)+" @ "+A.hb(this.b)+"x"},
-gu(a){return A.J(this.a,this.b,this.c,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
+gu(a){return A.I(this.a,this.b,this.c,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
 j(a,b){var s
 if(b==null)return!1
 if(J.L(b)!==A.u(this))return!1
@@ -47413,7 +47412,7 @@ s=!1
 if(b instanceof A.fO)if(b.a===this.a)s=b.b===this.b
 return s}}
 A.eO.prototype={
-gu(a){return A.J(this.a,this.b,this.c,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
+gu(a){return A.I(this.a,this.b,this.c,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
 j(a,b){var s=this
 if(b==null)return!1
 if(J.L(b)!==A.u(s))return!1
@@ -47525,7 +47524,7 @@ if(b==null)return!1
 s=!1
 if(b instanceof A.o5)if(b.a===this.a)if(b.b==this.b)s=A.cZ(b.f,this.f)
 return s},
-gu(a){return A.J(this.a,this.b,this.c,!1,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
+gu(a){return A.I(this.a,this.b,this.c,!1,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
 i(a){return"InlineSpanSemanticsInformation{text: "+this.a+", semanticsLabel: "+A.h(this.b)+", recognizer: "+A.h(this.c)+"}"}}
 A.ir.prototype={
 PD(a){var s={}
@@ -47595,7 +47594,7 @@ a.pM(q.cm(o.gme()),p,r)}break}},
 j(a,b){if(b==null)return!1
 if(J.L(b)!==A.u(this))return!1
 return b instanceof A.cL&&b.a.j(0,this.a)&&b.b.j(0,this.b)},
-gu(a){return A.J(this.a,this.b,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
+gu(a){return A.I(this.a,this.b,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
 i(a){return"RoundedRectangleBorder("+this.a.i(0)+", "+this.b.i(0)+")"}}
 A.dK.prototype={
 b3(a){var s=this.a.b3(a)
@@ -47677,7 +47676,7 @@ j(a,b){var s=this
 if(b==null)return!1
 if(J.L(b)!==A.u(s))return!1
 return b instanceof A.dK&&b.a.j(0,s.a)&&b.b.j(0,s.b)&&b.c===s.c},
-gu(a){return A.J(this.a,this.b,this.c,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
+gu(a){return A.I(this.a,this.b,this.c,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
 i(a){var s=this,r="RoundedRectangleBorder(",q=s.d
 if(q!==0)return r+s.a.i(0)+", "+s.b.i(0)+", "+B.c.O(s.c*100,1)+u.T+B.c.O(q*100,1)+"% oval)"
 return r+s.a.i(0)+", "+s.b.i(0)+", "+B.c.O(s.c*100,1)+"% of the way to being a CircleBorder)"}}
@@ -47701,7 +47700,7 @@ if(J.L(b)!==A.u(s))return!1
 return b instanceof A.kg&&J.c(b.a,s.a)&&J.c(b.c,s.c)&&A.cZ(b.d,s.d)&&b.e.j(0,s.e)},
 gu(a){var s=this,r=s.d
 r=r==null?null:A.bS(r)
-return A.J(s.a,s.b,s.c,s.e,r,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
+return A.I(s.a,s.b,s.c,s.e,r,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
 Bq(a,b,c){return this.e.ef(new A.x(0,0,0+a.a,0+a.b),c).p(0,b)},
 tT(a){return new A.aaT(this,a)}}
 A.aaT.prototype={
@@ -47810,7 +47809,7 @@ j(a,b){if(b==null)return!1
 if(J.L(b)!==A.u(this))return!1
 return b instanceof A.e_&&b.a.j(0,this.a)},
 gu(a){var s=this.a
-return A.J(s.a,s.b,s.c,s.d,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
+return A.I(s.a,s.b,s.c,s.d,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
 i(a){return"StadiumBorder("+this.a.i(0)+")"}}
 A.dM.prototype={
 b3(a){return new A.dM(a,this.c,this.a.b3(a))},
@@ -47873,7 +47872,7 @@ break}},
 j(a,b){if(b==null)return!1
 if(J.L(b)!==A.u(this))return!1
 return b instanceof A.dM&&b.a.j(0,this.a)&&b.b===this.b},
-gu(a){return A.J(this.a,this.b,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
+gu(a){return A.I(this.a,this.b,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
 i(a){var s=this,r=s.c
 if(r!==0)return"StadiumBorder("+s.a.i(0)+", "+B.c.O(s.b*100,1)+u.T+B.c.O(r*100,1)+"% oval)"
 return"StadiumBorder("+s.a.i(0)+", "+B.c.O(s.b*100,1)+"% of the way to being a CircleBorder)"}}
@@ -47926,7 +47925,7 @@ j(a,b){var s=this
 if(b==null)return!1
 if(J.L(b)!==A.u(s))return!1
 return b instanceof A.dN&&b.a.j(0,s.a)&&b.b.j(0,s.b)&&b.c===s.c},
-gu(a){return A.J(this.a,this.b,this.c,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
+gu(a){return A.I(this.a,this.b,this.c,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
 i(a){return"StadiumBorder("+this.a.i(0)+", "+this.b.i(0)+", "+B.c.O(this.c*100,1)+"% of the way to being a RoundedRectangleBorder)"}}
 A.pf.prototype={
 F(){return"TextOverflow."+this.b}}
@@ -47938,7 +47937,7 @@ s=!1
 if(b instanceof A.uN)if(b.a.j(0,r.a))if(b.b===r.b)s=b.c==r.c
 return s},
 gu(a){var s=this
-return A.J(s.a,s.b,s.d,s.c,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
+return A.I(s.a,s.b,s.d,s.c,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
 i(a){var s,r=this,q="PlaceholderDimensions(",p=r.b
 $label0$0:{if(B.uN===p||B.ic===p||B.uO===p||B.uL===p||B.uM===p){s=q+r.a.i(0)+", "+p.i(0)+")"
 break $label0$0}if(B.uK===p){s=q+r.a.i(0)+", "+p.i(0)+"("+A.h(r.c)+" from top))"
@@ -48334,7 +48333,7 @@ if(!s.Re(0,b))return!1
 return b instanceof A.pg&&b.b==s.b&&s.e.j(0,b.e)&&A.cZ(b.c,s.c)},
 gu(a){var s=this,r=null,q=A.ir.prototype.gu.call(s,0),p=s.c
 p=p==null?r:A.bS(p)
-return A.J(q,s.b,r,r,r,r,s.e,p,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
+return A.I(q,s.b,r,r,r,r,s.e,p,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
 ca(){return"TextSpan"},
 $iaf:1,
 $ihv:1,
@@ -48456,10 +48455,10 @@ if(J.L(b)!==A.u(r))return!1
 s=!1
 if(b instanceof A.t)if(b.a===r.a)if(J.c(b.b,r.b))if(J.c(b.c,r.c))if(b.r==r.r)if(b.w==r.w)if(b.y==r.y)if(b.z==r.z)if(b.Q==r.Q)if(b.as==r.as)if(b.at==r.at)if(b.ay==r.ay)if(b.ch==r.ch)if(A.cZ(b.dy,r.dy))if(A.cZ(b.fr,r.fr))if(A.cZ(b.fx,r.fx))if(J.c(b.CW,r.CW))if(J.c(b.cx,r.cx))if(b.cy==r.cy)if(b.db==r.db)if(b.d==r.d)s=A.cZ(b.gnj(),r.gnj())
 return s},
-gu(a){var s,r=this,q=null,p=r.gnj(),o=p==null?q:A.bS(p),n=A.J(r.cy,r.db,r.d,o,r.f,r.fy,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a),m=r.dy,l=r.fx
+gu(a){var s,r=this,q=null,p=r.gnj(),o=p==null?q:A.bS(p),n=A.I(r.cy,r.db,r.d,o,r.f,r.fy,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a),m=r.dy,l=r.fx
 o=m==null?q:A.bS(m)
 s=l==null?q:A.bS(l)
-return A.J(r.a,r.b,r.c,r.r,r.w,r.x,r.y,r.z,r.Q,r.as,r.at,r.ax,r.ay,r.ch,o,q,s,r.CW,r.cx,n)},
+return A.I(r.a,r.b,r.c,r.r,r.w,r.x,r.y,r.z,r.Q,r.as,r.at,r.ax,r.ay,r.ch,o,q,s,r.CW,r.cx,n)},
 ca(){return"TextStyle"}}
 A.MF.prototype={}
 A.Ct.prototype={
@@ -48646,7 +48645,7 @@ if(s===b)return!0
 if(J.L(b)!==A.u(s))return!1
 return b instanceof A.ag&&b.a===s.a&&b.b===s.b&&b.c===s.c&&b.d===s.d},
 gu(a){var s=this
-return A.J(s.a,s.b,s.c,s.d,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
+return A.I(s.a,s.b,s.c,s.d,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
 i(a){var s,r=this,q=r.a,p=!1
 if(q>=0)if(q<=r.b){p=r.c
 p=p>=0&&p<=r.d}s=p?"":"; NOT NORMALIZED"
@@ -52650,14 +52649,14 @@ if(s===b)return!0
 if(J.L(b)!==A.u(s))return!1
 return b instanceof A.ka&&J.c(b.a,s.a)&&J.c(b.b,s.b)&&b.d===s.d&&b.c===s.c&&b.e===s.e},
 gu(a){var s=this
-return A.J(s.a,s.b,s.d,s.c,s.e,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)}}
+return A.I(s.a,s.b,s.d,s.c,s.e,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)}}
 A.mu.prototype={
 j(a,b){var s=this
 if(b==null)return!1
 if(s===b)return!0
 if(J.L(b)!==A.u(s))return!1
 return b instanceof A.mu&&b.a.j(0,s.a)&&b.b===s.b&&b.c===s.c},
-gu(a){return A.J(this.a,this.b,this.c,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)}}
+gu(a){return A.I(this.a,this.b,this.c,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)}}
 A.Gx.prototype={
 F(){return"TextSelectionHandleType."+this.b}}
 A.M2.prototype={}
@@ -52849,7 +52848,7 @@ if(s===b)return!0
 if(!(b instanceof A.ki))return!1
 return b.a===s.a&&b.b===s.b&&b.c===s.c&&b.d===s.d&&b.e===s.e&&b.f===s.f&&b.r===s.r&&b.w===s.w&&b.x===s.x&&b.y===s.y&&b.Q===s.Q&&b.z===s.z},
 gu(a){var s=this
-return A.J(s.a,s.b,s.c,s.d,s.e,s.f,s.r,s.w,s.x,s.y,s.Q,s.z,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
+return A.I(s.a,s.b,s.c,s.d,s.e,s.f,s.r,s.w,s.x,s.y,s.Q,s.z,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
 i(a){var s=this,r=A.b([s.a.i(0),s.b.i(0),s.c.i(0),"scrollOffset: "+B.c.O(s.d,1),"precedingScrollExtent: "+B.c.O(s.e,1),"remainingPaintExtent: "+B.c.O(s.r,1)],t.s),q=s.f
 if(q!==0)r.push("overlap: "+B.c.O(q,1))
 r.push("crossAxisExtent: "+B.c.O(s.w,1))
@@ -53449,7 +53448,7 @@ if(b==null)return!1
 if(s===b)return!0
 return b instanceof A.ER&&b.a===s.a&&b.b===s.b&&b.c===s.c&&b.d===s.d},
 gu(a){var s=this
-return A.J(s.a,s.b,s.c,s.d,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
+return A.I(s.a,s.b,s.c,s.d,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
 i(a){var s=this
 return"RelativeRect.fromLTRB("+B.c.O(s.a,1)+", "+B.c.O(s.b,1)+", "+B.c.O(s.c,1)+", "+B.c.O(s.d,1)+")"}}
 A.dk.prototype={
@@ -53620,7 +53619,7 @@ j(a,b){var s=this
 if(b==null)return!1
 if(J.L(b)!==A.u(s))return!1
 return b instanceof A.wM&&b.a.j(0,s.a)&&b.b.j(0,s.b)&&b.c===s.c},
-gu(a){return A.J(this.a,this.b,this.c,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
+gu(a){return A.I(this.a,this.b,this.c,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
 i(a){return this.a.i(0)+" at "+A.hb(this.c)+"x"}}
 A.mm.prototype={
 Uo(a,b,c){this.saK(a)},
@@ -54697,7 +54696,7 @@ m=n.a
 r.push(n.Lj(new A.c9(m.a+k,m.b+k)))}return new A.ci(l+s,r)},
 j(a,b){if(b==null)return!1
 return J.L(b)===A.u(this)&&b instanceof A.ci&&b.a===this.a&&A.cZ(b.b,this.b)},
-gu(a){return A.J(this.a,this.b,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
+gu(a){return A.I(this.a,this.b,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
 i(a){return"AttributedString('"+this.a+"', attributes: "+A.h(this.b)+")"}}
 A.FS.prototype={
 ca(){return"SemanticsData"},
@@ -54705,7 +54704,7 @@ j(a,b){var s=this
 if(b==null)return!1
 return b instanceof A.FS&&b.a===s.a&&b.b===s.b&&b.c===s.c&&b.d.j(0,s.d)&&b.e.j(0,s.e)&&b.f.j(0,s.f)&&b.r.j(0,s.r)&&b.w.j(0,s.w)&&b.x===s.x&&b.z==s.z&&b.db.j(0,s.db)&&A.adg(b.dx,s.dx)&&b.as==s.as&&b.at==s.at&&b.ax==s.ax&&b.ay==s.ay&&b.ch==s.ch&&J.c(b.dy,s.dy)&&b.fr===s.fr&&b.fx===s.fx&&b.y===s.y&&A.avc(b.fy,s.fy)},
 gu(a){var s=this,r=A.bS(s.fy)
-return A.J(s.a,s.b,s.c,s.d,s.e,s.f,s.r,s.w,s.x,s.z,s.db,s.dx,s.Q,s.as,s.at,s.ax,s.ay,s.ch,s.CW,A.J(s.cx,s.cy,s.dy,s.fr,s.fx,s.y,r,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a))}}
+return A.I(s.a,s.b,s.c,s.d,s.e,s.f,s.r,s.w,s.x,s.z,s.db,s.dx,s.Q,s.as,s.at,s.ax,s.ay,s.ch,s.CW,A.I(s.cx,s.cy,s.dy,s.fr,s.fx,s.y,r,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a))}}
 A.M4.prototype={}
 A.a2d.prototype={
 ca(){return"SemanticsProperties"}}
@@ -55995,7 +55994,7 @@ if(b==null)return!1
 if(s===b)return!0
 if(J.L(b)!==A.u(s))return!1
 return b instanceof A.EA&&J.c(s.a,b.a)&&s.b===b.b&&s.c===b.c},
-gu(a){return A.J(this.a,this.b,this.c,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
+gu(a){return A.I(this.a,this.b,this.c,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
 i(a){return"PredictiveBackEvent{touchOffset: "+A.h(this.a)+", progress: "+A.h(this.b)+", swipeEdge: "+this.c.i(0)+"}"}}
 A.lU.prototype={
 F(){return"KeyboardSide."+this.b}}
@@ -56061,7 +56060,7 @@ A.c6.prototype={
 j(a,b){if(b==null)return!1
 if(J.L(b)!==A.u(this))return!1
 return b instanceof A.c6&&b.a===this.a&&b.b==this.b},
-gu(a){return A.J(this.a,this.b,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)}}
+gu(a){return A.I(this.a,this.b,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)}}
 A.L6.prototype={}
 A.L5.prototype={}
 A.EJ.prototype={
@@ -56089,7 +56088,7 @@ if(s===b)return!0
 if(J.L(b)!==A.u(s))return!1
 return b instanceof A.EJ&&b.a===s.a&&b.b===s.b&&b.c===s.c&&b.d===s.d&&b.e===s.e},
 gu(a){var s=this
-return A.J(s.a,s.b,s.c,s.d,s.e,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)}}
+return A.I(s.a,s.b,s.c,s.d,s.e,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)}}
 A.vs.prototype={
 gaaB(){var s=this
 if(s.c)return new A.ce(s.a,t.hr)
@@ -56260,7 +56259,7 @@ p=p==null?null:p.F()
 return A.aE(["systemNavigationBarColor",n,"systemNavigationBarDividerColor",null,"systemStatusBarContrastEnforced",o.w,"statusBarColor",s,"statusBarBrightness",r,"statusBarIconBrightness",q,"systemNavigationBarIconBrightness",p,"systemNavigationBarContrastEnforced",o.d],t.N,t.z)},
 i(a){return"SystemUiOverlayStyle("+this.Jz().i(0)+")"},
 gu(a){var s=this
-return A.J(s.a,s.b,s.d,s.e,s.f,s.r,s.w,s.c,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
+return A.I(s.a,s.b,s.d,s.e,s.f,s.r,s.w,s.c,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
 j(a,b){var s,r=this
 if(b==null)return!1
 if(J.L(b)!==A.u(r))return!1
@@ -56342,9 +56341,9 @@ s=!1
 if(b.c===r.c)if(b.d===r.d)s=(r.a!==r.b||b.e===r.e)&&b.f===r.f
 return s},
 gu(a){var s,r=this
-if(!r.glG())return A.J(-B.f.gu(1),-B.f.gu(1),A.eY(B.m),B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)
+if(!r.glG())return A.I(-B.f.gu(1),-B.f.gu(1),A.eY(B.m),B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)
 s=r.a===r.b?A.eY(r.e):A.eY(B.m)
-return A.J(B.f.gu(r.c),B.f.gu(r.d),s,B.hr.gu(r.f),B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)}}
+return A.I(B.f.gu(r.c),B.f.gu(r.d),s,B.hr.gu(r.f),B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)}}
 A.a1O.prototype={
 F(){return"SelectionChangedCause."+this.b}}
 A.Gw.prototype={
@@ -59383,7 +59382,7 @@ A.o4.prototype={
 j(a,b){if(b==null)return!1
 if(J.L(b)!==A.u(this))return!1
 return b instanceof A.o4&&this.b===b.b&&J.c(this.a,b.a)},
-gu(a){return A.J(this.b,this.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)}}
+gu(a){return A.I(this.b,this.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)}}
 A.Ka.prototype={}
 A.Kd.prototype={
 b8(){return A.Z(A.cf(null))}}
@@ -59983,7 +59982,7 @@ A.fN.prototype={
 j(a,b){if(b==null)return!1
 if(J.L(b)!==A.u(this))return!1
 return b instanceof A.fN&&b.a===this.a&&b.d===this.d&&A.cZ(null,null)},
-gu(a){return A.J(this.a,"MaterialIcons",null,this.d,A.bS(B.Cs),B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
+gu(a){return A.I(this.a,"MaterialIcons",null,this.d,A.bS(B.Cs),B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
 i(a){return"IconData(U+"+B.d.nE(B.f.iw(this.a,16).toUpperCase(),5,"0")+")"}}
 A.lK.prototype={
 bN(a){return!this.w.j(0,a.w)},
@@ -60008,7 +60007,7 @@ if(J.L(b)!==A.u(s))return!1
 return b instanceof A.cd&&b.a==s.a&&b.b==s.b&&b.c==s.c&&b.d==s.d&&b.e==s.e&&J.c(b.f,s.f)&&b.gdR()==s.gdR()&&A.cZ(b.w,s.w)&&b.x==s.x},
 gu(a){var s=this,r=s.gdR(),q=s.w
 q=q==null?null:A.bS(q)
-return A.J(s.a,s.b,s.c,s.d,s.e,s.f,r,q,s.x,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)}}
+return A.I(s.a,s.b,s.c,s.d,s.e,s.f,r,q,s.x,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)}}
 A.Jn.prototype={}
 A.ts.prototype={
 am(){return new A.xx()}}
@@ -60474,7 +60473,7 @@ s=!1
 if(b instanceof A.u3)if(b.a.j(0,r.a))if(b.b===r.b)if(b.gd1().a===r.gd1().a)if(b.e===r.e)if(b.r.j(0,r.r))if(b.w.j(0,r.w))if(b.f.j(0,r.f))if(b.x.j(0,r.x))if(b.as===r.as)if(b.at===r.at)if(b.ax===r.ax)if(b.Q===r.Q)if(b.z===r.z)if(b.ay===r.ay)if(b.ch===r.ch)if(b.CW.j(0,r.CW))s=A.cZ(b.cx,r.cx)
 return s},
 gu(a){var s=this
-return A.J(s.a,s.b,s.gd1().a,s.e,s.r,s.w,s.f,!1,s.as,s.at,s.ax,s.Q,s.z,s.ay,s.ch,s.CW,A.bS(s.cx),!1,B.a,B.a)},
+return A.I(s.a,s.b,s.gd1().a,s.e,s.r,s.w,s.f,!1,s.as,s.at,s.ax,s.Q,s.z,s.ay,s.ch,s.CW,A.bS(s.cx),!1,B.a,B.a)},
 i(a){var s=this
 return"MediaQueryData("+B.b.bw(A.b(["size: "+s.a.i(0),"devicePixelRatio: "+B.c.O(s.b,1),"textScaler: "+s.gd1().i(0),"platformBrightness: "+s.e.i(0),"padding: "+s.r.i(0),"viewPadding: "+s.w.i(0),"viewInsets: "+s.f.i(0),"systemGestureInsets: "+s.x.i(0),"alwaysUse24HourFormat: false","accessibleNavigation: "+s.z,"highContrast: "+s.as,"onOffSwitchLabels: "+s.at,"disableAnimations: "+s.ax,"invertColors: "+s.Q,"boldText: "+s.ay,"navigationMode: "+s.ch.b,"gestureSettings: "+s.CW.i(0),"displayFeatures: "+A.h(s.cx),"supportsShowingSystemContextMenu: false"],t.s),", ")+")"}}
 A.hu.prototype={
@@ -64942,7 +64941,7 @@ s.$2("scroll controller: ",r.b)
 s.$2("scroll physics: ",null)
 s.$2("decorationClipBehavior: ",r.d)
 return"<optimized out>#"+A.aX(r)+"("+B.b.bw(q,", ")+")"},
-gu(a){return A.J(this.a,this.b,null,this.d,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
+gu(a){return A.I(this.a,this.b,null,this.d,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
 j(a,b){var s,r=this
 if(b==null)return!1
 if(r===b)return!0
@@ -67667,7 +67666,7 @@ j(a,b){var s=this
 if(b==null)return!1
 if(J.L(b)!==A.u(s))return!1
 return s.$ti.b(b)&&b.a===s.a&&b.b===s.b&&b.c===s.c},
-gu(a){return A.J(this.a,this.b,this.c,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
+gu(a){return A.I(this.a,this.b,this.c,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
 i(a){return"[_DeprecatedRawViewKey "+("<optimized out>#"+A.aX(this.a))+"]"}}
 A.Oa.prototype={}
 A.wN.prototype={
@@ -69040,7 +69039,7 @@ return A.ek(s)}else return A.ek(A.lF(this.a,this.b,a))},
 j(a,b){if(b==null)return!1
 if(b instanceof A.mN)return this.a===b.a&&this.b===b.b
 return!1},
-gu(a){var s=A.J(this.a,this.b,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)
+gu(a){var s=A.I(this.a,this.b,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)
 return s},
 i(a){return"TonalPalette.of("+A.h(this.a)+", "+A.h(this.b)+")"}}
 A.Ft.prototype={}
@@ -69435,7 +69434,7 @@ ga9i(){return"posix"},
 gw5(){return"/"}}
 A.eD.prototype={
 qb(){var s=this.c
-s=s==null?null:s.b===0
+s=s==null?null:s.a===0
 if(s===!1){s=this.b
 s=(s==null?0:s)<2}else s=!0
 return s}}
@@ -69496,10 +69495,10 @@ r=b.b
 if(r==null)r=0
 if(s!==r)return-B.f.aX(s,r)
 else{q=a.c
-p=q==null?null:q.b
+p=q==null?null:q.a
 if(p==null)p=0
 q=b.c
-o=q==null?null:q.b
+o=q==null?null:q.a
 if(o==null)o=0
 if(p!==o)return-B.f.aX(p,o)
 else return 1-this.a.r.v6(3)}}},
@@ -69546,7 +69545,7 @@ else{s=r?p:B.f.i(s)
 s=A.mH(s==null?o:s)
 r=A.ahX()
 q=n.c
-s=A.b([s,r,A.mH(q!=null?q.a+B.f.i(q.b):o)],t.F)}return A.TB(B.bJ,A.aeW(A.b([m,l,A.ic(p,A.ahI(s,B.aZ,B.pT),p,p,70,p,p,70)],t.F),B.aZ,B.bV,B.eO),B.aJ,!1,p,p,p,p,p,p,p,p,p,p,p,p,new A.a90(n),p,p,p)},
+s=A.b([s,r,A.mH(q!=null?"$"+B.f.i(q.a):o)],t.F)}return A.TB(B.bJ,A.aeW(A.b([m,l,A.ic(p,A.ahI(s,B.aZ,B.pT),p,p,70,p,p,70)],t.F),B.aZ,B.bV,B.eO),B.aJ,!1,p,p,p,p,p,p,p,p,p,p,p,p,new A.a90(n),p,p,p)},
 $S:445}
 A.a8Z.prototype={
 $2(a,b){var s=null
@@ -75273,11 +75272,11 @@ h=[400*d/(d+27.13),400*c/(c+27.13),400*i/(i+27.13)]
 return new A.a4B(l,(40*h[0]+20*h[1]+h[2])/20*k,k,k,a1,1,q,m,A.A6(m,0.25),1.48+e)})
 s($,"aCZ","adq",()=>new A.a_n(A.fX("/",!0,!1),A.fX("[^/]$",!0,!1),A.fX("^/",!0,!1)))
 s($,"aER","apZ",()=>{var q="\u0441\u0442\u0432\u043e\u0440\u044e\u0454 youtube videos",p="\u0441\u0442\u0432\u043e\u0440\u044e\u0454 podcasts",o="\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u0432\u0456\u0434\u0435\u043e \u043f\u0440\u043e \u043a\u043d\u0438\u0433\u0438",n="\u0441\u0442\u0432\u043e\u0440\u044e\u0454 writing/journalism",m=t.N
-return A.aE(["23daphnia","\u0447\u0438\u0442\u0430\u0454 \u0433\u0430\u0440\u043d\u0456 \u043a\u043d\u0438\u0433\u0438","5HT","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 N2O","AdrianZP","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 Ukrainian dubbing, education & other video","allyourhtml","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 frontend videos","amanogawa","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u0430\u043d\u0456\u043c\u0435\u0448\u043d\u0438\u0439 \u043a\u043e\u043d\u0442\u0435\u043d\u0442 \u0443\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u043e\u044e","animeK","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u0432\u0456\u0434\u0435\u043e","anitubeinua","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 subtitles, dubbing","AniUA","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 series dub and translaitioins","asambleyA",q,"ATR_UA","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u0430\u043a\u0442\u0443\u0430\u043b\u044c\u043d\u044b\u0435 \u043d\u043e\u0432\u043e\u0441\u0442\u0438 \u0432 \u0443\u043a\u0440\u0430\u0438\u043d\u0441\u043a\u043e\u043c \u043e\u0431\u0449\u0435\u0441\u0442\u0432\u0435 \u0438 \u0436\u0438\u0437\u043d\u0438 \u043a\u0440\u044b\u043c\u0441\u043a\u0438\u0445 \u0442\u0430\u0442\u0430\u0440","autogeek","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u0446\u0456\u043a\u0430\u0432\u0438\u043d\u043a\u0438 \u0437\u0456 \u0441\u0432\u0456\u0442\u0443 \u0435\u043b\u0435\u043a\u0442\u0440\u043e\u043c\u043e\u0431\u0456\u043b\u0456\u0432 \u0432 \u0423\u043a\u0440\u0430\u0457\u043d\u0456 \u0442\u0430 \u0441\u0432\u0456\u0442\u0456","balytska","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 lifestyle video in Ukrainian","bazilikmedia","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 media about communications, advertising and brands ","bbproject","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 music video, covers, instrumental folk music","behindthenews","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u0442\u0435\u043a\u0441\u0442\u0438, \u0443 \u044f\u043a\u0438\u0445 \u0441\u043f\u0440\u043e\u0441\u0442\u043e\u0432\u0443\u0454\u043c\u043e \u0444\u0435\u0439\u043a\u0438, \u0440\u043e\u0437\u0432\u0456\u043d\u0447\u0443\u0454\u043c\u043e \u043c\u0456\u0444\u0438","belkininovak","\u0432\u0438\u0441\u0432\u0456\u0447\u0443\u0454\u043c\u043e \u044f\u0441\u043a\u0440\u0430\u0432\u0456 \u043f\u043e\u0434\u0456\u0457 \u0441\u0432\u0456\u0442\u043e\u0432\u043e\u0433\u043e \u0448\u043e\u0443 \u0420\u0435\u0441\u043b\u0456\u043d\u0433\u0443 WWE","bellatrixaiden","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 cosplay","berehtyIF","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u0433\u0440\u043e\u043c\u0430\u0434\u0438, \u044f\u043a\u0456 \u0431\u0435\u0440\u0435\u0436\u0443\u0442\u044c \u0430\u0440\u0445\u0456\u0442\u0435\u043a\u0442\u0443\u0440\u043d\u0443 \u0441\u043f\u0430\u0434\u0449\u0438\u043d\u0443","besahy","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u0432\u0456\u0434\u0435\u043e \u0440\u0435\u0446\u0435\u043f\u0442\u0438 \u0437 \u0443\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u0438\u043c \u043f\u0440\u0438\u0441\u043c\u0430\u043a\u043e\u043c","bihusinfo","\u0432\u0438\u043a\u0440\u0438\u0432\u0430\u0454 \u043f\u043e\u0433\u0430\u043d\u0446\u0456\u0432 \u0442\u0430 \u0457\u0445\u043d\u0456 \u0441\u0445\u0435\u043c\u0438/anti-corruption investigations","BlogerFM","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u043e\u043d\u043b\u0430\u0439\u043d \u0440\u0430\u0434\u0456\u043e, \u0456\u043d\u0442\u0435\u0440\u0432\u2019\u044e \u0442\u0430 \u0456\u043d\u0448\u0456 \u043a\u0440\u0443\u0442\u0456 \u0448\u0442\u0443\u043a\u0438","blogmayster","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 videos","Bykvu","\u0456\u043d\u0444\u043e\u0440\u043c\u0443\u0454 \u043f\u0440\u043e \u0432\u0430\u0436\u043b\u0438\u0432\u0456 \u043f\u043e\u0434\u0456\u0457 \u0432 \u0423\u043a\u0440\u0430\u0457\u043d\u0456 \u0442\u0430 \u0441\u0432\u0456\u0442\u0456","chaplinskyvlog","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 vlog about architecture, urbanism and city life","chtyvo","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u0441\u0445\u0440\u043e\u043d \u0443\u043a\u0440\u0430\u0457\u043d\u043e\u043c\u043e\u0432\u043d\u043e\u0457 \u043b\u0456\u0442\u0435\u0440\u0430\u0442\u0443\u0440\u0438","chytomo","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u043c\u0430\u0442\u0435\u0440\u0456\u0430\u043b\u0438 \u043f\u0440\u043e \u043a\u0443\u043b\u044c\u0442\u0443\u0440\u0443 \u0447\u0438\u0442\u0430\u043d\u043d\u044f \u0456 \u043c\u0438\u0441\u0442\u0435\u0446\u0442\u0432\u043e \u043a\u043d\u0438\u0433\u043e\u0432\u0438\u0434\u0430\u043d\u043d\u044f","cikavaideya","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u043f\u0435\u0440\u0435\u043a\u043b\u0430\u0434 \u0442\u0430 \u043e\u0437\u0432\u0443\u0447\u0435\u043d\u043d\u044f \u0441\u0435\u0440\u0456\u0430\u043b\u0456\u0432 \u0456 \u0444\u0456\u043b\u044c\u043c\u0456\u0432","CikavaNauka","\u043f\u043e\u043f\u0443\u043b\u044f\u0440\u0438\u0437\u0443\u0454 \u043d\u0430\u0443\u043a\u0443 \u0443\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u043e\u044e","costua","\u0440\u043e\u0431\u0438\u043c\u043e \u0437 \u0443\u043a\u0440\u0430\u0457\u043d\u0446\u0456\u0432 \u0441\u0432\u0456\u0434\u043e\u043c\u0438\u0445 \u043f\u043b\u0430\u0442\u043d\u0438\u043a\u0456\u0432 \u043f\u043e\u0434\u0430\u0442\u043a\u0456\u0432","cukr","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u043d\u043e\u0432\u0438\u043d\u0438 \u0442\u0430 \u0456\u0441\u0442\u043e\u0440\u0456\u0457 \u043c\u0456\u0441\u0442\u0430 \u0421\u0443\u043c\u0438","diasporiana","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 writing/journalism and cool stuff","Did_Oles_Falcon_UA","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 videos and communities","DITHOM","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 videos","diypodcast","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u0456\u0441\u0442\u043e\u0440\u0456\u0457, \u0434\u0435 \u043f\u0456\u0434\u043f\u0440\u0438\u0454\u043c\u0446\u0456 \u0434\u0456\u043b\u044f\u0442\u044c\u0441\u044f \u0434\u043e\u0441\u0432\u0456\u0434\u043e\u043c \u0437\u0430\u043f\u0443\u0441\u043a\u0443 \u0432\u043b\u0430\u0441\u043d\u043e\u0457 \u0441\u043f\u0440\u0430\u0432\u0438","dolliteraturne","\u0442\u0435\u0440\u0435\u0432\u0435\u043d\u0456 \u043f\u0440\u043e \u043a\u043d\u0438\u0433\u0438 \u043d\u0430 YouTube","donorua","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 digital platform for quick blood donor search","dostupno2020","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 video","dovkolabotanika","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 scientific memes, popular science video and textes","dustanciyka","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u043e\u0441\u0432\u0456\u0442\u043d\u0456 \u0432\u0456\u0434\u0435\u043e","dvokolisni_hroniky","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 travel videos","eileena","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 covers and translations of songs","enjoythescience","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 education content for Ukrainians","enma_and_books","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u0432\u0456\u0434\u0435\u043e\u0440\u0435\u0446\u0435\u043d\u0437\u0456\u0457 \u0442\u0430 \u043e\u0433\u043b\u044f\u0434\u0438 \u043a\u043d\u0438\u0433","EuropeanPravda","c\u0442\u0432\u043e\u0440\u044e\u0454 news and analysis about Ukraine's European path\xbb","faideyren","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 cosplay","familybudgetcomua","\u0434\u043e\u043f\u043e\u043c\u0430\u0433\u0430\u0454 \u0443\u043a\u0440\u0430\u0457\u043d\u0446\u044f\u043c \u043f\u0440\u0438\u0439\u043c\u0430\u0442\u0438 \u0440\u043e\u0437\u0443\u043c\u043d\u0456 \u0444\u0456\u043d\u0430\u043d\u0441\u043e\u0432\u0456 \u0440\u0456\u0448\u0435\u043d\u043d\u044f","fazugenealogy","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 videos and local business","findwayua","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u0431\u0430\u0437\u0443 \u0446\u0456\u043a\u0430\u0432\u0438\u0445 \u043c\u0456\u0441\u0446\u044c \u0423\u043a\u0440\u0430\u0457\u043d\u0438 \u0442\u0430 \u0440\u043e\u0437\u0432\u0438\u0432\u0430\u0454 \u0442\u0443\u0440\u0438\u0437\u043c","fromfaraway",p,"fvua","\u043e\u0437\u0432\u0443\u0447\u0443\u0454 \u0430\u043d\u0456\u043c\u0435 \u0442\u0430 \u043c\u0443\u043b\u044c\u0441\u0435\u0440\u0456\u0430\u043b\u0438 \u0443\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u043e\u044e","gamestreetua","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u0456\u0433\u0440\u043e\u0432\u0438\u0439 \u043f\u043e\u0440\u0442\u0430\u043b","Geek_Informator","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 news and reviews (videogames, movies, technologies, comics)","Geek_Journal",q,"GulbanuBibicheva","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 videos","gwean_maslinka","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u043e\u0437\u0432\u0443\u0447\u0435\u043d\u043d\u044f \u0430\u043d\u0456\u043c\u0435 \u0443\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u043e\u044e","happypaw","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 videos","historyUA","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u0432\u0456\u0434\u0435\u043e \u043f\u0440\u043e \u0456\u0441\u0442\u043e\u0440\u0456\u044e \u0423\u043a\u0440\u0430\u0457\u043d\u0438 \u0442\u0430 \u0441\u0432\u0456\u0442\u0443","historywall","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 videos","horobyna","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 videos","hotperevod","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u0441\u0432\u0456\u0436\u0438\u0439 \u0443\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u0438\u0439 \u043a\u043e\u043d\u0442\u0435\u043d\u0442, \u043c\u0438 \u0442\u0443\u0442 \u0430\u0431\u0438 \u0432\u0438 \u0441\u043c\u0456\u044f\u043b\u0438\u0441\u044f","Hromadske_Radio","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u0432\u0434\u0443\u043c\u043b\u0438\u0432\u0430 \u0440\u043e\u0437\u043c\u043e\u0432\u0430 \u0443 \u043f\u0440\u044f\u043c\u043e\u043c\u0443 \u0435\u0444\u0456\u0440\u0456 \u0442\u0430 \u043f\u043e\u0434\u043a\u0430\u0441\u0442\u0430\u0445","imtgsh","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u0432\u0456\u0434\u0435\u043e \u0434\u043b\u044f \u044e\u0442\u0443\u0431 \u043a\u0430\u043d\u0430\u043b\u0430 \u0456\u043c\u0435\u043d\u0456 \u0422.\u0413. \u0428\u0435\u0432\u0447\u0435\u043d\u043a\u0430","informnapalm","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 content of public importance","inforules","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u0432\u0456\u0434\u0435\u043e \u043f\u0440\u043e \u0442\u0435 \u044f\u043a \u0441\u043f\u043e\u0436\u0438\u0432\u0430\u0442\u0438 \u0456\u043d\u0444\u043e\u0440\u043c\u0430\u0446\u0456\u044e \u0431\u0435\u0437\u043f\u0435\u0447\u043d\u043e","islndtv","\u043f\u0435\u0440\u0448\u0438\u0439 \u043a\u043e\u043d\u0442\u0440\u043f\u0440\u043e\u043f\u0430\u0433\u0430\u043d\u0434\u0438\u0441\u0442\u0441\u044c\u043a\u0438\u0439","itguildukraine","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u043b\u0435\u0433\u0456\u0442\u0438\u043c\u043d\u0435, \u043d\u0435\u0437\u0430\u043b\u0435\u0436\u043d\u0435 \u0442\u0430 \u0434\u0435\u043c\u043e\u043a\u0440\u0430\u0442\u0438\u0447\u043d\u0435 \u043f\u0440\u043e\u0444\u0435\u0441\u0456\u0439\u043d\u0435 \u043e\u0431'\u0454\u0434\u043d\u0430\u043d\u043d\u044f","itpassions","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u0456\u043d\u0442\u0435\u0440\u0432'\u044e \u0437 IT-\u0441\u043f\u0435\u0446\u0456\u0430\u043b\u0456\u0441\u0442\u0430\u043c\u0438","itworksonmypc","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 vlog","iyura","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u043f\u043e\u0434\u043a\u0430\u0441\u0442 \u043f\u0440\u043e \u043c\u0435\u0439\u043a\u0435\u0440\u0456\u0432 \u0442\u0430 \u0432\u0456\u0434\u043a\u0440\u0438\u0442\u0456 \u043c\u0430\u0439\u0441\u0442\u0435\u0440\u043d\u0456","jarvis_net_ua","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u0414\u0436\u0430\u0440\u0432\u0456\u0441, WRating, \u0422\u0438\u0414\u0438\u0432\u0438, \u0422\u0438\u0414\u0438\u0432\u0438\u0414\u0456\u0442\u0438","JBPetersonUkraine","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u043f\u0435\u0440\u0435\u043a\u043b\u0430\u0434\u0438 \u043f\u0440\u043e\u0444\u0435\u0441\u043e\u0440\u0430 \u0414\u0436\u043e\u0440\u0434\u0430\u043d\u0430 \u041f\u0456\u0442\u0435\u0440\u0441\u043e\u043d\u0430 \u0443\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u043e\u044e","kartofanchyk","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u0440\u043e\u0437\u043f\u043e\u0432\u0456\u0434\u0430\u044e \u043f\u0440\u043e \u0442\u0435\u0445\u043d\u043e\u043b\u043e\u0433\u0456\u0457 \u043d\u0430 \u043f\u0440\u0438\u043a\u043b\u0430\u0434\u0456 \u043f\u0440\u043e\u0446\u0435\u0441\u0443 \u0441\u0430\u0434\u0456\u043d\u043d\u044f \u043a\u0430\u0440\u0442\u043e\u043f\u043b\u0456","kgbfiles","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u0440\u043e\u0437\u0441\u0435\u043a\u0440\u0435\u0447\u0435\u043d\u0456 \u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u0438 \u0437 \u0430\u0440\u0445\u0456\u0432\u0443 \u0421\u0411\u0423","KhmarynkaUA","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u0443\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u0438\u0439 \u043a\u043e\u043d\u0442\u0435\u043d\u0442 \u0434\u043b\u044f \u0434\u0456\u0442\u0435\u0439 \u0456 \u0434\u043e\u0440\u043e\u0441\u043b\u0438\u0445","kliusmarichka","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u0432\u0456\u0434\u0435\u043e \u043a\u043e\u043d\u0442\u0435\u043d\u0442 \u043d\u0430 \u043a\u043d\u0438\u0436\u043a\u043e\u0432\u0443 \u0442\u0435\u043c\u0430\u0442\u0438\u043a\u0443 \u0443\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u043e\u044e \u043c\u043e\u0432\u043e\u044e","knyzhkova_dylerka",o,"konotopcity","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u043a\u043e\u043d\u0442\u0435\u043d\u0442","kozak_media","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u044e\u0442\u044e\u0431 \u043a\u0430\u043d\u0430\u043b \u043f\u0440\u0438\u0441\u0432\u044f\u0447\u0435\u043d\u0438\u0439 \u043f\u0440\u0438\u043a\u043b\u0430\u0434\u043d\u0456\u0439 \u0456\u0441\u0442\u043e\u0440\u0456\u0457 \u0423\u043a\u0440\u0430\u0457\u043d\u0438","krutoznavstvo","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u043f\u0440\u043e\u0441\u0432\u0456\u0442\u043d\u0438\u0446\u044c\u043a\u0438\u0439 \u043a\u043b\u0443\u0431 \u043a\u0440\u0443\u0442\u043e\u0437\u043d\u0430\u0432\u0446\u0456\u0432","ksenia_kellerman","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u043a\u043d\u0438\u0436\u043a\u043e\u0432\u0438\u0439 \u0437\u0430\u0442\u0438\u0448\u043e\u043a \u043d\u0430 YouTube","kultpodcast",p,"kuznetsovalife","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u0441\u043b\u043e\u0432\u0430 \u0456 \u0440\u0435\u0447\u0435\u043d\u043d\u044f","les_kurbas_theatre","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 ukrainian intellectual theater","letslearnukrainian","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 videos on ukrainian grammar and vocabulary","liganet",n,"liroom","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u043c\u0435\u0434\u0456\u0430 \u043f\u0440\u043e \u043d\u043e\u0432\u0443 \u0443\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u0443 \u043c\u0443\u0437\u0438\u043a\u0443","lowcostua","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 writing/journalism and communities","loyer","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u043c\u0456\u0441\u0446\u0435, \u0434\u0435 \u0432\u0438 \u043c\u043e\u0436\u0435\u0442\u0435 \u0437\u0456\u0437\u043d\u0430\u0442\u0438\u0441\u044f \u043d\u0430\u043c \u0443 \u043f\u043e\u0447\u0443\u0442\u0442\u044f\u0445","lustrum",n,"LvivNationalPhilharmonic","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 music","Lykhovii","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 online web-site","MaksPodzigun","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 F1Podcast patreon club","mangua","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 podcast series about manga and anime in Ukraine","manifestplatform","\u0432\u0456\u0434\u0435\u043e","mariamblog","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 video reviews, Ukrainian dubbing video","mefreel","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u043c\u0443\u0437\u0438\u043a\u0443","merezhyvo","\u0437\u0431\u0435\u0440\u0456\u0433\u0430\u0454 \u0442\u0430 \u043f\u043e\u043f\u0443\u043b\u044f\u0440\u0438\u0437\u0443\u0454 \u0434\u0435\u0440\u0435\u0432'\u044f\u043d\u0443 \u0430\u0440\u0445\u0456\u0442\u0435\u043a\u0442\u0443\u0440\u0443 \u0427\u0435\u0440\u043d\u0456\u0433\u0456\u0432\u0449\u0438\u043d\u0438","miketvua","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u0443\u043a\u0440\u0430\u0457\u043d\u043e\u043c\u043e\u0432\u043d\u0438\u0439 \u043a\u043e\u043d\u0442\u0435\u043d\u0442 \u043d\u0430 \u044e\u0442\u044e\u0431","milinua","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u043c\u0456\u043b\u0456\u0442\u0430\u0440\u043d\u0438\u0439 \u043f\u043e\u0440\u0442\u0430\u043b","mokrec","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 journalism","mukha","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 cosplay and photography","musetang","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u0433\u0456\u0442\u0430\u0440\u043d\u0456 \u043a\u0430\u0432\u0435\u0440\u0438 \u0442\u0430 \u0440\u043e\u0437\u0431\u043e\u0440\u0438 \u0443\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u043e\u044e","nareshticlub","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u043f\u0440\u043e\u0441\u0442\u0456\u0440 \u0434\u043b\u044f \u0441\u043f\u0456\u043b\u043a\u0443\u0432\u0430\u043d\u043d\u044f \u0443\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u043e\u044e","naukaua","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u043d\u043e\u0432\u0438\u043d\u0438 \u043d\u0430\u0443\u043a\u0438 \u0443\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u043e\u044e","nebolviv","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u0432\u0456\u0434\u0435\u043e \u043f\u0440\u043e \u0446\u0456\u043a\u0430\u0432\u0456 \u043c\u0456\u0441\u0446\u044f \u0413\u0430\u043b\u0438\u0447\u0438\u043d\u0438, \u0423\u043a\u0440\u0430\u0457\u043d\u0438 \u0456 \u043d\u0435 \u0442\u0456\u043b\u044c\u043a\u0438","need_science","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u043d\u0430\u0443\u043a\u043e\u0432\u043e-\u043f\u043e\u043f\u0443\u043b\u044f\u0440\u043d\u0438\u0439 \u043a\u043e\u043d\u0442\u0435\u043d\u0442 \u0443\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u043e\u044e","nestorvolya","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u0443\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u0438\u0439 \u043d\u0435\u0437\u0430\u043b\u0435\u0436\u043d\u0438\u0439 \u0431\u043b\u043e\u0433\u0435\u0440, \u0433\u0440\u043e\u043c\u0430\u0434\u0441\u044c\u043a\u0430 \u0456\u043d\u0456\u0446\u0456\u0430\u0442\u0438\u0432\u0430 \u0456\u043d\u0444\u043e\u0412\u0410\u0420\u0422\u0410","nicopogarskiy","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 papercraft 2D miniatures","ninaukraine","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 fun, inspiring and educational videos","nonamepodcast","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u0443\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u0438\u0439 \u043f\u043e\u0434\u043a\u0430\u0441\u0442 \u043f\u0440\u043e \u043a\u0456\u0431\u0435\u0440\u0431\u0435\u0437\u043f\u0435\u043a\u0443","NowasteUkraine","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 public sorting spaces ","obrazpublicua","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 better worlds","odesafineartsmuseum","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u0441\u0443\u0447\u0430\u0441\u043d\u0438\u0439 \u0443\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u0438\u0439 \u043c\u0443\u0437\u0435\u0439","office_transformation","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 video and podcast","oldboiua","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u0432\u0456\u0434\u0435\u043e \u0442\u0430 \u0441\u0442\u0440\u0456\u043c\u0438 \u043f\u0440\u043e \u0456\u0433\u0440\u0438 \u0442\u0430 \u0456\u0433\u0440\u043e\u0432\u0443 \u0456\u043d\u0434\u0443\u0441\u0442\u0440\u0456\u044e \u0443\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u043e\u044e","Ole_Sia","\u0441\u043b\u0456\u0434\u043a\u0443\u044e \u0437\u0430 \u0442\u0440\u0435\u043d\u0434\u0430\u043c\u0438, \u043d\u0435 \u0431\u043e\u044e\u0441\u044c \u0442\u043e\u0432\u0441\u0442\u0438\u0445 \u043a\u043d\u0438\u0436\u043e\u043a","oleksandr_ant","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 books and articles about economics, including economic news","olesyabobruyko","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u0432\u0456\u0434\u0435\u043e \u043f\u0440\u043e \u043f\u0441\u0438\u0445\u0456\u0447\u043d\u0435 \u0437\u0434\u043e\u0440\u043e\u0432'\u044f \u0456 \u0449\u0430\u0441\u0442\u044f","omtvua","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u0443\u043a\u0440\u0430\u0457\u043d\u043e\u043c\u043e\u0432\u043d\u0438\u0439 \u043a\u043e\u043d\u0442\u0435\u043d\u0442 \u043d\u0430 \u0432\u0430\u0436\u043b\u0438\u0432\u0456 \u0441\u043e\u0446\u0456\u0430\u043b\u044c\u043d\u043e-\u043f\u043e\u043b\u0456\u0442\u0438\u0447\u043d\u0456 \u0442\u0435\u043c\u0438","otvinta","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 music and shows for you","oum_spadshchyna","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u043f\u0430\u0442\u0440\u0456\u043e\u0442\u0438\u0447\u043d\u0435 \u0441\u0435\u0440\u0435\u0434\u043e\u0432\u0438\u0449\u0435 \u0434\u043b\u044f \u0441\u0432\u0456\u0434\u043e\u043c\u0438\u0445 \u0442\u0430 \u0434\u0456\u0454\u0432\u0438\u0445 \u043c\u043e\u043b\u043e\u0434\u0438\u0445 \u0443\u043a\u0440\u0430\u0457\u043d\u0446\u0456\u0432","pad0n","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u0443\u043a\u0440\u0430\u0457\u043d\u043e\u043c\u043e\u0432\u043d\u0438\u0439 \u0432\u043c\u0456\u0441\u0442: \u043e\u0437\u0432\u0443\u0447\u0443\u0432\u0430\u043d\u043d\u044f, \u0456\u0433\u0440\u043e\u0432\u0456 \u0432\u0456\u0434\u0435\u043e, \u043f\u043e\u0434\u043a\u0430\u0441\u0442\u0438 \u0442\u0430 \u0441\u0442\u0440\u0456\u043c\u0438","palindrom","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 music, video, lyrics","PaniVchytelka","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u043e\u0441\u0432\u0456\u0442\u043d\u0456\u0439 \u043a\u043e\u043d\u0442\u0435\u043d\u0442","pankarpan","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u0443\u043a\u0440\u0430\u0457\u043d\u043e\u043c\u0432\u043e\u043d\u0438\u0439 \u043a\u0430\u043d\u0430\u043b \u043f\u0440\u0438\u0441\u0432\u044f\u0447\u0435\u043d\u0438\u0439 \u043a\u0456\u043d\u043e \u0442\u0430 \u043f\u043e\u043f-\u043a\u0443\u043b\u044c\u0442\u0443\u0440\u0456","pereozvuchka_ua","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u0441\u043c\u0456\u0448\u043d\u0456 \u043e\u0437\u0432\u0443\u0447\u0443\u0432\u0430\u043d\u043d\u044f \u0443\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u043e\u044e","pershosvit","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u0440\u043e\u0437\u0432\u0430\u0436\u0430\u043b\u044c\u043d\u043e-\u043e\u0441\u0432\u0456\u0442\u043d\u0456\u0439 \u0430\u043d\u0456\u043c\u0430\u0446\u0456\u0439\u043d\u0438\u0439 \u044e\u0442\u044e\u0431 \u043a\u0430\u043d\u0430\u043b \u0434\u043b\u044f \u0434\u0456\u0442\u0435\u0439","pityatko","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u043d\u0430\u0432\u043a\u043e\u043b\u043e\u043f\u0441\u0438\u0445\u043e\u043b\u043e\u0433\u0456\u0447\u043d\u0456 \u043d\u0430\u0443\u043a\u043e\u0432\u043e-\u043f\u043e\u043f\u0443\u043b\u044f\u0440\u043d\u0456 \u0432\u0456\u0434\u0435\u043e ","pivpodcast","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u0443\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u043e\u043c\u043e\u0432\u043d\u0456 \u043f\u043e\u0434\u043a\u0430\u0441\u0442\u0438 \u043f\u0440\u043e \u043c\u0443\u0437\u0438\u043a\u0443","portnikov","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 article, video, blogs","ppidcast","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u043a\u043b\u044c\u043e\u0432\u0456 \u043f\u043e\u0434\u043a\u0430\u0441\u0442\u0438","prihodnik","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 Dungeons & Dragons \u0443\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u043e\u044e: \u043f\u0435\u0440\u0435\u043a\u043b\u0430\u0434\u0438, \u043c\u0430\u043f\u0438, \u0456\u043b\u044e\u0441\u0442\u0440\u0430\u0446\u0456\u0457 \u0442\u043e\u0449\u043e","propohody","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u043d\u0430\u0439\u043a\u0440\u0443\u0442\u0456\u0448\u0438\u0439 \u043f\u0440\u043e\u0454\u043a\u0442 \u043f\u0440\u043e \u0433\u043e\u0440\u0438, \u043c\u0430\u043d\u0434\u0440\u0438 \u0456 \u0441\u043f\u043e\u0440\u044f\u0434\u0436\u0435\u043d\u043d\u044f, \u0443\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u043e\u044e","prytula","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 videos","PSUkraine",'\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u0441\u043f\u0456\u043b\u044c\u043d\u043e\u0442\u0443 "Play State Ukraine"',"radioaristocrats","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 podcasts and videos","radiopodil","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u043f\u0435\u0440\u0448\u0443 \u043d\u0435\u0437\u0430\u043b\u0435\u0436\u043d\u0443 \u0441\u043f\u0456\u043b\u044c\u043d\u043e\u0442\u0443 \u0443\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u043e\u043c\u043e\u0432\u043d\u0438\u0445 \u043f\u043e\u0434\u043a\u0430\u0441\u0442\u0456\u0432","radioskorbota","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u043f\u043e\u0434\u043a\u0430\u0441\u0442\u0438","radioskovoroda","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 writing/journalism and podcasts","raguli","\u0434\u043e\u0441\u043b\u0456\u0434\u0436\u0443\u0454 \u0445\u0438\u0431\u0438 \u043d\u0430\u0448\u043e\u0433\u043e \u0441\u043e\u0446\u0456\u0443\u043c\u0443 \u0439 \u0443\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u043e\u0433\u043e \u043c\u0435\u0434\u0456\u0430\u043f\u0440\u043e\u0441\u0442\u043e\u0440\u0443","rationalist","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u0443\u043a\u0440\u0430\u0457\u043d\u043e\u043c\u043e\u0432\u043d\u0438\u0439 \u043a\u043e\u043d\u0442\u0435\u043d\u0442 \u043d\u0430\u0443\u043a\u043e\u0432\u043e\u0457 \u0442\u0435\u043c\u0430\u0442\u0438\u043a\u0438","readingmary","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 booktube \u043a\u0430\u043d\u0430\u043b","rendarosua","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 videos about videogames and geek stuff in Ukrainian","rist_center","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u0443\u043a\u0440\u0430\u0457\u043d\u043e\u043c\u043e\u0432\u043d\u0438\u0439 \u043d\u0430\u0432\u0447\u0430\u043b\u044c\u043d\u0438\u0439 \u043a\u043e\u043d\u0442\u0435\u043d\u0442 \u0434\u043b\u044f \u043a\u0440\u0435\u0430\u0442\u0438\u0432\u043d\u043e\u0457 \u0442\u0430 \u0406\u0422-\u0456\u043d\u0434\u0443\u0441\u0442\u0440\u0456\u0457","RockRadioUA","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 online \u0440\u0430\u0434\u0456\u043e","rsukraine_org_ua","\u0434\u043e\u043f\u043e\u043c\u0430\u0433\u0430\u0454 \u0432\u0456\u0434\u043d\u043e\u0432\u0438\u0442\u0438 \u0437\u0434\u043e\u0440\u043e\u0432'\u044f \u0437\u0430\u0445\u0438\u0441\u043d\u0438\u043a\u0430\u043c \u0423\u043a\u0440\u0430\u0457\u043d\u0438","rudnyi","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 tutorials, education videos","Salertino","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u043a\u043e\u043d\u0442\u0435\u043d\u0442 \u0443\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u043e\u044e \u043f\u0440\u043e \u043a\u0456\u043d\u043e \u0456 \u0431\u043b\u0438\u0437\u044c\u043a\u043e \u0446\u0456\u0454\u0457 \u0442\u0435\u043c\u0438","sbt_localization","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 translations","serhiyzhadan","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 writing/journalism and music","sershenzaritskaya","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 rock and metal covers ","shitiknowlive","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u0432\u0430\u0448 \u043b\u044e\u0431\u0438\u043c\u0438\u0439 \u0443\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u0438\u0439 \u043f\u043e\u0434\u043a\u0430\u0441\u0442","shobsho","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 humor, politics, gonzo journalism","skrypinua","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 YouTube-channels","slidstvo_info","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u0436\u0443\u0440\u043d\u0430\u043b\u0456\u0441\u0442\u0441\u044c\u043a\u0456 \u0440\u043e\u0437\u0441\u043b\u0456\u0434\u0443\u0432\u0430\u043d\u043d\u044f","slukh","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u043e\u043d\u043b\u0430\u0439\u043d-\u043c\u0435\u0434\u0456\u0430 \u043f\u0440\u043e \u043c\u0443\u0437\u0438\u043a\u0443 \u0442\u0430 \u0432\u0441\u0435, \u0449\u043e \u043d\u0430\u0432\u043a\u043e\u043b\u043e \u043d\u0435\u0457","soblya","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u043a\u043e\u0440\u043e\u043b\u0456 \u043f\u043e\u0434\u043a\u0430\u0441\u0442\u0438\u043d\u0433\u0443 \u0423\u043a\u0440\u0430\u0457\u043d\u0438, \u043f\u0440\u0438\u043d\u0430\u0439\u043c\u043d\u0456 \u041b\u044c\u0432\u0456\u0432\u0441\u044c\u043a\u043e\u0457 \u043e\u0431\u043b\u0430\u0441\u0442\u0456","stasmusicmaker","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 metal music content","StopTheMoose","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u0437\u043c\u0456\u043d\u0438 \u0432 \u0441\u0432\u0456\u0434\u043e\u043c\u043e\u0441\u0442\u0456 \u0443\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u0438\u0445 \u0433\u0440\u043e\u043c\u0430\u0434\u044f\u043d","strugachka","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 videos and cool stuff","svidomi","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u0430\u043a\u0442\u0443\u0430\u043b\u044c\u043d\u0456 \u043d\u043e\u0432\u0438\u043d\u0438 \u0442\u0430 \u0441\u0443\u0441\u043f\u0456\u043b\u044c\u043d\u0438\u0439 \u043c\u0435\u0434\u0456\u0430-\u043a\u043e\u043d\u0442\u0435\u043d\u0442","svitlana","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 YouTube videos","svitlotin","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u0443\u043a\u0440\u0430\u0457\u043d\u043e\u043c\u043e\u0432\u043d\u0456 \u0432\u0456\u0434\u0435\u043e \u043d\u0430 \u0456\u0441\u0442\u043e\u0440\u0438\u0447\u043d\u0443 \u0442\u0435\u043c\u0430\u0442\u0438\u043a\u0443","TA_studio","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u043d\u0430\u0447\u0435 \u0433\u0443\u043c\u043e\u0440, \u043d\u0443 \u043c\u0438 \u0441\u043c\u0456\u0454\u043c\u043e\u0441\u044c","takflix","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u0443\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u0435 \u043a\u0456\u043d\u043e \u043b\u0435\u0433\u0430\u043b\u044c\u043d\u043e \u043e\u043d\u043b\u0430\u0439\u043d","tanyacroft","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 cosplay content","tatotake","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 videos and writing/journalism","tatysho","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u043f\u043e\u0434\u043a\u0430\u0441\u0442","Tayemna_kimnata","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u0432\u0456\u0434\u0435\u043e \u0442\u0430 \u0442\u0440\u0430\u043d\u0441\u043b\u044f\u0446\u0456\u0457 \u043f\u0440\u043e \u0432\u0456\u0434\u0435\u043e\u0456\u0433\u0440\u0438","taytake","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 videos and podcasts","techtoloka","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 communities","teoriyagry","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u0442\u0435\u043a\u0441\u0442\u043e\u0432\u0456 \u0442\u0430 \u0432\u0456\u0434\u0435\u043e\u043e\u0433\u043b\u044f\u0434\u0438 \u043d\u0430 \u043d\u0430\u0441\u0442\u0456\u043b\u044c\u043d\u0456 \u0456\u0433\u0440\u0438 \u0442\u0430 \u0434\u043e\u0442\u0438\u0447\u043d\u0456 \u0442\u0435\u043c\u0438","textyorgua","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u0436\u0443\u0440\u043d\u0430\u043b\u0456\u0441\u0442\u0438\u043a\u0430 \u0434\u0430\u043d\u0438\u0445 / data journalism","thealphacentauri","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 videos","TheAsya","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 audiobooks and gameplays voiceover translations to Ukrainian","tokar","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u0432\u0456\u0434\u0435\u043e \u043f\u0440\u043e \u0446\u0438\u0444\u0440\u043e\u0432\u0443 \u0431\u0435\u0437\u043f\u0435\u043a\u0443, \u043a\u043e\u0441\u043c\u043e\u0441 \u0456 \u0442\u0435\u0445\u043d\u043e\u043b\u043e\u0433\u0456\u0457","torontotv","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u0433\u0443\u043c\u043e\u0440\u0438\u0441\u0442\u0438\u0447\u043d\u0456, \u0441\u043e\u0446\u0456\u0430\u043b\u044c\u043d\u043e-\u043f\u043e\u043b\u0456\u0442\u0438\u0447\u043d\u0456, \u043a\u0443\u043b\u044c\u0442\u0443\u0440\u043d\u0456 \u0442\u0430 \u043d\u0435 \u0434\u0443\u0436\u0435 \u0432\u0456\u0434\u0435\u043e","totem_publisher","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u0447\u0430\u0440\u0456\u0432\u043d\u0456 \u0456\u0441\u0442\u043e\u0440\u0456\u0457","UA_direct_democracy","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u0434\u0435\u043c\u043e\u043a\u0440\u0430\u0442\u0456\u044e \u0431\u0435\u0437 \u043f\u043e\u0441\u0435\u0440\u0435\u0434\u043d\u0438\u043a\u0456\u0432","uacomix","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 comics publishing house","uaestrada","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u0443\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u0430 \u043c\u0443\u0437\u0438\u043a\u0430 50-\u0445\u201380-\u0445 \u0440\u043e\u043a\u0456\u0432","uagenealogy","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 genealogical content","uanimals","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u0433\u0443\u043c\u0430\u043d\u0456\u0441\u0442\u0438\u0447\u043d\u0438\u0439 \u0440\u0443\u0445 \u0437\u0430 \u043f\u0440\u0430\u0432\u0430 \u0442\u0432\u0430\u0440\u0438\u043d ","uareview","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u0441\u0430\u0442\u0438\u0440\u0438\u0447\u043d\u0456 \u043d\u043e\u0432\u0438\u043d\u0438 \u0443\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u043e\u044e","ubmdr","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 pool of stem cells donors in Ukraine","ukrainedancing","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u043f\u043e\u0434\u043a\u0430\u0441\u0442\u0438/ \u043c\u0443\u0437\u0438\u043a\u0443 \u0443\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u043e\u044e \u043c\u043e\u0432\u043e\u044e","ukrainer","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 videos and journalism","UkrainianLiveClassic","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 1st mobile app with classical music of Ukraine","ukrainianweek","\u0441\u0442\u0432\u043e\u0440\u044e\u0454\u043c\u043e \u044f\u043a\u0456\u0441\u043d\u0438\u0439 \u043a\u043e\u043d\u0442\u0435\u043d\u0442 \u0434\u043b\u044f \u043d\u0430\u0448\u043e\u0457 \u0430\u0443\u0434\u0438\u0442\u043e\u0440\u0456\u0457","ukrmod","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 stories about modern architecture and monumental art of Ukraine","undergroundhumanities","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u043e\u0441\u0432\u0456\u0442\u043d\u0456 \u0432\u0456\u0434\u0435\u043e \u043f\u0440\u043e \u043c\u043e\u0432\u0443, \u043b\u0456\u0442\u0435\u0440\u0430\u0442\u0443\u0440\u0443 \u0442\u0430 \u043a\u0443\u043b\u044c\u0442\u0443\u0440\u0443","user?u=16774315","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 graphic designer and illustrator","user?u=28899940","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 fiction for children","user?u=44661751","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u0432\u0456\u0434\u0435\u043e \u043f\u0440\u043e \u0441\u043f\u0440\u0430\u0432\u0436\u043d\u044e \u0423\u043a\u0440\u0430\u0457\u043d\u0443","user?u=50286152","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 podcast","user?u=76475135","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u043b\u0435\u043a\u0446\u0456\u0457, \u043f\u043e\u0434\u043a\u0430\u0441\u0442\u0438 \u0437 \u043b\u0456\u0442\u0435\u0440\u0430\u0442\u0443\u0440\u0438","user?u=83097324","\u043a\u043d\u0438\u0436\u043a\u0438, \u043f\u0442\u0430\u0448\u043a\u0438 \u0456 \u0440\u043e\u043a-\u043d-\u0440\u043e\u043b","valerii","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 videos and writing","vatashow","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u043f\u0430\u043b\u0430\u044e\u0447\u0430 \u0432\u0430\u0442\u0430","vatatv","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 Vata TV","vertigoUA","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 media","verumT","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u0432\u0456\u0434\u043e\u0441\u0438","vidminniotsinky","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u0443\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u0430 \u043c\u043e\u0432\u0430 \u0442\u0430 \u043b\u0456\u0442\u0435\u0440\u0430\u0442\u0443\u0440\u0430","vmistozher","\u0441\u043b\u043e\u0432\u043e\u0442\u0456\u043a \u043f\u0440\u043e \u0437\u0434\u043e\u0440\u043e\u0432\u0435 \u0441\u043f\u043e\u0436\u0432\u0438\u0430\u043d\u043d\u044f \u0432\u043c\u0456\u0441\u0442\u0456\u0432","volynonline","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u0456\u043d\u0442\u0435\u0440\u043d\u0435\u0442-\u0432\u0438\u0434\u0430\u043d\u043d\u044f (mas media)","VorobieiBohdan","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u043e\u0433\u043b\u044f\u0434\u0438 \u0437\u043e\u0440\u044f\u043d\u043e\u0433\u043e \u043d\u0435\u0431\u0430 \u0442\u0430 \u0430\u0441\u0442\u0440\u043e\u043d\u043e\u043c\u0456\u0447\u043d\u0438\u0445 \u043f\u043e\u0434\u0456\u0439","vovazilvova","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u043f\u0456\u0441\u043d\u0456, \u043c\u0443\u0437\u0438\u0447\u043d\u0456 \u0432\u0456\u0434\u0435\u043e \u0456 \u043a\u043e\u043d\u0442\u0435\u043d\u0442, \u0449\u043e \u043d\u0430\u0434\u0438\u0445\u0430\u0454, \u0442\u0456\u0448\u0438\u0442\u044c \u0456 \u0431\u0430\u0434\u044c\u043e\u0440\u0438\u0442\u044c","vovkst","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u043a\u043e\u043d\u0442\u0435\u043d\u0442 \u043f\u0440\u043e \u0456\u043d\u0432\u0435\u0441\u0442\u0438\u0446\u0456\u0457 \u0432 \u0423\u043a\u0440\u0430\u0457\u043d\u0456","vrajennya","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 communities and podcasts","vsesvit_ua","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u0432\u0456\u0434\u0435\u043e \u043f\u0440\u043e \u043a\u043e\u0441\u043c\u043e\u0441 \u0443\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u043e\u044e","vyshnevyjcvit","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 videos about books","WBG","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 board game videos, \u0432\u0456\u0434\u0435\u043e \u043f\u0440\u043e \u043d\u0430\u0441\u0442\u0456\u043b\u044c\u043d\u0456 \u0456\u0433\u0440\u0438 \u0443\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u043e\u044e","wildfoxfilm","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u043f\u0440\u043e \u0456\u0441\u0442\u043e\u0440\u0456\u044e \u0442\u0430 \u0436\u0438\u0442\u0442\u044f \u0432 \u043c\u0438\u043d\u0443\u043b\u043e\u043c\u0443: \u0432\u0435\u0441\u0435\u043b\u043e, \u043f\u0440\u043e\u0441\u0442\u043e, \u0437 \u043f\u0438\u0432\u043e\u043c","wszystko_band","\u0441\u0442\u0432\u043e\u0440\u044e\u0454  Ukrainian music, music videos","yanina","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 movies and YouTube shows","zagin","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u043e\u0433\u043b\u044f\u0434\u0438 \u043d\u0430 \u0443\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u0435 \u043a\u0456\u043d\u043e","yanareadwithme",o,"zasnovnyky","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u043f\u043e\u0434\u043a\u0430\u0441\u0442 \u043f\u0440\u043e \u0443\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u0438\u0445 \u0437\u043c\u0456\u043d\u043e\u0442\u0432\u043e\u0440\u0446\u0456\u0432, \u044f\u043a\u0456 \u0442\u0432\u043e\u0440\u044f\u0442\u044c \u0441\u044c\u043e\u0433\u043e\u0434\u0435\u043d\u043d\u044f","zhadanisobaki","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 music","zhyteli_kyieva","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 storytelling, photography, journalism ","zvedeno","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 news"],m,m)})
+return A.aE(["23daphnia","\u0447\u0438\u0442\u0430\u0454 \u0433\u0430\u0440\u043d\u0456 \u043a\u043d\u0438\u0433\u0438","5HT","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 N2O","AdrianZP","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 Ukrainian dubbing, education & other video","allyourhtml","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 frontend videos","amanogawa","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u0430\u043d\u0456\u043c\u0435\u0448\u043d\u0438\u0439 \u043a\u043e\u043d\u0442\u0435\u043d\u0442 \u0443\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u043e\u044e","animeK","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u0432\u0456\u0434\u0435\u043e","anitubeinua","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 subtitles, dubbing","AniUA","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 series dub and translaitioins","asambleyA",q,"ATR_UA","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u0430\u043a\u0442\u0443\u0430\u043b\u044c\u043d\u044b\u0435 \u043d\u043e\u0432\u043e\u0441\u0442\u0438 \u0432 \u0443\u043a\u0440\u0430\u0438\u043d\u0441\u043a\u043e\u043c \u043e\u0431\u0449\u0435\u0441\u0442\u0432\u0435 \u0438 \u0436\u0438\u0437\u043d\u0438 \u043a\u0440\u044b\u043c\u0441\u043a\u0438\u0445 \u0442\u0430\u0442\u0430\u0440","autogeek","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u0446\u0456\u043a\u0430\u0432\u0438\u043d\u043a\u0438 \u0437\u0456 \u0441\u0432\u0456\u0442\u0443 \u0435\u043b\u0435\u043a\u0442\u0440\u043e\u043c\u043e\u0431\u0456\u043b\u0456\u0432 \u0432 \u0423\u043a\u0440\u0430\u0457\u043d\u0456 \u0442\u0430 \u0441\u0432\u0456\u0442\u0456","balytska","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 lifestyle video in Ukrainian","bazilikmedia","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 media about communications, advertising and brands ","bbproject","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 music video, covers, instrumental folk music","behindthenews","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u0442\u0435\u043a\u0441\u0442\u0438, \u0443 \u044f\u043a\u0438\u0445 \u0441\u043f\u0440\u043e\u0441\u0442\u043e\u0432\u0443\u0454\u043c\u043e \u0444\u0435\u0439\u043a\u0438, \u0440\u043e\u0437\u0432\u0456\u043d\u0447\u0443\u0454\u043c\u043e \u043c\u0456\u0444\u0438","belkininovak","\u0432\u0438\u0441\u0432\u0456\u0447\u0443\u0454\u043c\u043e \u044f\u0441\u043a\u0440\u0430\u0432\u0456 \u043f\u043e\u0434\u0456\u0457 \u0441\u0432\u0456\u0442\u043e\u0432\u043e\u0433\u043e \u0448\u043e\u0443 \u0420\u0435\u0441\u043b\u0456\u043d\u0433\u0443 WWE","bellatrixaiden","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 cosplay","berehtyIF","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u0433\u0440\u043e\u043c\u0430\u0434\u0438, \u044f\u043a\u0456 \u0431\u0435\u0440\u0435\u0436\u0443\u0442\u044c \u0430\u0440\u0445\u0456\u0442\u0435\u043a\u0442\u0443\u0440\u043d\u0443 \u0441\u043f\u0430\u0434\u0449\u0438\u043d\u0443","besahy","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u0432\u0456\u0434\u0435\u043e \u0440\u0435\u0446\u0435\u043f\u0442\u0438 \u0437 \u0443\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u0438\u043c \u043f\u0440\u0438\u0441\u043c\u0430\u043a\u043e\u043c","bihusinfo","\u0432\u0438\u043a\u0440\u0438\u0432\u0430\u0454 \u043f\u043e\u0433\u0430\u043d\u0446\u0456\u0432 \u0442\u0430 \u0457\u0445\u043d\u0456 \u0441\u0445\u0435\u043c\u0438/anti-corruption investigations","BlogerFM","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u043e\u043d\u043b\u0430\u0439\u043d \u0440\u0430\u0434\u0456\u043e, \u0456\u043d\u0442\u0435\u0440\u0432\u2019\u044e \u0442\u0430 \u0456\u043d\u0448\u0456 \u043a\u0440\u0443\u0442\u0456 \u0448\u0442\u0443\u043a\u0438","blogmayster","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 videos","Bykvu","\u0456\u043d\u0444\u043e\u0440\u043c\u0443\u0454 \u043f\u0440\u043e \u0432\u0430\u0436\u043b\u0438\u0432\u0456 \u043f\u043e\u0434\u0456\u0457 \u0432 \u0423\u043a\u0440\u0430\u0457\u043d\u0456 \u0442\u0430 \u0441\u0432\u0456\u0442\u0456","chaplinskyvlog","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 vlog about architecture, urbanism and city life","chtyvo","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u0441\u0445\u0440\u043e\u043d \u0443\u043a\u0440\u0430\u0457\u043d\u043e\u043c\u043e\u0432\u043d\u043e\u0457 \u043b\u0456\u0442\u0435\u0440\u0430\u0442\u0443\u0440\u0438","chytomo","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u043c\u0430\u0442\u0435\u0440\u0456\u0430\u043b\u0438 \u043f\u0440\u043e \u043a\u0443\u043b\u044c\u0442\u0443\u0440\u0443 \u0447\u0438\u0442\u0430\u043d\u043d\u044f \u0456 \u043c\u0438\u0441\u0442\u0435\u0446\u0442\u0432\u043e \u043a\u043d\u0438\u0433\u043e\u0432\u0438\u0434\u0430\u043d\u043d\u044f","cikavaideya","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u043f\u0435\u0440\u0435\u043a\u043b\u0430\u0434 \u0442\u0430 \u043e\u0437\u0432\u0443\u0447\u0435\u043d\u043d\u044f \u0441\u0435\u0440\u0456\u0430\u043b\u0456\u0432 \u0456 \u0444\u0456\u043b\u044c\u043c\u0456\u0432","CikavaNauka","\u043f\u043e\u043f\u0443\u043b\u044f\u0440\u0438\u0437\u0443\u0454 \u043d\u0430\u0443\u043a\u0443 \u0443\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u043e\u044e","costua","\u0440\u043e\u0431\u0438\u043c\u043e \u0437 \u0443\u043a\u0440\u0430\u0457\u043d\u0446\u0456\u0432 \u0441\u0432\u0456\u0434\u043e\u043c\u0438\u0445 \u043f\u043b\u0430\u0442\u043d\u0438\u043a\u0456\u0432 \u043f\u043e\u0434\u0430\u0442\u043a\u0456\u0432","cukr","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u043d\u043e\u0432\u0438\u043d\u0438 \u0442\u0430 \u0456\u0441\u0442\u043e\u0440\u0456\u0457 \u043c\u0456\u0441\u0442\u0430 \u0421\u0443\u043c\u0438","diasporiana","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 writing/journalism and cool stuff","Did_Oles_Falcon_UA","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 videos and communities","DITHOM","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 videos","diypodcast","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u0456\u0441\u0442\u043e\u0440\u0456\u0457, \u0434\u0435 \u043f\u0456\u0434\u043f\u0440\u0438\u0454\u043c\u0446\u0456 \u0434\u0456\u043b\u044f\u0442\u044c\u0441\u044f \u0434\u043e\u0441\u0432\u0456\u0434\u043e\u043c \u0437\u0430\u043f\u0443\u0441\u043a\u0443 \u0432\u043b\u0430\u0441\u043d\u043e\u0457 \u0441\u043f\u0440\u0430\u0432\u0438","dolliteraturne","\u0442\u0435\u0440\u0435\u0432\u0435\u043d\u0456 \u043f\u0440\u043e \u043a\u043d\u0438\u0433\u0438 \u043d\u0430 YouTube","donorua","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 digital platform for quick blood donor search","dostupno2020","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 video","dovkolabotanika","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 scientific memes, popular science video and textes","dustanciyka","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u043e\u0441\u0432\u0456\u0442\u043d\u0456 \u0432\u0456\u0434\u0435\u043e","dvokolisni_hroniky","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 travel videos","eileena","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 covers and translations of songs","enjoythescience","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 education content for Ukrainians","enma_and_books","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u0432\u0456\u0434\u0435\u043e\u0440\u0435\u0446\u0435\u043d\u0437\u0456\u0457 \u0442\u0430 \u043e\u0433\u043b\u044f\u0434\u0438 \u043a\u043d\u0438\u0433","EuropeanPravda","c\u0442\u0432\u043e\u0440\u044e\u0454 news and analysis about Ukraine's European path","faideyren","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 cosplay","familybudgetcomua","\u0434\u043e\u043f\u043e\u043c\u0430\u0433\u0430\u0454 \u0443\u043a\u0440\u0430\u0457\u043d\u0446\u044f\u043c \u043f\u0440\u0438\u0439\u043c\u0430\u0442\u0438 \u0440\u043e\u0437\u0443\u043c\u043d\u0456 \u0444\u0456\u043d\u0430\u043d\u0441\u043e\u0432\u0456 \u0440\u0456\u0448\u0435\u043d\u043d\u044f","fazugenealogy","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 videos and local business","findwayua","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u0431\u0430\u0437\u0443 \u0446\u0456\u043a\u0430\u0432\u0438\u0445 \u043c\u0456\u0441\u0446\u044c \u0423\u043a\u0440\u0430\u0457\u043d\u0438 \u0442\u0430 \u0440\u043e\u0437\u0432\u0438\u0432\u0430\u0454 \u0442\u0443\u0440\u0438\u0437\u043c","fromfaraway",p,"fvua","\u043e\u0437\u0432\u0443\u0447\u0443\u0454 \u0430\u043d\u0456\u043c\u0435 \u0442\u0430 \u043c\u0443\u043b\u044c\u0441\u0435\u0440\u0456\u0430\u043b\u0438 \u0443\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u043e\u044e","gamestreetua","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u0456\u0433\u0440\u043e\u0432\u0438\u0439 \u043f\u043e\u0440\u0442\u0430\u043b","Geek_Informator","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 news and reviews (videogames, movies, technologies, comics)","Geek_Journal",q,"GulbanuBibicheva","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 videos","gwean_maslinka","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u043e\u0437\u0432\u0443\u0447\u0435\u043d\u043d\u044f \u0430\u043d\u0456\u043c\u0435 \u0443\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u043e\u044e","happypaw","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 videos","historyUA","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u0432\u0456\u0434\u0435\u043e \u043f\u0440\u043e \u0456\u0441\u0442\u043e\u0440\u0456\u044e \u0423\u043a\u0440\u0430\u0457\u043d\u0438 \u0442\u0430 \u0441\u0432\u0456\u0442\u0443","historywall","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 videos","horobyna","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 videos","hotperevod","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u0441\u0432\u0456\u0436\u0438\u0439 \u0443\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u0438\u0439 \u043a\u043e\u043d\u0442\u0435\u043d\u0442, \u043c\u0438 \u0442\u0443\u0442 \u0430\u0431\u0438 \u0432\u0438 \u0441\u043c\u0456\u044f\u043b\u0438\u0441\u044f","Hromadske_Radio","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u0432\u0434\u0443\u043c\u043b\u0438\u0432\u0430 \u0440\u043e\u0437\u043c\u043e\u0432\u0430 \u0443 \u043f\u0440\u044f\u043c\u043e\u043c\u0443 \u0435\u0444\u0456\u0440\u0456 \u0442\u0430 \u043f\u043e\u0434\u043a\u0430\u0441\u0442\u0430\u0445","imtgsh","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u0432\u0456\u0434\u0435\u043e \u0434\u043b\u044f \u044e\u0442\u0443\u0431 \u043a\u0430\u043d\u0430\u043b\u0430 \u0456\u043c\u0435\u043d\u0456 \u0422.\u0413. \u0428\u0435\u0432\u0447\u0435\u043d\u043a\u0430","informnapalm","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 content of public importance","inforules","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u0432\u0456\u0434\u0435\u043e \u043f\u0440\u043e \u0442\u0435 \u044f\u043a \u0441\u043f\u043e\u0436\u0438\u0432\u0430\u0442\u0438 \u0456\u043d\u0444\u043e\u0440\u043c\u0430\u0446\u0456\u044e \u0431\u0435\u0437\u043f\u0435\u0447\u043d\u043e","islndtv","\u043f\u0435\u0440\u0448\u0438\u0439 \u043a\u043e\u043d\u0442\u0440\u043f\u0440\u043e\u043f\u0430\u0433\u0430\u043d\u0434\u0438\u0441\u0442\u0441\u044c\u043a\u0438\u0439","itguildukraine","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u043b\u0435\u0433\u0456\u0442\u0438\u043c\u043d\u0435, \u043d\u0435\u0437\u0430\u043b\u0435\u0436\u043d\u0435 \u0442\u0430 \u0434\u0435\u043c\u043e\u043a\u0440\u0430\u0442\u0438\u0447\u043d\u0435 \u043f\u0440\u043e\u0444\u0435\u0441\u0456\u0439\u043d\u0435 \u043e\u0431'\u0454\u0434\u043d\u0430\u043d\u043d\u044f","itpassions","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u0456\u043d\u0442\u0435\u0440\u0432'\u044e \u0437 IT-\u0441\u043f\u0435\u0446\u0456\u0430\u043b\u0456\u0441\u0442\u0430\u043c\u0438","itworksonmypc","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 vlog","iyura","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u043f\u043e\u0434\u043a\u0430\u0441\u0442 \u043f\u0440\u043e \u043c\u0435\u0439\u043a\u0435\u0440\u0456\u0432 \u0442\u0430 \u0432\u0456\u0434\u043a\u0440\u0438\u0442\u0456 \u043c\u0430\u0439\u0441\u0442\u0435\u0440\u043d\u0456","jarvis_net_ua","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u0414\u0436\u0430\u0440\u0432\u0456\u0441, WRating, \u0422\u0438\u0414\u0438\u0432\u0438, \u0422\u0438\u0414\u0438\u0432\u0438\u0414\u0456\u0442\u0438","JBPetersonUkraine","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u043f\u0435\u0440\u0435\u043a\u043b\u0430\u0434\u0438 \u043f\u0440\u043e\u0444\u0435\u0441\u043e\u0440\u0430 \u0414\u0436\u043e\u0440\u0434\u0430\u043d\u0430 \u041f\u0456\u0442\u0435\u0440\u0441\u043e\u043d\u0430 \u0443\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u043e\u044e","kartofanchyk","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u0440\u043e\u0437\u043f\u043e\u0432\u0456\u0434\u0430\u044e \u043f\u0440\u043e \u0442\u0435\u0445\u043d\u043e\u043b\u043e\u0433\u0456\u0457 \u043d\u0430 \u043f\u0440\u0438\u043a\u043b\u0430\u0434\u0456 \u043f\u0440\u043e\u0446\u0435\u0441\u0443 \u0441\u0430\u0434\u0456\u043d\u043d\u044f \u043a\u0430\u0440\u0442\u043e\u043f\u043b\u0456","kgbfiles","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u0440\u043e\u0437\u0441\u0435\u043a\u0440\u0435\u0447\u0435\u043d\u0456 \u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u0438 \u0437 \u0430\u0440\u0445\u0456\u0432\u0443 \u0421\u0411\u0423","KhmarynkaUA","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u0443\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u0438\u0439 \u043a\u043e\u043d\u0442\u0435\u043d\u0442 \u0434\u043b\u044f \u0434\u0456\u0442\u0435\u0439 \u0456 \u0434\u043e\u0440\u043e\u0441\u043b\u0438\u0445","kliusmarichka","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u0432\u0456\u0434\u0435\u043e \u043a\u043e\u043d\u0442\u0435\u043d\u0442 \u043d\u0430 \u043a\u043d\u0438\u0436\u043a\u043e\u0432\u0443 \u0442\u0435\u043c\u0430\u0442\u0438\u043a\u0443 \u0443\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u043e\u044e \u043c\u043e\u0432\u043e\u044e","knyzhkova_dylerka",o,"konotopcity","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u043a\u043e\u043d\u0442\u0435\u043d\u0442","kozak_media","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u044e\u0442\u044e\u0431 \u043a\u0430\u043d\u0430\u043b \u043f\u0440\u0438\u0441\u0432\u044f\u0447\u0435\u043d\u0438\u0439 \u043f\u0440\u0438\u043a\u043b\u0430\u0434\u043d\u0456\u0439 \u0456\u0441\u0442\u043e\u0440\u0456\u0457 \u0423\u043a\u0440\u0430\u0457\u043d\u0438","krutoznavstvo","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u043f\u0440\u043e\u0441\u0432\u0456\u0442\u043d\u0438\u0446\u044c\u043a\u0438\u0439 \u043a\u043b\u0443\u0431 \u043a\u0440\u0443\u0442\u043e\u0437\u043d\u0430\u0432\u0446\u0456\u0432","ksenia_kellerman","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u043a\u043d\u0438\u0436\u043a\u043e\u0432\u0438\u0439 \u0437\u0430\u0442\u0438\u0448\u043e\u043a \u043d\u0430 YouTube","kultpodcast",p,"kuznetsovalife","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u0441\u043b\u043e\u0432\u0430 \u0456 \u0440\u0435\u0447\u0435\u043d\u043d\u044f","les_kurbas_theatre","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 ukrainian intellectual theater","letslearnukrainian","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 videos on ukrainian grammar and vocabulary","liganet",n,"liroom","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u043c\u0435\u0434\u0456\u0430 \u043f\u0440\u043e \u043d\u043e\u0432\u0443 \u0443\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u0443 \u043c\u0443\u0437\u0438\u043a\u0443","lowcostua","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 writing/journalism and communities","loyer","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u043c\u0456\u0441\u0446\u0435, \u0434\u0435 \u0432\u0438 \u043c\u043e\u0436\u0435\u0442\u0435 \u0437\u0456\u0437\u043d\u0430\u0442\u0438\u0441\u044f \u043d\u0430\u043c \u0443 \u043f\u043e\u0447\u0443\u0442\u0442\u044f\u0445","lustrum",n,"LvivNationalPhilharmonic","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 music","Lykhovii","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 online web-site","MaksPodzigun","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 F1Podcast patreon club","mangua","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 podcast series about manga and anime in Ukraine","manifestplatform","\u0432\u0456\u0434\u0435\u043e","mariamblog","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 video reviews, Ukrainian dubbing video","mefreel","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u043c\u0443\u0437\u0438\u043a\u0443","merezhyvo","\u0437\u0431\u0435\u0440\u0456\u0433\u0430\u0454 \u0442\u0430 \u043f\u043e\u043f\u0443\u043b\u044f\u0440\u0438\u0437\u0443\u0454 \u0434\u0435\u0440\u0435\u0432'\u044f\u043d\u0443 \u0430\u0440\u0445\u0456\u0442\u0435\u043a\u0442\u0443\u0440\u0443 \u0427\u0435\u0440\u043d\u0456\u0433\u0456\u0432\u0449\u0438\u043d\u0438","miketvua","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u0443\u043a\u0440\u0430\u0457\u043d\u043e\u043c\u043e\u0432\u043d\u0438\u0439 \u043a\u043e\u043d\u0442\u0435\u043d\u0442 \u043d\u0430 \u044e\u0442\u044e\u0431","milinua","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u043c\u0456\u043b\u0456\u0442\u0430\u0440\u043d\u0438\u0439 \u043f\u043e\u0440\u0442\u0430\u043b","mokrec","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 journalism","mukha","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 cosplay and photography","musetang","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u0433\u0456\u0442\u0430\u0440\u043d\u0456 \u043a\u0430\u0432\u0435\u0440\u0438 \u0442\u0430 \u0440\u043e\u0437\u0431\u043e\u0440\u0438 \u0443\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u043e\u044e","nareshticlub","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u043f\u0440\u043e\u0441\u0442\u0456\u0440 \u0434\u043b\u044f \u0441\u043f\u0456\u043b\u043a\u0443\u0432\u0430\u043d\u043d\u044f \u0443\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u043e\u044e","naukaua","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u043d\u043e\u0432\u0438\u043d\u0438 \u043d\u0430\u0443\u043a\u0438 \u0443\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u043e\u044e","nebolviv","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u0432\u0456\u0434\u0435\u043e \u043f\u0440\u043e \u0446\u0456\u043a\u0430\u0432\u0456 \u043c\u0456\u0441\u0446\u044f \u0413\u0430\u043b\u0438\u0447\u0438\u043d\u0438, \u0423\u043a\u0440\u0430\u0457\u043d\u0438 \u0456 \u043d\u0435 \u0442\u0456\u043b\u044c\u043a\u0438","need_science","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u043d\u0430\u0443\u043a\u043e\u0432\u043e-\u043f\u043e\u043f\u0443\u043b\u044f\u0440\u043d\u0438\u0439 \u043a\u043e\u043d\u0442\u0435\u043d\u0442 \u0443\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u043e\u044e","nestorvolya","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u0443\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u0438\u0439 \u043d\u0435\u0437\u0430\u043b\u0435\u0436\u043d\u0438\u0439 \u0431\u043b\u043e\u0433\u0435\u0440, \u0433\u0440\u043e\u043c\u0430\u0434\u0441\u044c\u043a\u0430 \u0456\u043d\u0456\u0446\u0456\u0430\u0442\u0438\u0432\u0430 \u0456\u043d\u0444\u043e\u0412\u0410\u0420\u0422\u0410","nicopogarskiy","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 papercraft 2D miniatures","ninaukraine","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 fun, inspiring and educational videos","nonamepodcast","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u0443\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u0438\u0439 \u043f\u043e\u0434\u043a\u0430\u0441\u0442 \u043f\u0440\u043e \u043a\u0456\u0431\u0435\u0440\u0431\u0435\u0437\u043f\u0435\u043a\u0443","NowasteUkraine","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 public sorting spaces ","obrazpublicua","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 better worlds","odesafineartsmuseum","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u0441\u0443\u0447\u0430\u0441\u043d\u0438\u0439 \u0443\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u0438\u0439 \u043c\u0443\u0437\u0435\u0439","office_transformation","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 video and podcast","oldboiua","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u0432\u0456\u0434\u0435\u043e \u0442\u0430 \u0441\u0442\u0440\u0456\u043c\u0438 \u043f\u0440\u043e \u0456\u0433\u0440\u0438 \u0442\u0430 \u0456\u0433\u0440\u043e\u0432\u0443 \u0456\u043d\u0434\u0443\u0441\u0442\u0440\u0456\u044e \u0443\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u043e\u044e","Ole_Sia","\u0441\u043b\u0456\u0434\u043a\u0443\u044e \u0437\u0430 \u0442\u0440\u0435\u043d\u0434\u0430\u043c\u0438, \u043d\u0435 \u0431\u043e\u044e\u0441\u044c \u0442\u043e\u0432\u0441\u0442\u0438\u0445 \u043a\u043d\u0438\u0436\u043e\u043a","oleksandr_ant","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 books and articles about economics, including economic news","olesyabobruyko","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u0432\u0456\u0434\u0435\u043e \u043f\u0440\u043e \u043f\u0441\u0438\u0445\u0456\u0447\u043d\u0435 \u0437\u0434\u043e\u0440\u043e\u0432'\u044f \u0456 \u0449\u0430\u0441\u0442\u044f","omtvua","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u0443\u043a\u0440\u0430\u0457\u043d\u043e\u043c\u043e\u0432\u043d\u0438\u0439 \u043a\u043e\u043d\u0442\u0435\u043d\u0442 \u043d\u0430 \u0432\u0430\u0436\u043b\u0438\u0432\u0456 \u0441\u043e\u0446\u0456\u0430\u043b\u044c\u043d\u043e-\u043f\u043e\u043b\u0456\u0442\u0438\u0447\u043d\u0456 \u0442\u0435\u043c\u0438","otvinta","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 music and shows for you","oum_spadshchyna","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u043f\u0430\u0442\u0440\u0456\u043e\u0442\u0438\u0447\u043d\u0435 \u0441\u0435\u0440\u0435\u0434\u043e\u0432\u0438\u0449\u0435 \u0434\u043b\u044f \u0441\u0432\u0456\u0434\u043e\u043c\u0438\u0445 \u0442\u0430 \u0434\u0456\u0454\u0432\u0438\u0445 \u043c\u043e\u043b\u043e\u0434\u0438\u0445 \u0443\u043a\u0440\u0430\u0457\u043d\u0446\u0456\u0432","pad0n","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u0443\u043a\u0440\u0430\u0457\u043d\u043e\u043c\u043e\u0432\u043d\u0438\u0439 \u0432\u043c\u0456\u0441\u0442: \u043e\u0437\u0432\u0443\u0447\u0443\u0432\u0430\u043d\u043d\u044f, \u0456\u0433\u0440\u043e\u0432\u0456 \u0432\u0456\u0434\u0435\u043e, \u043f\u043e\u0434\u043a\u0430\u0441\u0442\u0438 \u0442\u0430 \u0441\u0442\u0440\u0456\u043c\u0438","palindrom","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 music, video, lyrics","PaniVchytelka","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u043e\u0441\u0432\u0456\u0442\u043d\u0456\u0439 \u043a\u043e\u043d\u0442\u0435\u043d\u0442","pankarpan","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u0443\u043a\u0440\u0430\u0457\u043d\u043e\u043c\u0432\u043e\u043d\u0438\u0439 \u043a\u0430\u043d\u0430\u043b \u043f\u0440\u0438\u0441\u0432\u044f\u0447\u0435\u043d\u0438\u0439 \u043a\u0456\u043d\u043e \u0442\u0430 \u043f\u043e\u043f-\u043a\u0443\u043b\u044c\u0442\u0443\u0440\u0456","pereozvuchka_ua","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u0441\u043c\u0456\u0448\u043d\u0456 \u043e\u0437\u0432\u0443\u0447\u0443\u0432\u0430\u043d\u043d\u044f \u0443\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u043e\u044e","pershosvit","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u0440\u043e\u0437\u0432\u0430\u0436\u0430\u043b\u044c\u043d\u043e-\u043e\u0441\u0432\u0456\u0442\u043d\u0456\u0439 \u0430\u043d\u0456\u043c\u0430\u0446\u0456\u0439\u043d\u0438\u0439 \u044e\u0442\u044e\u0431 \u043a\u0430\u043d\u0430\u043b \u0434\u043b\u044f \u0434\u0456\u0442\u0435\u0439","pityatko","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u043d\u0430\u0432\u043a\u043e\u043b\u043e\u043f\u0441\u0438\u0445\u043e\u043b\u043e\u0433\u0456\u0447\u043d\u0456 \u043d\u0430\u0443\u043a\u043e\u0432\u043e-\u043f\u043e\u043f\u0443\u043b\u044f\u0440\u043d\u0456 \u0432\u0456\u0434\u0435\u043e ","pivpodcast","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u0443\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u043e\u043c\u043e\u0432\u043d\u0456 \u043f\u043e\u0434\u043a\u0430\u0441\u0442\u0438 \u043f\u0440\u043e \u043c\u0443\u0437\u0438\u043a\u0443","portnikov","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 article, video, blogs","ppidcast","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u043a\u043b\u044c\u043e\u0432\u0456 \u043f\u043e\u0434\u043a\u0430\u0441\u0442\u0438","prihodnik","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 Dungeons & Dragons \u0443\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u043e\u044e: \u043f\u0435\u0440\u0435\u043a\u043b\u0430\u0434\u0438, \u043c\u0430\u043f\u0438, \u0456\u043b\u044e\u0441\u0442\u0440\u0430\u0446\u0456\u0457 \u0442\u043e\u0449\u043e","propohody","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u043d\u0430\u0439\u043a\u0440\u0443\u0442\u0456\u0448\u0438\u0439 \u043f\u0440\u043e\u0454\u043a\u0442 \u043f\u0440\u043e \u0433\u043e\u0440\u0438, \u043c\u0430\u043d\u0434\u0440\u0438 \u0456 \u0441\u043f\u043e\u0440\u044f\u0434\u0436\u0435\u043d\u043d\u044f, \u0443\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u043e\u044e","prytula","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 videos","PSUkraine",'\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u0441\u043f\u0456\u043b\u044c\u043d\u043e\u0442\u0443 "Play State Ukraine"',"radioaristocrats","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 podcasts and videos","radiopodil","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u043f\u0435\u0440\u0448\u0443 \u043d\u0435\u0437\u0430\u043b\u0435\u0436\u043d\u0443 \u0441\u043f\u0456\u043b\u044c\u043d\u043e\u0442\u0443 \u0443\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u043e\u043c\u043e\u0432\u043d\u0438\u0445 \u043f\u043e\u0434\u043a\u0430\u0441\u0442\u0456\u0432","radioskorbota","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u043f\u043e\u0434\u043a\u0430\u0441\u0442\u0438","radioskovoroda","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 writing/journalism and podcasts","raguli","\u0434\u043e\u0441\u043b\u0456\u0434\u0436\u0443\u0454 \u0445\u0438\u0431\u0438 \u043d\u0430\u0448\u043e\u0433\u043e \u0441\u043e\u0446\u0456\u0443\u043c\u0443 \u0439 \u0443\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u043e\u0433\u043e \u043c\u0435\u0434\u0456\u0430\u043f\u0440\u043e\u0441\u0442\u043e\u0440\u0443","rationalist","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u0443\u043a\u0440\u0430\u0457\u043d\u043e\u043c\u043e\u0432\u043d\u0438\u0439 \u043a\u043e\u043d\u0442\u0435\u043d\u0442 \u043d\u0430\u0443\u043a\u043e\u0432\u043e\u0457 \u0442\u0435\u043c\u0430\u0442\u0438\u043a\u0438","readingmary","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 booktube \u043a\u0430\u043d\u0430\u043b","rendarosua","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 videos about videogames and geek stuff in Ukrainian","rist_center","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u0443\u043a\u0440\u0430\u0457\u043d\u043e\u043c\u043e\u0432\u043d\u0438\u0439 \u043d\u0430\u0432\u0447\u0430\u043b\u044c\u043d\u0438\u0439 \u043a\u043e\u043d\u0442\u0435\u043d\u0442 \u0434\u043b\u044f \u043a\u0440\u0435\u0430\u0442\u0438\u0432\u043d\u043e\u0457 \u0442\u0430 \u0406\u0422-\u0456\u043d\u0434\u0443\u0441\u0442\u0440\u0456\u0457","RockRadioUA","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 online \u0440\u0430\u0434\u0456\u043e","rsukraine_org_ua","\u0434\u043e\u043f\u043e\u043c\u0430\u0433\u0430\u0454 \u0432\u0456\u0434\u043d\u043e\u0432\u0438\u0442\u0438 \u0437\u0434\u043e\u0440\u043e\u0432'\u044f \u0437\u0430\u0445\u0438\u0441\u043d\u0438\u043a\u0430\u043c \u0423\u043a\u0440\u0430\u0457\u043d\u0438","rudnyi","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 tutorials, education videos","Salertino","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u043a\u043e\u043d\u0442\u0435\u043d\u0442 \u0443\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u043e\u044e \u043f\u0440\u043e \u043a\u0456\u043d\u043e \u0456 \u0431\u043b\u0438\u0437\u044c\u043a\u043e \u0446\u0456\u0454\u0457 \u0442\u0435\u043c\u0438","sbt_localization","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 translations","serhiyzhadan","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 writing/journalism and music","sershenzaritskaya","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 rock and metal covers ","shitiknowlive","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u0432\u0430\u0448 \u043b\u044e\u0431\u0438\u043c\u0438\u0439 \u0443\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u0438\u0439 \u043f\u043e\u0434\u043a\u0430\u0441\u0442","shobsho","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 humor, politics, gonzo journalism","skrypinua","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 YouTube-channels","slidstvo_info","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u0436\u0443\u0440\u043d\u0430\u043b\u0456\u0441\u0442\u0441\u044c\u043a\u0456 \u0440\u043e\u0437\u0441\u043b\u0456\u0434\u0443\u0432\u0430\u043d\u043d\u044f","slukh","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u043e\u043d\u043b\u0430\u0439\u043d-\u043c\u0435\u0434\u0456\u0430 \u043f\u0440\u043e \u043c\u0443\u0437\u0438\u043a\u0443 \u0442\u0430 \u0432\u0441\u0435, \u0449\u043e \u043d\u0430\u0432\u043a\u043e\u043b\u043e \u043d\u0435\u0457","soblya","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u043a\u043e\u0440\u043e\u043b\u0456 \u043f\u043e\u0434\u043a\u0430\u0441\u0442\u0438\u043d\u0433\u0443 \u0423\u043a\u0440\u0430\u0457\u043d\u0438, \u043f\u0440\u0438\u043d\u0430\u0439\u043c\u043d\u0456 \u041b\u044c\u0432\u0456\u0432\u0441\u044c\u043a\u043e\u0457 \u043e\u0431\u043b\u0430\u0441\u0442\u0456","stasmusicmaker","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 metal music content","StopTheMoose","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u0437\u043c\u0456\u043d\u0438 \u0432 \u0441\u0432\u0456\u0434\u043e\u043c\u043e\u0441\u0442\u0456 \u0443\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u0438\u0445 \u0433\u0440\u043e\u043c\u0430\u0434\u044f\u043d","strugachka","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 videos and cool stuff","svidomi","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u0430\u043a\u0442\u0443\u0430\u043b\u044c\u043d\u0456 \u043d\u043e\u0432\u0438\u043d\u0438 \u0442\u0430 \u0441\u0443\u0441\u043f\u0456\u043b\u044c\u043d\u0438\u0439 \u043c\u0435\u0434\u0456\u0430-\u043a\u043e\u043d\u0442\u0435\u043d\u0442","svitlana","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 YouTube videos","svitlotin","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u0443\u043a\u0440\u0430\u0457\u043d\u043e\u043c\u043e\u0432\u043d\u0456 \u0432\u0456\u0434\u0435\u043e \u043d\u0430 \u0456\u0441\u0442\u043e\u0440\u0438\u0447\u043d\u0443 \u0442\u0435\u043c\u0430\u0442\u0438\u043a\u0443","TA_studio","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u043d\u0430\u0447\u0435 \u0433\u0443\u043c\u043e\u0440, \u043d\u0443 \u043c\u0438 \u0441\u043c\u0456\u0454\u043c\u043e\u0441\u044c","takflix","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u0443\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u0435 \u043a\u0456\u043d\u043e \u043b\u0435\u0433\u0430\u043b\u044c\u043d\u043e \u043e\u043d\u043b\u0430\u0439\u043d","tanyacroft","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 cosplay content","tatotake","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 videos and writing/journalism","tatysho","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u043f\u043e\u0434\u043a\u0430\u0441\u0442","Tayemna_kimnata","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u0432\u0456\u0434\u0435\u043e \u0442\u0430 \u0442\u0440\u0430\u043d\u0441\u043b\u044f\u0446\u0456\u0457 \u043f\u0440\u043e \u0432\u0456\u0434\u0435\u043e\u0456\u0433\u0440\u0438","taytake","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 videos and podcasts","techtoloka","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 communities","teoriyagry","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u0442\u0435\u043a\u0441\u0442\u043e\u0432\u0456 \u0442\u0430 \u0432\u0456\u0434\u0435\u043e\u043e\u0433\u043b\u044f\u0434\u0438 \u043d\u0430 \u043d\u0430\u0441\u0442\u0456\u043b\u044c\u043d\u0456 \u0456\u0433\u0440\u0438 \u0442\u0430 \u0434\u043e\u0442\u0438\u0447\u043d\u0456 \u0442\u0435\u043c\u0438","textyorgua","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u0436\u0443\u0440\u043d\u0430\u043b\u0456\u0441\u0442\u0438\u043a\u0430 \u0434\u0430\u043d\u0438\u0445 / data journalism","thealphacentauri","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 videos","TheAsya","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 audiobooks and gameplays voiceover translations to Ukrainian","tokar","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u0432\u0456\u0434\u0435\u043e \u043f\u0440\u043e \u0446\u0438\u0444\u0440\u043e\u0432\u0443 \u0431\u0435\u0437\u043f\u0435\u043a\u0443, \u043a\u043e\u0441\u043c\u043e\u0441 \u0456 \u0442\u0435\u0445\u043d\u043e\u043b\u043e\u0433\u0456\u0457","torontotv","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u0433\u0443\u043c\u043e\u0440\u0438\u0441\u0442\u0438\u0447\u043d\u0456, \u0441\u043e\u0446\u0456\u0430\u043b\u044c\u043d\u043e-\u043f\u043e\u043b\u0456\u0442\u0438\u0447\u043d\u0456, \u043a\u0443\u043b\u044c\u0442\u0443\u0440\u043d\u0456 \u0442\u0430 \u043d\u0435 \u0434\u0443\u0436\u0435 \u0432\u0456\u0434\u0435\u043e","totem_publisher","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u0447\u0430\u0440\u0456\u0432\u043d\u0456 \u0456\u0441\u0442\u043e\u0440\u0456\u0457","UA_direct_democracy","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u0434\u0435\u043c\u043e\u043a\u0440\u0430\u0442\u0456\u044e \u0431\u0435\u0437 \u043f\u043e\u0441\u0435\u0440\u0435\u0434\u043d\u0438\u043a\u0456\u0432","uacomix","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 comics publishing house","uaestrada","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u0443\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u0430 \u043c\u0443\u0437\u0438\u043a\u0430 50-\u0445\u201380-\u0445 \u0440\u043e\u043a\u0456\u0432","uagenealogy","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 genealogical content","uanimals","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u0433\u0443\u043c\u0430\u043d\u0456\u0441\u0442\u0438\u0447\u043d\u0438\u0439 \u0440\u0443\u0445 \u0437\u0430 \u043f\u0440\u0430\u0432\u0430 \u0442\u0432\u0430\u0440\u0438\u043d ","uareview","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u0441\u0430\u0442\u0438\u0440\u0438\u0447\u043d\u0456 \u043d\u043e\u0432\u0438\u043d\u0438 \u0443\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u043e\u044e","ubmdr","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 pool of stem cells donors in Ukraine","ukrainedancing","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u043f\u043e\u0434\u043a\u0430\u0441\u0442\u0438/ \u043c\u0443\u0437\u0438\u043a\u0443 \u0443\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u043e\u044e \u043c\u043e\u0432\u043e\u044e","ukrainer","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 videos and journalism","UkrainianLiveClassic","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 1st mobile app with classical music of Ukraine","ukrainianweek","\u0441\u0442\u0432\u043e\u0440\u044e\u0454\u043c\u043e \u044f\u043a\u0456\u0441\u043d\u0438\u0439 \u043a\u043e\u043d\u0442\u0435\u043d\u0442 \u0434\u043b\u044f \u043d\u0430\u0448\u043e\u0457 \u0430\u0443\u0434\u0438\u0442\u043e\u0440\u0456\u0457","ukrmod","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 stories about modern architecture and monumental art of Ukraine","undergroundhumanities","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u043e\u0441\u0432\u0456\u0442\u043d\u0456 \u0432\u0456\u0434\u0435\u043e \u043f\u0440\u043e \u043c\u043e\u0432\u0443, \u043b\u0456\u0442\u0435\u0440\u0430\u0442\u0443\u0440\u0443 \u0442\u0430 \u043a\u0443\u043b\u044c\u0442\u0443\u0440\u0443","user?u=16774315","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 graphic designer and illustrator","user?u=28899940","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 fiction for children","user?u=44661751","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u0432\u0456\u0434\u0435\u043e \u043f\u0440\u043e \u0441\u043f\u0440\u0430\u0432\u0436\u043d\u044e \u0423\u043a\u0440\u0430\u0457\u043d\u0443","user?u=50286152","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 podcast","user?u=76475135","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u043b\u0435\u043a\u0446\u0456\u0457, \u043f\u043e\u0434\u043a\u0430\u0441\u0442\u0438 \u0437 \u043b\u0456\u0442\u0435\u0440\u0430\u0442\u0443\u0440\u0438","user?u=83097324","\u043a\u043d\u0438\u0436\u043a\u0438, \u043f\u0442\u0430\u0448\u043a\u0438 \u0456 \u0440\u043e\u043a-\u043d-\u0440\u043e\u043b","valerii","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 videos and writing","vatashow","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u043f\u0430\u043b\u0430\u044e\u0447\u0430 \u0432\u0430\u0442\u0430","vatatv","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 Vata TV","vertigoUA","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 media","verumT","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u0432\u0456\u0434\u043e\u0441\u0438","vidminniotsinky","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u0443\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u0430 \u043c\u043e\u0432\u0430 \u0442\u0430 \u043b\u0456\u0442\u0435\u0440\u0430\u0442\u0443\u0440\u0430","vmistozher","\u0441\u043b\u043e\u0432\u043e\u0442\u0456\u043a \u043f\u0440\u043e \u0437\u0434\u043e\u0440\u043e\u0432\u0435 \u0441\u043f\u043e\u0436\u0432\u0438\u0430\u043d\u043d\u044f \u0432\u043c\u0456\u0441\u0442\u0456\u0432","volynonline","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u0456\u043d\u0442\u0435\u0440\u043d\u0435\u0442-\u0432\u0438\u0434\u0430\u043d\u043d\u044f (mas media)","VorobieiBohdan","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u043e\u0433\u043b\u044f\u0434\u0438 \u0437\u043e\u0440\u044f\u043d\u043e\u0433\u043e \u043d\u0435\u0431\u0430 \u0442\u0430 \u0430\u0441\u0442\u0440\u043e\u043d\u043e\u043c\u0456\u0447\u043d\u0438\u0445 \u043f\u043e\u0434\u0456\u0439","vovazilvova","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u043f\u0456\u0441\u043d\u0456, \u043c\u0443\u0437\u0438\u0447\u043d\u0456 \u0432\u0456\u0434\u0435\u043e \u0456 \u043a\u043e\u043d\u0442\u0435\u043d\u0442, \u0449\u043e \u043d\u0430\u0434\u0438\u0445\u0430\u0454, \u0442\u0456\u0448\u0438\u0442\u044c \u0456 \u0431\u0430\u0434\u044c\u043e\u0440\u0438\u0442\u044c","vovkst","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u043a\u043e\u043d\u0442\u0435\u043d\u0442 \u043f\u0440\u043e \u0456\u043d\u0432\u0435\u0441\u0442\u0438\u0446\u0456\u0457 \u0432 \u0423\u043a\u0440\u0430\u0457\u043d\u0456","vrajennya","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 communities and podcasts","vsesvit_ua","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u0432\u0456\u0434\u0435\u043e \u043f\u0440\u043e \u043a\u043e\u0441\u043c\u043e\u0441 \u0443\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u043e\u044e","vyshnevyjcvit","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 videos about books","WBG","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 board game videos, \u0432\u0456\u0434\u0435\u043e \u043f\u0440\u043e \u043d\u0430\u0441\u0442\u0456\u043b\u044c\u043d\u0456 \u0456\u0433\u0440\u0438 \u0443\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u043e\u044e","wildfoxfilm","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u043f\u0440\u043e \u0456\u0441\u0442\u043e\u0440\u0456\u044e \u0442\u0430 \u0436\u0438\u0442\u0442\u044f \u0432 \u043c\u0438\u043d\u0443\u043b\u043e\u043c\u0443: \u0432\u0435\u0441\u0435\u043b\u043e, \u043f\u0440\u043e\u0441\u0442\u043e, \u0437 \u043f\u0438\u0432\u043e\u043c","wszystko_band","\u0441\u0442\u0432\u043e\u0440\u044e\u0454  Ukrainian music, music videos","yanina","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 movies and YouTube shows","zagin","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u043e\u0433\u043b\u044f\u0434\u0438 \u043d\u0430 \u0443\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u0435 \u043a\u0456\u043d\u043e","yanareadwithme",o,"zasnovnyky","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 \u043f\u043e\u0434\u043a\u0430\u0441\u0442 \u043f\u0440\u043e \u0443\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u0438\u0445 \u0437\u043c\u0456\u043d\u043e\u0442\u0432\u043e\u0440\u0446\u0456\u0432, \u044f\u043a\u0456 \u0442\u0432\u043e\u0440\u044f\u0442\u044c \u0441\u044c\u043e\u0433\u043e\u0434\u0435\u043d\u043d\u044f","zhadanisobaki","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 music","zhyteli_kyieva","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 storytelling, photography, journalism ","zvedeno","\u0441\u0442\u0432\u043e\u0440\u044e\u0454 news"],m,m)})
 s($,"aEN","adt",()=>{var q="manifestplatform",p=t.N
 return A.aE(["\u041d\u0430\u0439\u043f\u043e\u043f\u0443\u043b\u044f\u0440\u043d\u0456\u0448\u0456",A.ay(p),"\u0410\u0440\u0445\u0456\u0442\u0435\u043a\u0442\u0443\u0440\u0430",A.aA(["chaplinskyvlog","merezhyvo","ukrmod"],p),"\u0412\u0456\u0439\u0441\u044c\u043a\u043e\u0432\u0435",A.aA(["informnapalm","Lykhovii","milinua"],p),"\u0413\u0443\u043c\u043e\u0440",A.aA(["AniUA","dovkolabotanika","horobyna","hotperevod","kartofanchyk","ninaukraine","pereozvuchka_ua","shobsho","TA_studio","taytake","torontotv","uareview","verumT"],p),"\u0414\u0456\u0442\u044f\u043c",A.aA(["KhmarynkaUA","oum_spadshchyna","PaniVchytelka","pershosvit","user?u=28899940"],p),"\u0414\u043e\u043f\u043e\u043c\u043e\u0433\u0430",A.aA(["donorua","dostupno2020","prytula","rsukraine_org_ua","serhiyzhadan","uanimals","ubmdr"],p),"\u0406\u0433\u0440\u0438",A.aA(["DITHOM","gamestreetua","Geek_Informator","oldboiua","pad0n","PSUkraine","rendarosua","Tayemna_kimnata","teoriyagry","TheAsya","vertigoUA","WBG"],p),"\u0406\u0441\u0442\u043e\u0440\u0456\u044f",A.aA(["historyUA","historywall","imtgsh","kgbfiles","kozak_media","svitlotin","wildfoxfilm"],p),"\u041a\u0456\u043d\u043e",A.aA(["animeK","asambleyA","Geek_Informator","Geek_Journal","mangua","mariamblog","miketvua","pankarpan","Salertino","takflix","vertigoUA","zagin"],p),"\u041a\u0443\u043b\u044c\u0442\u0443\u0440\u0430",A.aA(["les_kurbas_theatre","raguli","undergroundhumanities","vmistozher"],p),"\u041b\u0456\u0442\u0435\u0440\u0430\u0442\u0443\u0440\u0430",A.aA(["23daphnia","asambleyA","chtyvo","chytomo","diasporiana","dolliteraturne","enma_and_books","GulbanuBibicheva","kliusmarichka","knyzhkova_dylerka","ksenia_kellerman","kultpodcast","kuznetsovalife","mangua","mariamblog","Ole_Sia","readingmary","svitlana","TheAsya","vertigoUA","vrajennya","vyshnevyjcvit","user?u=76475135","user?u=83097324","yanareadwithme"],p),"\u041c\u0456\u0441\u0442\u043e\u0437\u043d\u0430\u0432\u0441\u0442\u0432\u043e",A.aA(["chaplinskyvlog","office_transformation","StopTheMoose"],p),"\u041c\u0443\u0437\u0438\u043a\u0430",A.aA(["bbproject","eileena","fromfaraway","liroom","LvivNationalPhilharmonic","mefreel","musetang","otvinta","palindrom","pivpodcast","slukh","uaestrada","ukrainedancing","UkrainianLiveClassic","vovazilvova","wszystko_band","zhadanisobaki"],p),"\u041d\u0430\u0432\u0447\u0430\u043d\u043d\u044f",A.aA(["blogmayster","dustanciyka","inforules","nareshticlub","need_science"],p),"\u041d\u0430\u0443\u043a\u0430",A.aA(["CikavaNauka","dovkolabotanika","enjoythescience","fazugenealogy","naukaua","pityatko","rationalist","uagenealogy","VorobieiBohdan","vsesvit_ua"],p),"\u041f\u0435\u0440\u0435\u043a\u043b\u0430\u0434",A.aA(["amanogawa","anitubeinua","cikavaideya","fvua","gwean_maslinka","JBPetersonUkraine","sbt_localization","strugachka"],p),"\u041f\u043e\u0434\u043e\u0440\u043e\u0436\u0456",A.aA(["dvokolisni_hroniky","findwayua","lowcostua","nebolviv","ukrainer","user?u=44661751"],p),"\u041f\u043e\u043b\u0456\u0442\u0438\u043a\u0430",A.aA(["bihusinfo","Bykvu","EuropeanPravda","informnapalm","islndtv","mokrec","nestorvolya","omtvua","portnikov","raguli","skrypinua","slidstvo_info","svidomi","textyorgua","torontotv","UA_direct_democracy","ukrainianweek","valerii","vatashow","zvedeno"],p),"\u041f\u0440\u0438\u0440\u043e\u0434\u0430",A.aA(["propohody","user?u=44661751"],p),"\u041f\u0440\u043e\u0444\u0435\u0441\u0456\u0439\u043d\u0435",A.aA(["bazilikmedia","itguildukraine","loyer","oleksandr_ant","olesyabobruyko","rist_center","user?u=50286152"],p),"\u0420\u0430\u0434\u0456\u043e",A.aA(["BlogerFM","Hromadske_Radio","radioaristocrats","radioskovoroda","RockRadioUA"],p),"\u0421\u043f\u043e\u0440\u0442",A.aA(["belkininovak","MaksPodzigun","tatotake"],p),"\u0422\u0432\u043e\u0440\u0447\u0456\u0441\u0442\u044c",A.aA(["AdrianZP","nicopogarskiy","prihodnik","stasmusicmaker","uacomix","user?u=16774315"],p),"Tex\u043d\u043e\u043b\u043e\u0433\u0456\u0457",A.aA(["itpassions","jarvis_net_ua",q,"naukaua","nonamepodcast","tokar"],p),"\u0424\u0456\u043d\u0430\u043d\u0441\u0438",A.aA(["costua","diypodcast","familybudgetcomua","vovkst"],p),"\u0420\u0456\u0437\u043d\u0435",A.aA(["ATR_UA","autogeek","balytska","behindthenews","besahy","itworksonmypc","iyura","krutoznavstvo","liganet","lustrum",q,"NowasteUkraine","odesafineartsmuseum","obrazpublicua","ppidcast","radiopodil","radioskorbota","shitiknowlive","soblya","tatysho","techtoloka","totem_publisher","zasnovnyky"],p),"\u0420\u0435\u0433\u0456\u043e\u043d\u0430\u043b\u044c\u043d\u0435",A.aA(["berehtyIF","cukr","konotopcity","volynonline","zhyteli_kyieva"],p),"\u0418\u043d\u0448\u043e\u043c\u043e\u0432\u043d\u0456",A.aA(["5HT","allyourhtml","bellatrixaiden","Did_Oles_Falcon_UA","faideyren","happypaw","letslearnukrainian","mukha","rudnyi","sershenzaritskaya","tanyacroft","thealphacentauri","vatatv","vidminniotsinky","yanina"],p)],p,A.ab("aZ<w>"))})
-s($,"aEQ","apY",()=>{var q=null,p="$",o="Did_Oles_Falcon_UA",n="dvokolisni_hroniky",m="familybudgetcomua",l="GulbanuBibicheva",k="JBPetersonUkraine",j="knyzhkova_dylerka",i="ksenia_kellerman",h="les_kurbas_theatre",g="letslearnukrainian",f="LvivNationalPhilharmonic",e="manifestplatform",d="odesafineartsmuseum",c="office_transformation",b="radioaristocrats",a="rsukraine_org_ua",a0="sbt_localization",a1="sershenzaritskaya",a2="thealphacentauri",a3="UA_direct_democracy",a4="UkrainianLiveClassic",a5="undergroundhumanities"
-return A.aE(["23daphnia",A.q("23daphnia",A.I(p,7),q),"5HT",A.q("5HT",A.I(p,39),6),"AdrianZP",A.q("AdrianZP",A.I(p,281),q),"allyourhtml",A.q("allyourhtml",A.I(p,320),176),"amanogawa",A.q("amanogawa",A.I(p,184),21),"animeK",A.q("animeK",A.I(p,1),q),"anitubeinua",A.q("anitubeinua",q,q),"AniUA",A.q("AniUA",A.I(p,2),q),"asambleyA",A.q("asambleyA",q,q),"ATR_UA",A.q("ATR_UA",A.I(p,661),88),"autogeek",A.q("autogeek",q,q),"balytska",A.q("balytska",A.I(p,50),15),"bazilikmedia",A.q("bazilikmedia",q,q),"bbproject",A.q("bbproject",q,77),"behindthenews",A.q("behindthenews",A.I(p,35),15),"belkininovak",A.q("belkininovak",A.I(p,35),27),"bellatrixaiden",A.q("bellatrixaiden",A.I(p,23),7),"berehtyIF",A.q("berehtyIF",A.I(p,51),10),"besahy",A.q("besahy",q,50),"bihusinfo",A.q("bihusinfo",A.I(p,3568),675),"BlogerFM",A.q("BlogerFM",A.I(p,0),0),"blogmayster",A.q("blogmayster",A.I(p,160),41),"Bykvu",A.q("Bykvu",q,q),"chaplinskyvlog",A.q("chaplinskyvlog",q,q),"chtyvo",A.q("chtyvo",q,17),"chytomo",A.q("chytomo",A.I(p,560),105),"cikavaideya",A.q("cikavaideya",q,q),"CikavaNauka",A.q("CikavaNauka",A.I(p,1338),292),"costua",A.q("costua",A.I(p,555),146),"cukr",A.q("cukr",A.I(p,218),39),"diasporiana",A.q("diasporiana",A.I(p,94),q),o,A.q(o,q,42),"DITHOM",A.q("DITHOM",A.I(p,28),q),"diypodcast",A.q("diypodcast",q,q),"dolliteraturne",A.q("dolliteraturne",q,q),"donorua",A.q("donorua",A.I(p,313),69),"dostupno2020",A.q("dostupno2020",A.I(p,76),12),"dovkolabotanika",A.q("dovkolabotanika",A.I(p,255),77),"dustanciyka",A.q("dustanciyka",A.I(p,41),24),n,A.q(n,A.I(p,453),84),"eileena",A.q("eileena",q,216),"enjoythescience",A.q("enjoythescience",q,q),"enma_and_books",A.q("enma_and_books",A.I(p,1),1),"EuropeanPravda",A.q("EuropeanPravda",A.I("\u20ac",1107),93),"faideyren",A.q("faideyren",q,q),m,A.q(m,q,69),"fazugenealogy",A.q("fazugenealogy",q,q),"findwayua",A.q("findwayua",A.I(p,0),0),"fromfaraway",A.q("fromfaraway",A.I("",0),0),"fvua",A.q("fvua",q,310),"gamestreetua",A.q("gamestreetua",A.I(p,9),11),"Geek_Informator",A.q("Geek_Informator",q,q),"Geek_Journal",A.q("Geek_Journal",q,938),l,A.q(l,q,q),"gwean_maslinka",A.q("gwean_maslinka",A.I(p,563),199),"happypaw",A.q("happypaw",A.I(p,64),3),"historyUA",A.q("historyUA",A.I(p,4153),790),"historywall",A.q("historywall",A.I(p,0),0),"horobyna",A.q("horobyna",q,34),"hotperevod",A.q("hotperevod",q,2),"Hromadske_Radio",A.q("Hromadske_Radio",A.I(p,140),21),"imtgsh",A.q("imtgsh",q,1100),"informnapalm",A.q("informnapalm",q,231),"inforules",A.q("inforules",A.I(p,166),22),"islndtv",A.q("islndtv",A.I(p,4449),2828),"itguildukraine",A.q("itguildukraine",A.I(p,2997),270),"itpassions",A.q("itpassions",q,q),"itworksonmypc",A.q("itworksonmypc",A.I(p,1180),182),"iyura",A.q("iyura",A.I(p,24),q),"jarvis_net_ua",A.q("jarvis_net_ua",A.I(p,10),q),k,A.q(k,q,q),"kartofanchyk",A.q("kartofanchyk",A.I(p,21),1),"kgbfiles",A.q("kgbfiles",A.I(p,118),40),"KhmarynkaUA",A.q("KhmarynkaUA",q,183),"kliusmarichka",A.q("kliusmarichka",A.I(p,6),q),j,A.q(j,A.I(p,3),q),"konotopcity",A.q("konotopcity",A.I(p,28),4),"kozak_media",A.q("kozak_media",A.I(p,113),18),"krutoznavstvo",A.q("krutoznavstvo",q,0),i,A.q(i,A.I(p,160),51),"kultpodcast",A.q("kultpodcast",A.I(p,584),111),"kuznetsovalife",A.q("kuznetsovalife",q,q),h,A.q(h,A.I("\u20ac",345),24),g,A.q(g,A.I(p,106),q),"liganet",A.q("liganet",A.I(p,795),192),"liroom",A.q("liroom",A.I(p,93),18),"lowcostua",A.q("lowcostua",A.I(p,3),q),"loyer",A.q("loyer",q,9),"lustrum",A.q("lustrum",A.I(p,16),q),f,A.q(f,q,3),"Lykhovii",A.q("Lykhovii",A.I(p,811),96),"MaksPodzigun",A.q("MaksPodzigun",q,745),"mangua",A.q("mangua",q,q),e,A.q(e,A.I(p,104),44),"mariamblog",A.q("mariamblog",A.I(p,271),73),"mefreel",A.q("mefreel",A.I(p,65),27),"merezhyvo",A.q("merezhyvo",A.I(p,121),30),"miketvua",A.q("miketvua",A.I(p,0),0),"milinua",A.q("milinua",A.I(p,2934),822),"mokrec",A.q("mokrec",A.I(p,1648),222),"mukha",A.q("mukha",q,4),"musetang",A.q("musetang",q,88),"nareshticlub",A.q("nareshticlub",A.I(p,78),16),"naukaua",A.q("naukaua",A.I(p,665),150),"nebolviv",A.q("nebolviv",A.I(p,2),q),"need_science",A.q("need_science",q,9),"nestorvolya",A.q("nestorvolya",q,q),"nicopogarskiy",A.q("nicopogarskiy",A.I(p,32),19),"ninaukraine",A.q("ninaukraine",A.I(p,2),14),"nonamepodcast",A.q("nonamepodcast",q,q),"NowasteUkraine",A.q("NowasteUkraine",A.I(p,237),66),"obrazpublicua",A.q("obrazpublicua",q,19),d,A.q(d,A.I(p,41),14),c,A.q(c,A.I(p,5475),543),"oldboiua",A.q("oldboiua",A.I(p,1576),319),"Ole_Sia",A.q("Ole_Sia",q,q),"oleksandr_ant",A.q("oleksandr_ant",q,27),"olesyabobruyko",A.q("olesyabobruyko",A.I(p,0),0),"omtvua",A.q("omtvua",A.I(p,106),29),"otvinta",A.q("otvinta",A.I(p,2),q),"oum_spadshchyna",A.q("oum_spadshchyna",A.I(p,14),q),"pad0n",A.q("pad0n",A.I(p,417),82),"palindrom",A.q("palindrom",A.I(p,600),78),"PaniVchytelka",A.q("PaniVchytelka",A.I(p,1),1),"pankarpan",A.q("pankarpan",A.I(p,122),51),"pereozvuchka_ua",A.q("pereozvuchka_ua",A.I(p,134),61),"pershosvit",A.q("pershosvit",q,q),"pityatko",A.q("pityatko",A.I(p,444),92),"pivpodcast",A.q("pivpodcast",q,q),"portnikov",A.q("portnikov",q,437),"ppidcast",A.q("ppidcast",A.I(p,109),30),"prihodnik",A.q("prihodnik",q,0),"propohody",A.q("propohody",q,280),"prytula",A.q("prytula",A.I(p,26140),2007),"PSUkraine",A.q("PSUkraine",q,q),b,A.q(b,q,q),"radiopodil",A.q("radiopodil",A.I(p,598),118),"radioskorbota",A.q("radioskorbota",A.I(p,82),53),"radioskovoroda",A.q("radioskovoroda",A.I(p,26),17),"raguli",A.q("raguli",A.I(p,550),128),"rationalist",A.q("rationalist",q,818),"readingmary",A.q("readingmary",A.I(p,11),11),"rendarosua",A.q("rendarosua",A.I(p,159),28),"rist_center",A.q("rist_center",q,q),"RockRadioUA",A.q("RockRadioUA",q,30),a,A.q(a,A.I(p,986),41),"rudnyi",A.q("rudnyi",A.I(p,11),3),"Salertino",A.q("Salertino",q,q),a0,A.q(a0,A.I(p,641),97),"serhiyzhadan",A.q("serhiyzhadan",A.I(p,4376),380),a1,A.q(a1,q,495),"shitiknowlive",A.q("shitiknowlive",q,470),"shobsho",A.q("shobsho",q,q),"skrypinua",A.q("skrypinua",A.I(p,2609),544),"slidstvo_info",A.q("slidstvo_info",A.I(p,830),119),"slukh",A.q("slukh",A.I(p,233),100),"soblya",A.q("soblya",A.I(p,3),q),"stasmusicmaker",A.q("stasmusicmaker",A.I(p,136),q),"StopTheMoose",A.q("StopTheMoose",q,q),"strugachka",A.q("strugachka",A.I(p,189),54),"svidomi",A.q("svidomi",A.I(p,1177),165),"svitlana",A.q("svitlana",q,4),"svitlotin",A.q("svitlotin",A.I(p,25),17),"TA_studio",A.q("TA_studio",A.I(p,326),68),"takflix",A.q("takflix",A.I(p,759),282),"tanyacroft",A.q("tanyacroft",q,22),"tatotake",A.q("tatotake",q,911),"tatysho",A.q("tatysho",A.I(p,2),1),"Tayemna_kimnata",A.q("Tayemna_kimnata",q,12),"taytake",A.q("taytake",A.I(p,19),q),"techtoloka",A.q("techtoloka",q,11),"teoriyagry",A.q("teoriyagry",A.I(p,8),q),"textyorgua",A.q("textyorgua",A.I(p,1250),199),a2,A.q(a2,q,1094),"TheAsya",A.q("TheAsya",A.I(p,5),q),"tokar",A.q("tokar",A.I(p,949),237),"torontotv",A.q("torontotv",A.I(p,4384),1370),"totem_publisher",A.q("totem_publisher",A.I(p,1),1),a3,A.q(a3,A.I(p,4),12),"uacomix",A.q("uacomix",A.I(p,1),1),"uaestrada",A.q("uaestrada",q,40),"uagenealogy",A.q("uagenealogy",q,q),"uanimals",A.q("uanimals",q,389),"uareview",A.q("uareview",A.I(p,103),50),"ubmdr",A.q("ubmdr",A.I(p,39),q),"ukrainedancing",A.q("ukrainedancing",q,q),"ukrainer",A.q("ukrainer",A.I(p,888),395),a4,A.q(a4,q,124),"ukrainianweek",A.q("ukrainianweek",A.I(p,205),51),"ukrmod",A.q("ukrmod",q,74),a5,A.q(a5,q,q),"user?u=16774315",A.q("user?u=16774315",q,q),"user?u=28899940",A.q("user?u=28899940",q,q),"user?u=44661751",A.q("user?u=44661751",q,q),"user?u=50286152",A.q("user?u=50286152",A.I(p,1322),149),"user?u=76475135",A.q("user?u=76475135",q,q),"user?u=83097324",A.q("user?u=83097324",A.I(p,62),35),"valerii",A.q("valerii",A.I(p,1715),324),"vatashow",A.q("vatashow",q,207),"vatatv",A.q("vatatv",q,400),"vertigoUA",A.q("vertigoUA",q,37),"verumT",A.q("verumT",q,4),"vidminniotsinky",A.q("vidminniotsinky",q,q),"vmistozher",A.q("vmistozher",A.I(p,171),69),"volynonline",A.q("volynonline",A.I(p,5),2),"VorobieiBohdan",A.q("VorobieiBohdan",A.I(p,0),0),"vovazilvova",A.q("vovazilvova",A.I(p,276),24),"vovkst",A.q("vovkst",q,q),"vrajennya",A.q("vrajennya",q,92),"vsesvit_ua",A.q("vsesvit_ua",A.I(p,90),23),"vyshnevyjcvit",A.q("vyshnevyjcvit",A.I(p,22),15),"WBG",A.q("WBG",q,25),"wildfoxfilm",A.q("wildfoxfilm",A.I(p,283),49),"wszystko_band",A.q("wszystko_band",q,6),"yanareadwithme",A.q("yanareadwithme",A.I(p,4),q),"yanina",A.q("yanina",A.I(p,3025),494),"zagin",A.q("zagin",A.I(p,740),421),"zasnovnyky",A.q("zasnovnyky",q,q),"zhadanisobaki",A.q("zhadanisobaki",A.I(p,89),61),"zhyteli_kyieva",A.q("zhyteli_kyieva",A.I(p,9),2),"zvedeno",A.q("zvedeno",A.I(p,52),17)],t.N,A.ab("eD"))})
+s($,"aEQ","apY",()=>{var q=null,p="Did_Oles_Falcon_UA",o="dvokolisni_hroniky",n="familybudgetcomua",m="GulbanuBibicheva",l="JBPetersonUkraine",k="knyzhkova_dylerka",j="ksenia_kellerman",i="les_kurbas_theatre",h="letslearnukrainian",g="LvivNationalPhilharmonic",f="manifestplatform",e="odesafineartsmuseum",d="office_transformation",c="radioaristocrats",b="rsukraine_org_ua",a="sbt_localization",a0="sershenzaritskaya",a1="thealphacentauri",a2="UA_direct_democracy",a3="UkrainianLiveClassic",a4="undergroundhumanities"
+return A.aE(["23daphnia",A.q("23daphnia",A.J(7),q),"5HT",A.q("5HT",A.J(39),6),"AdrianZP",A.q("AdrianZP",A.J(281),q),"allyourhtml",A.q("allyourhtml",A.J(320),176),"amanogawa",A.q("amanogawa",A.J(184),21),"animeK",A.q("animeK",A.J(1),q),"anitubeinua",A.q("anitubeinua",q,q),"AniUA",A.q("AniUA",A.J(2),q),"asambleyA",A.q("asambleyA",q,q),"ATR_UA",A.q("ATR_UA",A.J(661),88),"autogeek",A.q("autogeek",q,q),"balytska",A.q("balytska",A.J(50),15),"bazilikmedia",A.q("bazilikmedia",q,q),"bbproject",A.q("bbproject",q,77),"behindthenews",A.q("behindthenews",A.J(35),15),"belkininovak",A.q("belkininovak",A.J(35),27),"bellatrixaiden",A.q("bellatrixaiden",A.J(23),7),"berehtyIF",A.q("berehtyIF",A.J(51),10),"besahy",A.q("besahy",q,50),"bihusinfo",A.q("bihusinfo",A.J(3568),675),"BlogerFM",A.q("BlogerFM",A.J(0),0),"blogmayster",A.q("blogmayster",A.J(160),41),"Bykvu",A.q("Bykvu",q,q),"chaplinskyvlog",A.q("chaplinskyvlog",q,q),"chtyvo",A.q("chtyvo",q,17),"chytomo",A.q("chytomo",A.J(560),105),"cikavaideya",A.q("cikavaideya",q,q),"CikavaNauka",A.q("CikavaNauka",A.J(1338),292),"costua",A.q("costua",A.J(555),146),"cukr",A.q("cukr",A.J(218),39),"diasporiana",A.q("diasporiana",A.J(94),q),p,A.q(p,q,42),"DITHOM",A.q("DITHOM",A.J(28),q),"diypodcast",A.q("diypodcast",q,q),"dolliteraturne",A.q("dolliteraturne",q,q),"donorua",A.q("donorua",A.J(313),69),"dostupno2020",A.q("dostupno2020",A.J(76),12),"dovkolabotanika",A.q("dovkolabotanika",A.J(255),77),"dustanciyka",A.q("dustanciyka",A.J(41),24),o,A.q(o,A.J(453),84),"eileena",A.q("eileena",q,216),"enjoythescience",A.q("enjoythescience",q,q),"enma_and_books",A.q("enma_and_books",A.J(1),1),"EuropeanPravda",A.q("EuropeanPravda",A.J(859),132),"faideyren",A.q("faideyren",q,q),n,A.q(n,q,69),"fazugenealogy",A.q("fazugenealogy",q,q),"findwayua",A.q("findwayua",A.J(0),0),"fromfaraway",A.q("fromfaraway",q,q),"fvua",A.q("fvua",q,310),"gamestreetua",A.q("gamestreetua",A.J(9),11),"Geek_Informator",A.q("Geek_Informator",q,q),"Geek_Journal",A.q("Geek_Journal",q,938),m,A.q(m,q,q),"gwean_maslinka",A.q("gwean_maslinka",A.J(563),199),"happypaw",A.q("happypaw",A.J(64),3),"historyUA",A.q("historyUA",A.J(4153),790),"historywall",A.q("historywall",A.J(0),0),"horobyna",A.q("horobyna",q,34),"hotperevod",A.q("hotperevod",q,2),"Hromadske_Radio",A.q("Hromadske_Radio",A.J(140),21),"imtgsh",A.q("imtgsh",q,1100),"informnapalm",A.q("informnapalm",q,231),"inforules",A.q("inforules",A.J(166),22),"islndtv",A.q("islndtv",A.J(4449),2828),"itguildukraine",A.q("itguildukraine",A.J(2997),270),"itpassions",A.q("itpassions",q,q),"itworksonmypc",A.q("itworksonmypc",A.J(1180),182),"iyura",A.q("iyura",A.J(24),q),"jarvis_net_ua",A.q("jarvis_net_ua",A.J(10),q),l,A.q(l,q,q),"kartofanchyk",A.q("kartofanchyk",A.J(21),1),"kgbfiles",A.q("kgbfiles",A.J(118),40),"KhmarynkaUA",A.q("KhmarynkaUA",q,183),"kliusmarichka",A.q("kliusmarichka",A.J(6),q),k,A.q(k,A.J(3),q),"konotopcity",A.q("konotopcity",A.J(28),4),"kozak_media",A.q("kozak_media",A.J(113),18),"krutoznavstvo",A.q("krutoznavstvo",q,0),j,A.q(j,A.J(160),51),"kultpodcast",A.q("kultpodcast",A.J(584),111),"kuznetsovalife",A.q("kuznetsovalife",q,q),i,A.q(i,A.J(160),22),h,A.q(h,A.J(106),q),"liganet",A.q("liganet",A.J(795),192),"liroom",A.q("liroom",A.J(93),18),"lowcostua",A.q("lowcostua",A.J(3),q),"loyer",A.q("loyer",q,9),"lustrum",A.q("lustrum",A.J(16),q),g,A.q(g,q,3),"Lykhovii",A.q("Lykhovii",A.J(811),96),"MaksPodzigun",A.q("MaksPodzigun",q,745),"mangua",A.q("mangua",q,q),f,A.q(f,A.J(104),44),"mariamblog",A.q("mariamblog",A.J(271),73),"mefreel",A.q("mefreel",A.J(65),27),"merezhyvo",A.q("merezhyvo",A.J(121),30),"miketvua",A.q("miketvua",A.J(0),0),"milinua",A.q("milinua",A.J(2934),822),"mokrec",A.q("mokrec",A.J(1648),222),"mukha",A.q("mukha",q,4),"musetang",A.q("musetang",q,88),"nareshticlub",A.q("nareshticlub",A.J(78),16),"naukaua",A.q("naukaua",A.J(665),150),"nebolviv",A.q("nebolviv",A.J(2),q),"need_science",A.q("need_science",q,9),"nestorvolya",A.q("nestorvolya",q,q),"nicopogarskiy",A.q("nicopogarskiy",A.J(32),19),"ninaukraine",A.q("ninaukraine",A.J(2),14),"nonamepodcast",A.q("nonamepodcast",q,q),"NowasteUkraine",A.q("NowasteUkraine",A.J(237),66),"obrazpublicua",A.q("obrazpublicua",q,19),e,A.q(e,A.J(41),14),d,A.q(d,A.J(5475),543),"oldboiua",A.q("oldboiua",A.J(1576),319),"Ole_Sia",A.q("Ole_Sia",q,q),"oleksandr_ant",A.q("oleksandr_ant",q,27),"olesyabobruyko",A.q("olesyabobruyko",A.J(0),0),"omtvua",A.q("omtvua",A.J(106),29),"otvinta",A.q("otvinta",A.J(2),q),"oum_spadshchyna",A.q("oum_spadshchyna",A.J(14),q),"pad0n",A.q("pad0n",A.J(417),82),"palindrom",A.q("palindrom",A.J(600),78),"PaniVchytelka",A.q("PaniVchytelka",A.J(1),1),"pankarpan",A.q("pankarpan",A.J(122),51),"pereozvuchka_ua",A.q("pereozvuchka_ua",A.J(134),61),"pershosvit",A.q("pershosvit",q,q),"pityatko",A.q("pityatko",A.J(444),92),"pivpodcast",A.q("pivpodcast",q,q),"portnikov",A.q("portnikov",q,437),"ppidcast",A.q("ppidcast",A.J(109),30),"prihodnik",A.q("prihodnik",q,0),"propohody",A.q("propohody",q,280),"prytula",A.q("prytula",A.J(26140),2007),"PSUkraine",A.q("PSUkraine",q,q),c,A.q(c,q,q),"radiopodil",A.q("radiopodil",A.J(598),118),"radioskorbota",A.q("radioskorbota",A.J(82),53),"radioskovoroda",A.q("radioskovoroda",A.J(26),17),"raguli",A.q("raguli",A.J(550),128),"rationalist",A.q("rationalist",q,818),"readingmary",A.q("readingmary",A.J(11),11),"rendarosua",A.q("rendarosua",A.J(159),28),"rist_center",A.q("rist_center",q,q),"RockRadioUA",A.q("RockRadioUA",q,30),b,A.q(b,A.J(986),41),"rudnyi",A.q("rudnyi",A.J(11),3),"Salertino",A.q("Salertino",q,q),a,A.q(a,A.J(641),97),"serhiyzhadan",A.q("serhiyzhadan",A.J(4376),380),a0,A.q(a0,q,495),"shitiknowlive",A.q("shitiknowlive",q,470),"shobsho",A.q("shobsho",q,q),"skrypinua",A.q("skrypinua",A.J(2609),544),"slidstvo_info",A.q("slidstvo_info",A.J(830),119),"slukh",A.q("slukh",A.J(233),100),"soblya",A.q("soblya",A.J(3),q),"stasmusicmaker",A.q("stasmusicmaker",A.J(136),q),"StopTheMoose",A.q("StopTheMoose",q,q),"strugachka",A.q("strugachka",A.J(189),54),"svidomi",A.q("svidomi",A.J(1177),165),"svitlana",A.q("svitlana",q,4),"svitlotin",A.q("svitlotin",A.J(25),17),"TA_studio",A.q("TA_studio",A.J(326),68),"takflix",A.q("takflix",A.J(759),282),"tanyacroft",A.q("tanyacroft",q,22),"tatotake",A.q("tatotake",q,911),"tatysho",A.q("tatysho",A.J(2),1),"Tayemna_kimnata",A.q("Tayemna_kimnata",q,12),"taytake",A.q("taytake",A.J(19),q),"techtoloka",A.q("techtoloka",q,11),"teoriyagry",A.q("teoriyagry",A.J(8),q),"textyorgua",A.q("textyorgua",A.J(1250),199),a1,A.q(a1,q,1094),"TheAsya",A.q("TheAsya",A.J(5),q),"tokar",A.q("tokar",A.J(949),237),"torontotv",A.q("torontotv",A.J(4384),1370),"totem_publisher",A.q("totem_publisher",A.J(1),1),a2,A.q(a2,A.J(4),12),"uacomix",A.q("uacomix",A.J(1),1),"uaestrada",A.q("uaestrada",q,40),"uagenealogy",A.q("uagenealogy",q,q),"uanimals",A.q("uanimals",q,389),"uareview",A.q("uareview",A.J(103),50),"ubmdr",A.q("ubmdr",A.J(39),q),"ukrainedancing",A.q("ukrainedancing",q,q),"ukrainer",A.q("ukrainer",A.J(888),395),a3,A.q(a3,q,124),"ukrainianweek",A.q("ukrainianweek",A.J(205),51),"ukrmod",A.q("ukrmod",q,74),a4,A.q(a4,q,q),"user?u=16774315",A.q("user?u=16774315",q,q),"user?u=28899940",A.q("user?u=28899940",q,q),"user?u=44661751",A.q("user?u=44661751",q,q),"user?u=50286152",A.q("user?u=50286152",A.J(1322),149),"user?u=76475135",A.q("user?u=76475135",q,q),"user?u=83097324",A.q("user?u=83097324",A.J(62),35),"valerii",A.q("valerii",A.J(1715),324),"vatashow",A.q("vatashow",q,207),"vatatv",A.q("vatatv",q,400),"vertigoUA",A.q("vertigoUA",q,37),"verumT",A.q("verumT",q,4),"vidminniotsinky",A.q("vidminniotsinky",q,q),"vmistozher",A.q("vmistozher",A.J(171),69),"volynonline",A.q("volynonline",A.J(5),2),"VorobieiBohdan",A.q("VorobieiBohdan",A.J(0),0),"vovazilvova",A.q("vovazilvova",A.J(276),24),"vovkst",A.q("vovkst",q,q),"vrajennya",A.q("vrajennya",q,92),"vsesvit_ua",A.q("vsesvit_ua",A.J(90),23),"vyshnevyjcvit",A.q("vyshnevyjcvit",A.J(22),15),"WBG",A.q("WBG",q,25),"wildfoxfilm",A.q("wildfoxfilm",A.J(283),49),"wszystko_band",A.q("wszystko_band",q,6),"yanareadwithme",A.q("yanareadwithme",A.J(4),q),"yanina",A.q("yanina",A.J(3025),494),"zagin",A.q("zagin",A.J(740),421),"zasnovnyky",A.q("zasnovnyky",q,q),"zhadanisobaki",A.q("zhadanisobaki",A.J(89),61),"zhyteli_kyieva",A.q("zhyteli_kyieva",A.J(9),2),"zvedeno",A.q("zvedeno",A.J(52),17)],t.N,A.ab("eD"))})
 s($,"aES","aq_",()=>{var q=t.N
 return A.aE(["23daphnia","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/5974987/d92fddcafeff466ebe2b8f1c271416ed/2.jpg?token-time=2145916800&token-hash=ahQiI-kSkcEYqW4nQc-G2IQ8mitFKPFkBubz16rkKbg%3D","5HT","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/191131/d28000e19b9f460eb27d6f2fc763ccdd/2.jpeg?token-time=2145916800&token-hash=tdO8k7JnsrxRw4pAyD-YxxlZv3jrJw16kMrNlLeUFDo%3D","AdrianZP","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/1352003/de8ca2dbe24640dea8d165831f1517dd/3.jpg?token-time=2145916800&token-hash=IglT6KnPDAICCzsIpkpoFlR1Owvb5P0J_VC-W2lZJT8%3D","allyourhtml","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/1402325/ad3c8dbab67a4d32b5da6f4b0ec7a4e6/1.jpg?token-time=2145916800&token-hash=SfQ9dpCjQfkvjCf-ZAxZc4NlLE-lzvN3ShUTPALFOH4%3D","amanogawa","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/2062946/42ffa243a4724c0fa4a96d010123bc89/2.png?token-time=2145916800&token-hash=18ea5Rh0mqcxhpxAB25tBqdMFcAuO6V_HOBkEmYUvtw%3D","animeK","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/3486771/6b53e43b82524a84bbcda7cd67118be9/2.png?token-time=2145916800&token-hash=PRplShLZtd4xLwRfhwNpmWHv8xI18WJI6fKbtz3s52g%3D","anitubeinua","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/2050018/4eb79958215f486783583b4c1947caf7/1.png?token-time=2145916800&token-hash=wNx9h_dXV1-fGXfmkO8BqVVQnD61HaeT9zSR3mGU9M4%3D","AniUA","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/1665913/a4f308b02afc41db911e68fb04ca0e1c/2.jpg?token-time=2145916800&token-hash=iepHSNq-LOd0dUb_hHRft5VobawCtckwSe3eIev1uKI%3D","asambleyA","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/5504082/47d762d7020e48899a2a6500b3d5872e/1.png?token-time=2145916800&token-hash=NPfTQru0nCvhroo_UeMsg9ZRiRVVGwwaLEphWByLX8E%3D","ATR_UA","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/5290758/76d3114055ba4cc7b4fc18f8421b1428/2.jpg?token-time=2145916800&token-hash=DRyW2UBZ4-LJIH9wR1QYa5wqVFvV1LHCECOb1JfXgwg%3D","autogeek","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/2828486/b79bff363fdb46c09229767496ffa2d9/1.png?token-time=2145916800&token-hash=aGbujq8kpRkYAEt1853C--5AWugybhzH8b5fXUWyFew%3D","balytska","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/928235/a397cf43f0c34594a959d14507f6268a/1.png?token-time=2145916800&token-hash=NUsyOxzXQKUgQIx-a7QYVI46K6BkL4qciQdKO4zDjLo%3D","bazilikmedia","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/4190789/fcc4d58656c343b3b4d09735fed6ce5e/1.png?token-time=2145916800&token-hash=cGY6IlH8RCOE9k-k78RH3pxuzvVTSQummzys8RtInvc%3D","bbproject","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/2325591/e6e9bf1e57c842cd978c1cd89c1a8d4c/2.png?token-time=2145916800&token-hash=Eyq62azBUuLn2489zBr7E8P7e6mpBofH36UKAZPO9eo%3D","behindthenews","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/4753039/974c47c9c4194d21a1e167bbed5173a0/1.jpg?token-time=2145916800&token-hash=SFKSPAmaiApYFVmnmjFqaKx95Wdy1AWxhiBF26I_3Sg%3D","belkininovak","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/6193570/e366abdb79ca4134ad24dc5c9c84e8b8/2.png?token-time=2145916800&token-hash=wBituW92kq5Cn-ZDKoOsBirb9_ELp-dpFuxsud1aj_4%3D","bellatrixaiden","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/444277/925c2085bbe2491882c2ec7490ab4302/1.jpg?token-time=2145916800&token-hash=lydpp0wIkgO0UcInqvreHEoZ77qi7AruXObCplz3t-w%3D","berehtyIF","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/4784085/ddb4d93221684dc2be417652592d603f/2.jpg?token-time=2145916800&token-hash=EaJ-ovPIfpx65bIprzgPIzR1gKCmOl7YYBeFJRT_Qk0%3D","besahy","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/3831098/816049cf1e9749ea8b183145cd50229d/2.jpg?token-time=2145916800&token-hash=x3ZXymuDXWBjN3kWEMqWt71s1Hj_s_WywzEQgaouTK8%3D","bihusinfo","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/1181923/e292a91c0f6845b5a364092ad5589c2e/4.png?token-time=2145916800&token-hash=xodvI8pT7fIeQ5CBh1Y_IM-5DLpALCVsXMxyN1QCQy4%3D","BlogerFM","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/4265889/28f1d768037048bfb9c35a312a4b5244/1.jpg?token-time=2145916800&token-hash=Z6g9hjMMLNaYjs4_5v6rKi7NUYDm8-4vVorjFGrkfmk%3D","blogmayster","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/4558743/a779204636174c59806ca6107170d3f3/1.png?token-time=2145916800&token-hash=ytPY0hcgJGWjoT8eCzyHQzCGLeXdgEBJnKuSVuj66Lo%3D","Bykvu","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/6655654/ab0c9b78862c495facf02eda70ca61bb/1.jpg?token-time=2145916800&token-hash=39L1IVjNg3vhQ8sODm2l4gZcmlK93Q42jlNbpHVc7wA%3D","chaplinskyvlog","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/5569427/c255d306a14b4b96865b956550350e6c/1.JPG?token-time=2145916800&token-hash=IjJpGhWmvOYCGq563YRUG6ODkwKXLLTxHzPYo6K6yLk%3D","chtyvo","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/2334561/a9f72f18c02046c598af03df52408ec7/1.png?token-time=2145916800&token-hash=XRKJY0yGImT1jCyJ7bDPQCoSvAALzCY1ceh6Ut1lr7Q%3D","chytomo","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/6919875/bca8838cc2e64addb2304f1f023a4386/1.jpg?token-time=2145916800&token-hash=V8_Pv6PfkaH98bZOBEDsw5-dxw53b3Yt4xl16Vz-ggU%3D","cikavaideya","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/6544311/7386c857f9514fbd9df08ee6a7ddf630/1.jpeg?token-time=2145916800&token-hash=Mv_dMzpzjCetB4BqEaHP4mgsWMTrrU5IGBZs3B-TlE8%3D","CikavaNauka","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/675800/ff606adae27247e2b8bde95398696756/2.jpeg?token-time=2145916800&token-hash=Wd6qW4-oO4swA0VVWOHdIC97Rmw48yCZ_r22dJiDuw8%3D","costua","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/4894447/cb8425050b43454a81f06ef57e86cc33/2.png?token-time=2145916800&token-hash=cBmuBH0rLvT1E40hD-o-1FF2DZexLyyM1jNJ8RG_bjQ%3D","cukr","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/3221671/19d5965de3d44e01b8f47d29f87f7b2b/1.png?token-time=2145916800&token-hash=WNVIxxhT4Y2GGkRHojCDuA4keU4SMcN6JZowpjkrb-c%3D","diasporiana","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/4635656/0a0af901d448406480357a53e87ae138/1.jpg?token-time=2145916800&token-hash=aJvBNXOS2sWLRuG6fMAt3OpYzosdnJjuWzr6rvEuCgc%3D","Did_Oles_Falcon_UA","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/4227633/e1f566250d6e48698f963459463ced01/3.png?token-time=2145916800&token-hash=7LyWhFKNb-CjSXz6Oo4CWUS2A6LgcgWhH15GOPvPPfc%3D","DITHOM","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/2830910/d04cc3b9bf06404e9db8659bea1357b7/2.png?token-time=2145916800&token-hash=v0NUQefDqTlb4S0vPiJ2LMtjQIvo8XNXGt4bTHRqevc%3D","diypodcast","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/6118960/b399409f021544d1b17649870cf8d506/2.png?token-time=2145916800&token-hash=GHn3o4o_L1NnUZXbc776rQuZ6W0LnrSvi2KjpbSprtY%3D","dolliteraturne","https://c10.patreonusercontent.com/4/patreon-media/p/campaign/10028814/4fb8e600fde04a71825f8c2beef91666/eyJoIjoxMDgwLCJ3IjoxMDgwfQ%3D%3D/1.jpg?token-time=1726272000&token-hash=AVrha_dbWHjo20AUQs405pDb5xo9BOMD_TKoAOYKvkA%3D","donorua","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/3005321/bc2e42fc05cd427ea4c4992c2183a317/1.png?token-time=2145916800&token-hash=UnDKCmxHj6qJwuc8dcV4XhAoI_2wMHKeAOvB_274zFU%3D","dostupno2020","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/3860207/bfee65d4aa744dc39345d439d751e071/2.png?token-time=2145916800&token-hash=paxmC-QLENU2QhCi7U36bqkc3OxL9TlAGQmB90LzgFI%3D","dovkolabotanika","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/2911678/e2105aee8ecd439caa9a152f8de48738/1.jpg?token-time=2145916800&token-hash=YYyMS1NpHxdDhe9ETCqHy2GNbRvNWdjGuewJ5pu6xOM%3D","dustanciyka","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/4161353/968239c57719443bb851c58d2e16f330/2.png?token-time=2145916800&token-hash=ycWiQmIMrdR5y5NXqtLhvXJDxcVRnXxbJa35KUyVzL4%3D","dvokolisni_hroniky","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/2256656/37ae9608861b4e1ba4659b0794d86e11/1.jpg?token-time=2145916800&token-hash=hUKeyY2BoTrMukuQPspxp8QU9ECxMoaqwsREWAtbcMU%3D","eileena","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/3766404/076959d914784133a0001d691d8b86d8/3.jpg?token-time=2145916800&token-hash=BIgR1FNtMSfMGKIrIZzVX9PmGunF5KpVlQXDOkwPNfM%3D","enjoythescience","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/5063883/984084be3e0345a1b4815e3e889cd1ed/1.png?token-time=2145916800&token-hash=g37hOiJWfpXoWQv9A3JlOHAToq5Z32I5vv9GawnDmEE%3D","enma_and_books","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/5088940/e60ac164e17b4695b7005c8e00aafbf3/1.jpg?token-time=2145916800&token-hash=bpyLH2Fht7JhwpsGPm8q13jRAVwRO9o41vb4nTW9ZTU%3D","EuropeanPravda","https://c10.patreonusercontent.com/4/patreon-media/p/campaign/5905535/c1a769fc8c00487f951679f97edc1f45/eyJ3IjoyMDB9/1.png?token-time=2145916800&token-hash=6YALH9R-0Pa9JnsKWYQPdvxJd2DG400KVzpB6c3lcgw%3D","faideyren","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/2183414/e2b5d7c91e644d3db19a628caad46d4a/2.jpg?token-time=2145916800&token-hash=_I6enfku9I5_c7jb8abRU4agvvHSinnyV7XXyXKtyFg%3D","familybudgetcomua","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/5769300/00113ab275774a66bb80c17026372106/1.png?token-time=2145916800&token-hash=6OGgXzgYTvJXP9kuvHokwZjszAaSprbImoNlQOLW_8I%3D","fazugenealogy","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/4533071/c4bcfaac4b344e9fa8ae5acdefc36464/2.png?token-time=2145916800&token-hash=1uvgcOQ6iVM7juLXYxEfMA3kGDSSPD9dajrLkI2IcyY%3D","findwayua","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/4066248/4d25c654b27f47fdbb69db37a40fd6e3/1.png?token-time=2145916800&token-hash=j8bze7J9-A6KpFPwWfjgovWA5V3TwtQagtxQu89lmyA%3D","fromfaraway","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/4613061/cb85157e5a09461dbf77469d74e49d68/2.jpg?token-time=2145916800&token-hash=NJDWshsY5qApnRHCROGLjDJ99S_NjaBPtMO4448H2qI%3D","fvua","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/3369334/b8203c14c1634ea18d4b7108674f39a5/1.png?token-time=2145916800&token-hash=unAnKrwiL9Pbat22ktRPB2S9et0kRm23HKQtBQrtxrk%3D","gamestreetua","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/3714423/fec75e7e135c47049c561a1f4b946b22/6.jpg?token-time=2145916800&token-hash=3zPTEgEml5C50ZvBji-UCb0bjfVvCaCLg3QGGV7Uo64%3D","Geek_Informator","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/3909990/987dfbf99c964beb9013bc80c4da6d5b/2.png?token-time=2145916800&token-hash=76iorf8SaV6JEYREjlNq3phC97C-bfIB3NdU9hZZXaw%3D","Geek_Journal","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/941268/ed0f4cbb231749f5a579dd48ea834324/2.jpg?token-time=2145916800&token-hash=hfauwnIMXOD8BJD8aC4BfB9kxRcPfZRCVK11F-TI_sE%3D","GulbanuBibicheva","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/4206670/a561a5b5f89c4e26825bcea283b72386/1.png?token-time=2145916800&token-hash=yoCmG6fYEIF8oDvOEGh67pp1f8uY2dYAgcDTQ3O01X8%3D","gwean_maslinka","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/2922629/4e27739bcddd4568972cc210ef42d1e7/2.png?token-time=2145916800&token-hash=pgo7wu-tGzghezjvTDW5rX2ZmBtKhH9eqZUIju6X6qA%3D","happypaw","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/5076767/5ab29ce8b3dc441eb8164aee1b43a1f4/2.jpg?token-time=2145916800&token-hash=Gwi92VYfkJSp_ElqjW6GOrZpbCnCMzuRan-lRdKWUvs%3D","historyUA","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/4742852/ac34a563f51349dabf03673442617ea0/1.jpg?token-time=2145916800&token-hash=mXwLi8kLVwWD9fKLJlhHd3lQYokOgTeoryFV1tCPxC0%3D","historywall","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/4487051/5fc80f2a341045c49ec839115d38f117/1.png?token-time=2145916800&token-hash=ROhCnLlxUlGRDjQtr1T6ohTbSbuo6e9SJAYFhQbbi6w%3D","horobyna","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/5984872/762d79aa1b4b46afb14d1e54302bf636/2.jpg?token-time=2145916800&token-hash=XILWqmKH1uoZE2kOD5JO1sFo8o_YtpO4i9RCHAbCMKg%3D","hotperevod","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/2498270/d5ab34fe6f24473c9a0253036ceca9c3/1.jpg?token-time=2145916800&token-hash=BTz-ZTARpRPUerMtbBTj5ZonqDlg5HsLa65_5jYrq7U%3D","Hromadske_Radio","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/6668641/46a8f542860d4db2b17bcaf47fb3b625/4.png?token-time=2145916800&token-hash=olKHpiKbz2Tv4vnn_fbnYdTtSl18idNsDa90w2pW2hY%3D","imtgsh","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/2439751/6de58310cd6746ba8ae6bf6dd6feecb9/2.png?token-time=2145916800&token-hash=m_8wDLK-9ksMyc3ZiuJ7xb6oMjMEFNm_Rn5MRMF4WNw%3D","informnapalm","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/3394534/e1aa2da7dfdd4677ba6dd6d6118cadd3/2.jpg?token-time=2145916800&token-hash=Bi73e6xUQUfSutCUN8kRSX-UOWefihP9poZbP4Jbp0o%3D","inforules","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/6363464/1bedf433232446b39dd7ec6580890bc7/1.png?token-time=2145916800&token-hash=dQdRW2I-ckELtPYJqadnK1w9ww6Z0BaKcRPvZR6HDYc%3D","islndtv","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/5849882/c7e4adb405cb484cbfa196257f7790dd/1.jpg?token-time=2145916800&token-hash=WJ8vtHHPj0nzx0NeV_MLVluWpebnEMi-ny9GwSGUiXU%3D","itguildukraine","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/6668658/3d0fa4f09d1b4803b8e1e211e22a427c/2.png?token-time=2145916800&token-hash=H-MpCiLnHd01MvKJFGd3kW-PfAmo8b3eWOj176ivt94%3D","itpassions","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/6149892/f5ce19c8128249d991b29762d129971f/1.png?token-time=2145916800&token-hash=JEdB4zYD9ZiE0sZ-FgmYyxLgQpHeqf_z5iZOqgPxVt0%3D","itworksonmypc","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/3242664/dc837e6e8a8049e190c48fc119a812b3/1.jpg?token-time=2145916800&token-hash=oTlNJaa-jcH_zlw_LKWenC7X6Hvl9ddZ4MOdKBCM3KU%3D","iyura","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/5622465/edc9cdf9dc304cdc84b0b64c35408685/1.png?token-time=2145916800&token-hash=FRKLLWWbNr-ZsY4ZqxiNdvohhdJXzERC123_OIUrG3U%3D","jarvis_net_ua","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/3207913/bbef198ad4b748e68e271dddb0e50e1b/2.png?token-time=2145916800&token-hash=oHlwSCsBOO0Idldo-m1Krmp5t118jdfgtTupGqJJS3I%3D","JBPetersonUkraine","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/5617942/8c918c7772354f9a90cecd3daa45ff84/1.jpg?token-time=2145916800&token-hash=t_3l8wrQImifMEiU0jrjuWYJFjs_Cx1oy36dQztMsNs%3D","kartofanchyk","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/6159963/af4d3ae5f5c24cc0b5dca449badb48c1/3.jpg?token-time=2145916800&token-hash=Us8tJraJPorPYHXOXCjyYgBtUE0zIMyF15migBX91Ig%3D","kgbfiles","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/3136328/b7305a64225744a59ed2d18cd7f31dfb/4.jpg?token-time=2145916800&token-hash=U9IBaCS51UWMwNI69nzO3CgkzBlee0M3zfk_bryWv-s%3D","KhmarynkaUA","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/6607444/d513c1bf9a5c49a08ee07ac3cbeb2fb8/1.png?token-time=2145916800&token-hash=SeiEgKCMTD1jxisuN6C16sKNIVii_IRHQykT8CBS3Aw%3D","kliusmarichka","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/6674255/48845484fbb147c4aa7018a37abf6555/3.jpg?token-time=2145916800&token-hash=qJ0RBTMzPjbXVPVGLMqii3N28-gPeojLEr47hezt8oY%3D","knyzhkova_dylerka","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/5982299/b449377e71a440889b0834af8013f422/1.jpg?token-time=2145916800&token-hash=jVF-ojBSl09bmi76FCIa4siJQZqx82UEOBsu9eADxJ8%3D","konotopcity","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/3659272/570036f5d56b4c188f8686ab21592ac3/6.png?token-time=2145916800&token-hash=5JuBFXZmmbyChUhAw0HyYK5unfWadNy3RfRm9d1Qe5E%3D","kozak_media","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/4673591/4c05abd482e94a699c3c28c592fe15f1/1.jpg?token-time=2145916800&token-hash=mq_aBzU4i_473Tcq368PrfM9N_aBWUPBY9TIriF9sjw%3D","krutoznavstvo","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/2620388/3a09c0adb40342e7976857aa5436f149/1.png?token-time=2145916800&token-hash=drXmIkoB6Gs5TAu1obJYmH8eEfl1tQLZkEIrsRPmY_8%3D","ksenia_kellerman","https://c10.patreonusercontent.com/4/patreon-media/p/campaign/8151062/ad04b3ad781140fdafb7dc7ef1cea92c/eyJoIjoxMDgwLCJ3IjoxMDgwfQ%3D%3D/1.jpg?token-time=1726272000&token-hash=VgfHdVxhnl0NDK1_2NqYk2pP2Xu5H3pH15ZrgGD0urE%3D","kultpodcast","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/6104814/3fb012e941714905ac508f9980fe6456/1.jpg?token-time=2145916800&token-hash=a0FiP_2u9EAkp1phFu41qiviT6T8tMgSYhK36_f-toA%3D","kuznetsovalife","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/4791188/a7f6f805700b4536977095f73f5b04ee/1.jpg?token-time=2145916800&token-hash=uclat6vKMjD6RTXf9G2GUb9vm3uqaxhofNEqwLzS1I0%3D","les_kurbas_theatre","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/4500346/3ab7005f6b1b4fbd877c13b7bc046746/1.jpg?token-time=2145916800&token-hash=01ppyVMwGomSQG7_Gyfd3t14Ly1h6mNjIf86MJ4hh1s%3D","letslearnukrainian","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/4881476/912f81b3639647c782ade46ca0261df3/1.jpg?token-time=2145916800&token-hash=TmTxQgoSvw-NaVHr83wpqtC2oJLf2K01aDtDcsT2TvY%3D","liganet","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/4151337/a5e492434053434f8fb95952f531cdc4/1.jpg?token-time=2145916800&token-hash=KCG-RGf50LT2oIK0Cpmc9mvaODrRz6vkT9I9vAWcjBE%3D","liroom","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/3898938/b21229ee01764689be1a92b421843c17/2.jpg?token-time=2145916800&token-hash=YS2dq9Qzu6a85CLB0X4e6ONIIt5zut220TpZZRcEz4w%3D","lowcostua","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/4604486/82195c65075d4eb4ab398bbf8777cfeb/1.jpg?token-time=2145916800&token-hash=XweqYST9sb-gzIqy2fUh6HPwKGG5Ch_vM6v46q2j4hk%3D","loyer","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/4345949/ba460412ead04e97a4c5a84ab3748001/1.jpeg?token-time=2145916800&token-hash=XOsJi4tcIcL9P3g1tyM6M1ARw6QWLX6PIEBwzhkUiNU%3D","lustrum","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/4219813/79ce338c9339499e8c15ac85c314e203/1.jpg?token-time=2145916800&token-hash=jL7FhQYecyfdtE4bdy0HlALB_XU3s19MPMurfBbn0PQ%3D","LvivNationalPhilharmonic","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/6614013/19aa77050395432a9bdb86582251e8ba/3.png?token-time=2145916800&token-hash=tbKqXprY-CYU_LZJdZZ5SI64dJiw4-0i1nrjSobnkIA%3D","Lykhovii","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/1534106/316a03b9b3d94c589f0a2b5009d5e50e/3.jpg?token-time=2145916800&token-hash=HnamfY5ScMAjvpMivol6A7tv-5blzmbx9JsExZzmvLk%3D","MaksPodzigun","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/1659375/3db087e7c89c44c8860cfe5c8ed6b3f7/10.png?token-time=2145916800&token-hash=Cr4CJDxAi47FTrMudpYmtPYbclSy9ddPZVQQw1cZFdc%3D","mangua","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/5041155/3c051168896c4d23892405ae334b9f72/1.jpg?token-time=2145916800&token-hash=Wadyaiv3XXI5LJsXwWqLQt52kc5_KV9KK-wsOhqLeqY%3D","manifestplatform","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/1646678/a7f5c4a6a4c1498995534c73d6b8a2ab/4.jpeg?token-time=2145916800&token-hash=qfOYC9SWahiNRTHKhHvgWfMbmd6OTo_M1wc0bhkMVF0%3D","mariamblog","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/2895676/8e084e99543b46efa0d84152a434966f/3.jpg?token-time=2145916800&token-hash=NA3X4uI4kk4VO2AqnDloCtqPnUOZTIWAGE1oeiN_e40%3D","mefreel","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/4606097/eaaba1eb1c894d72bc7d7d05b4608649/1.jpg?token-time=2145916800&token-hash=923CrFWvWKZcaJEtONnTv47ouPZal5dBysTYeP5aotI%3D","merezhyvo","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/5592997/7dfda2fe737747e79e1109aeaa430bd5/1.png?token-time=2145916800&token-hash=LiRShP8TE7FA9IEQafk4VgDBdUXk0cBOoWp5zGiiN64%3D","miketvua","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/2040157/68b8a35f3f504e23a99b9af09b1e1cc1/2.jpeg?token-time=2145916800&token-hash=afu-xNm8qzjWAZ878hvq4R57oX3feBsstD-MEQU_02c%3D","milinua","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/3382169/5f7cb7d285b149d6827690b0b605332c/3.png?token-time=2145916800&token-hash=FsVQ7C6PV3lGa8FFdH868OAQMay9BfwXE7HFXef2S64%3D","mokrec","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/5246999/d57099cc7c14441b92ec6e23427fdb99/1.jpg?token-time=2145916800&token-hash=qZXHoHHK7VHv20P-yoeEHJHTOTRS7eD-hW0AJ3oJDI8%3D","mukha","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/3829756/55a14b8caa90412193b50346ce3c37cd/4.jpg?token-time=2145916800&token-hash=xnNaR4E8SrGoZY7Vle6PCgaGJTUG58KY-p5oL3VcauY%3D","musetang","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/3332280/6f24a0d6cd05418ebd63ccf16595084f/1.png?token-time=2145916800&token-hash=05xwrQBs1cUUfPU_2trGPdDFq3jHUf7KdEWFmpngWGs%3D","nareshticlub","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/6151562/af1f397a9d954e7d96e122e54442c279/4.png?token-time=2145916800&token-hash=ZLTWWlgBpX8idkS6fp41E0ItKCZRFXmNzmwGLB7cpMQ%3D","naukaua","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/5711611/8e8470da34174a718350c62d40a7b4cb/2.png?token-time=2145916800&token-hash=O1rBznvYkhmI3ftQ7SlY-QL_e7BukQMeVotALEQ1jU4%3D","nebolviv","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/3539384/ad5dac907aee4715b474f58f9aadca75/1.jpg?token-time=2145916800&token-hash=9P5NA5L1aHAG2rV7HqXLPcCMw9ax67_LCUK4f77ByGE%3D","need_science","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/3181923/9bb44df5aa4a488cbcf25c26786c7643/1.png?token-time=2145916800&token-hash=iqMG2y2Rshc9FPA6peSyLXK6tZ3sDuKzZR8y0ztCmR8%3D","nestorvolya","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/2341410/8162fc7912bd45a59829643311fbd6de/2.jpg?token-time=2145916800&token-hash=YfcDxD6z1okCV9cAMG-JqJBiJ5aLRoGggxVUmkCbUao%3D","nicopogarskiy","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/3243571/d6eddfdb71444fdd8199cce4e27bc0af/2.jpg?token-time=2145916800&token-hash=FujhPzeM4bDB_btNVpeN0podfkNhXNYnLm7wOIHe4EA%3D","ninaukraine","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/6207315/2e82076f0e004c7aad2c2450c53cecc0/2.png?token-time=2145916800&token-hash=un_g3eOneB-VR1nu6l0Rb9CA3_ltz3G1vb771Q2ZQ70%3D","nonamepodcast","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/1714261/84d63dcfb303401a8f8250f70dce6d7f/8.png?token-time=2145916800&token-hash=uB1jZEZR8215YgUKrk_fCNcO4lKsKoCuycE5tGuNtvA%3D","NowasteUkraine","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/4964229/b8d4c0e1e6b44b7786c58e543cbd4239/4.png?token-time=2145916800&token-hash=RCt1LWAqXlvbmfO6OcelJAciVSvROzBb_mINhYaqaQg%3D","obrazpublicua","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/2163375/f6d3b873502b4854b9dbbdbbf8cc4739/1.jpg?token-time=2145916800&token-hash=cT1en5kSAvCEdXGVTvUZGSM8tZpPvNSSd59iXjXr96g%3D","odesafineartsmuseum","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/6800314/afc64751809b4277af1d198230b4e806/2.png?token-time=2145916800&token-hash=MYmUcgUT0MymHx-agVi0LvVKEb2d2h_FohA1W1_8jwg%3D","office_transformation","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/6116984/359c9d37c0eb4880bc5515a1150f5518/1.png?token-time=2145916800&token-hash=l2TwtYuM3JDIq1diz_28-q9yRgL6MC9ESYLNdha4gwY%3D","oldboiua","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/2482448/ca3e130f3b304af586924f2eeae0411a/3.jpg?token-time=2145916800&token-hash=P-Pdf6BkvjUt8OP2XxKMBhK2pqDFsm8AeWwfOhI9AQw%3D","Ole_Sia","https://c10.patreonusercontent.com/4/patreon-media/p/campaign/10542966/d2f6a9e77e38402594f15c15b74616ec/eyJoIjoxMDgwLCJ3IjoxMDgwfQ%3D%3D/1.jpg?token-time=1726272000&token-hash=PK9PyC3onjuA78dFXHbY5vfxllo_4c2TNQdtsXxkXz4%3D","oleksandr_ant","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/3837292/d4e8c04ebc7e4f47af57394d7616b13e/21.png?token-time=2145916800&token-hash=ukrA_1av-n9oJh-cme5VXi4m4iKHmv0y386tEzW4G9k%3D","olesyabobruyko","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/3933892/8a97648cb2404a52ad001600e9b07c67/1.jpg?token-time=2145916800&token-hash=hG44aphBMVa2Nr0SGLMFevCxgVr0an0wIT8Lcx57dCY%3D","omtvua","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/3320341/92f5ea3977ef42b58d7070c8eacb15d4/1.jpg?token-time=2145916800&token-hash=bxfrYyRfEyQyCWBrtUyyHl4eOXuvmZVUVnZ4ihpHTjc%3D","otvinta","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/4659564/6aad435a09ac42b9954c1044f39929c0/3.jpg?token-time=2145916800&token-hash=ymA_f211Se5CvWYHE1GZ0AZJtTt34fID0HTvWbLBQLw%3D","oum_spadshchyna","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/2909369/9c0463baa09c40c68e5d8d8bd656ae8e/1.jpg?token-time=2145916800&token-hash=1fN_4ZhpeqbKnt7nenFLRLAeM1QCc71U92Sh43DpxFE%3D","pad0n","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/4060034/0ab108df557740e2b18d99b5c7d2be31/1.png?token-time=2145916800&token-hash=9LzwNp6y7EuY-kPipdRxVDsCy851lWcH9m_YOrvFFz0%3D","palindrom","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/3850766/25fd6df6a8ea4960bf5b1dd472e4d1c9/1.jpg?token-time=2145916800&token-hash=6iTHWf934anlIb5F2ZSz1vAefafUjmgrn4eLv13BcvY%3D","PaniVchytelka","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/5654979/bb5f846c77c942aa8f6fd1f7e71ff67d/2.jpg?token-time=2145916800&token-hash=A_l2mV8AQuCWVYy_pxzhX8RlpuW3_2tKsdsOPHv1dZc%3D","pankarpan","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/5217336/5202683f4f7b4a8b9a9c70f3a0f126c0/4.png?token-time=2145916800&token-hash=41qF6aKrMqztH29BIYp_-26bGKY3IxOhZ2DCk2W5jEM%3D","pereozvuchka_ua","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/3529995/303a27888e3b44979b777d3df30a412e/2.jpg?token-time=2145916800&token-hash=aZ50pz-T4VHn0oQ-evYaLmvcLvWw6hI83o1yCyE6EUA%3D","pershosvit","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/4732719/b65df493b5604ce58b677fbf4d9450c4/1.png?token-time=2145916800&token-hash=KWgkJRLHLSKVmOLlIOKmnvWz9GlvfUT-xvFuA76TPvs%3D","pityatko","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/6377334/4200734879e6474185370f584c57053a/3.JPG?token-time=2145916800&token-hash=g_gvpbtAeff2iUgSJytQiYEMRk9R0rI1Vc_tjD9PsB4%3D","pivpodcast","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/6479293/f00d80bc105a4d8ea8be27bae73da416/3.png?token-time=2145916800&token-hash=NdORm9kxv3Bg9LPAg74vX08t2KA0SLt8JSJaQpb0zjc%3D","portnikov","https://c10.patreonusercontent.com/4/patreon-media/p/campaign/3588981/83e699642b2944d98dba2cbbf3606280/eyJoIjoxMDgwLCJ3IjoxMDgwfQ%3D%3D/1.jpeg?token-time=1726185600&token-hash=uzQCkCamFuVdJ5ABeBGdD_V1p3kwJpXCkaYACyuEv-4%3D","ppidcast","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/3814417/50582b867bcb491490e09e1cfbca171e/1.jpg?token-time=2145916800&token-hash=LRw_9A5Dh69BOlijG1y7aVTWSfPCn0j94rkwzmXNyFs%3D","prihodnik","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/3572983/bd9dc24301d64713b768e500b13c01fb/3.jpg?token-time=2145916800&token-hash=5MDtCI437lEYTse-WgGKOl4-nLRVmuglGaqZsPIV5Ps%3D","propohody","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/2664165/15cd8e208e3e4a08ae583d2a9adad56d/1.jpg?token-time=2145916800&token-hash=pjUS53OKAaZ_UNWbdEK-HvyanC1Ed03nfoI-MQfC_W8%3D","prytula","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/4130179/809ae8b4f99645d3b59228210820bed0/1.jpg?token-time=2145916800&token-hash=1pNb95TMuMwqcNMjpb1F_uyC-7yO6BdjoSQgxiecMNg%3D","PSUkraine","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/2925347/e723ad4eae4b4daba44b1bde72dedb5e/2.png?token-time=2145916800&token-hash=Hu9V_x2_cTXXuyVYixnSJg7dJx4GXH8mE-jFwmdbou8%3D","radioaristocrats","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/4304044/32f497443fd84a6b84cb15850b3e9058/2.png?token-time=2145916800&token-hash=cPeSsW-O0JIUuF0jqOx-_Q73USK4DynS2dIZyqLvmEY%3D","radiopodil","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/3416473/3173caf17bc8444791c432377b042101/4.png?token-time=2145916800&token-hash=EDnErom458vj0K1Ei4tT0sot-n2zzN_1Pv56C6rWeO4%3D","radioskorbota","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/4191710/1f482fe39a794a89bdbf0a36740a6d1d/1.jpg?token-time=2145916800&token-hash=JCOLu-4Z9LevL1NaIbMrll65PosAgWqci-x0tv-udgY%3D","radioskovoroda","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/4265920/8fe7d93d5ee1438099937da5c2f5ccd9/3.jpg?token-time=2145916800&token-hash=v34_EBJd_aBJrVPrOnueRtX6LqjotBfzQxlDOk1WJlE%3D","raguli","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/4437531/d4fce97f93114735ae770f7a29d2d146/1.jpg?token-time=2145916800&token-hash=rq3_RDnwtt9hSdxRFThHNPR11SHOVkws-KMHwgnOkXA%3D","rationalist","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/2017886/bfb023eb98d744da9bfdccbe1b5392bf/6.jpeg?token-time=2145916800&token-hash=nsiqPyBrg3CZuj6GIjymIJEcHj71JSXvNDCsZYxHW7o%3D","readingmary","https://c10.patreonusercontent.com/4/patreon-media/p/campaign/7055424/6db1afd6185d4995906e1423c17b1248/eyJoIjoxMDgwLCJ3IjoxMDgwfQ%3D%3D/2.jpg?token-time=1726272000&token-hash=8Ek1j2ynCGRUmplOOa9Gsi8hV8lsvO-14JOWWjcTmGI%3D","rendarosua","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/5617599/c66e4c45a76e417e8004e7cea6ae5b86/2.png?token-time=2145916800&token-hash=zfuhCJGGAQq4YXn8uIGXMJI9ES-L2s4iLbGbJEyHrLo%3D","rist_center","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/6272711/cb33276489014b20b6a0fcae183305f7/1.jpg?token-time=2145916800&token-hash=O9FRTmdauaMN_bxrgI5Yg_5U8a7LRgLf7VKxJF0qEBo%3D","RockRadioUA","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/3909727/701c5111a6644b9794e96e75d799e9c1/8.png?token-time=2145916800&token-hash=C9YeDbs0i6UMBU11_IlZe6P9X-bAK0ndpT-S_qxbHZ8%3D","rsukraine_org_ua","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/4435521/8fe0f306198f484eb9f480a758567e3e/3.png?token-time=2145916800&token-hash=4Nx7hiWzManC2eSqamW90U2o3y9xT0EkmclswwOArxc%3D","rudnyi","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/5374421/eb0c30aac4cf4bb6aac6834c849cb177/1.png?token-time=2145916800&token-hash=2WcB0Juljsth6Tl5djQpU_pobJ0iasnyfDFfEDSNxIE%3D","Salertino","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/5367559/68df21b6fa80404a955437d6bb834ecc/1.png?token-time=2145916800&token-hash=tDumj2K-RV0lA8kpYgVxkwH_9ysz_S_eq4RXXjJ_ZM8%3D","sbt_localization","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/1628882/740d9522b0394e1cad0840db8cdca885/1.png?token-time=2145916800&token-hash=M6kaxZ6Tdc7bwLj-NA6SDiIn5QurR4gwFuMdQghlAj8%3D","serhiyzhadan","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/4862522/864a3b17be1a4a3dbc35b987b07ee191/1.jpg?token-time=2145916800&token-hash=D5haYYNNimW7LG0IGqyDA7h5XDxwlbhuc2-rw_lg7Rc%3D","sershenzaritskaya","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/622247/3aa3d362e08b4d05905cd901b7601aa5/3.jpeg?token-time=2145916800&token-hash=Inr9sk_OL33RfFYRoajOO9LHKiA-GcNNZFu5ojHHMBY%3D","shitiknowlive","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/3877764/7c4022cc047e4a49a013f66ad8078d72/1.png?token-time=2145916800&token-hash=uiF0cuAAxuaBJZ-7Kqhmsl58vOvQhKFuoItfUvU5wjI%3D","shobsho","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/3594437/af351b1e05414c1894ecf931efe12cf2/1.jpg?token-time=2145916800&token-hash=f31zUnm8SejFm0jibCYI0cBQ9NcRal0cpCiCVbE55vU%3D","skrypinua","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/2329275/a97e453d4a8949de969737640d573df6/2.png?token-time=2145916800&token-hash=iydCqcOkYPMAXzdkWn05mst3vYFKrj98LrGmSR10Iw0%3D","slidstvo_info","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/3855713/ba2ec9e5da694e4298616ae308a2a9b0/2.jpg?token-time=2145916800&token-hash=DTDbfcGQazBxP6uJjXJzDMiCv5bxBnseHZwIeGVcpV8%3D","slukh","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/4065537/6c0b47c793b34a71893f4394519eda73/5.jpg?token-time=2145916800&token-hash=o2DJAR17tb3KSdWrMa5bV0YNgwOkIdOG5O3ZAJGf-0w%3D","soblya","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/5304633/05c390d414b3493ba6504cb527a14831/1.png?token-time=2145916800&token-hash=5evRoUI3RhTFdwDEcH-tkmU5zgMf3I2iSg_BdbYnoPo%3D","stasmusicmaker","https://c10.patreonusercontent.com/4/patreon-media/p/campaign/2820456/4ff67450452949c486516c2ecbb205f2/eyJoIjoxMDgwLCJ3IjoxMDgwfQ%3D%3D/4.jpg?token-time=1726185600&token-hash=tSxNc0C1CeWGPsQApaytEoc-XqGWwAf5C9tX40-bkeM%3D","StopTheMoose","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/3236237/73749ffb81fd40d5ba60b2c8a9394400/1.png?token-time=2145916800&token-hash=AG3onhz2--W_30U79uVSk2Y0RyJf8giq9wX_mDnM8TM%3D","strugachka","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/3900769/60b41837b6a741438cecfeccbe0ffc74/1.png?token-time=2145916800&token-hash=3b29WS1EGthR-KOW7Si9b11XJ6U-7Xn4EjFQWrbPpmQ%3D","svidomi","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/5042799/378d61e069cb4db48fa2abcc325a5d42/3.jpg?token-time=2145916800&token-hash=u2uSh8PHjBB3Dz9PAedot5Y2_d5-LjDypFHDP17apZU%3D","svitlana","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/6470979/de0709b5824f4a9288e6fee1eab4465c/1.jpg?token-time=2145916800&token-hash=PH_N_4RtN7hG5OBkyxRMCD4RPD9rqJLO4_20aPjPd3k%3D","svitlotin","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/6404889/5dcd65d3ca6349ffaf9171f588cde3a7/2.jpg?token-time=2145916800&token-hash=Rw9qyFDkjjLB1ByFCPyi8ErbneHQUai0K96xiqASMps%3D","TA_studio","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/5447069/6949825d1302488d8a482afe05ddfc82/3.jpg?token-time=2145916800&token-hash=4MnsN-MRa0eMbXRy0FAd_72A6XsxmgI0mQ-FtgDmbtg%3D","takflix","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/6233343/fda9129a120f4fe3895fb80b7562e22c/1.png?token-time=2145916800&token-hash=Jiivj5_tnttwhdsiyCAVtOeupTNx656h-1hbfkoXEx8%3D","tanyacroft","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/374597/753c7bc450704fecb4c721a32f40680f/1.jpeg?token-time=2145916800&token-hash=XfMS5Fryghu-qiCqUKve4E0HMGj53O7P8bUOY7VadPU%3D","tatotake","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/4686605/3488ed6a3f2641bda925b923b19610d5/1.jpg?token-time=2145916800&token-hash=50FFk1ED07k0A4NYs5ZQswsO3zgorbVWMadLRCXJ6hg%3D","tatysho","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/3153849/839b2a3063ef496bb7f68f8daa66a567/1.png?token-time=2145916800&token-hash=sIW3p1myaRzXmnCDfhOO1i8RATSydw0bSIjmOxnPixE%3D","Tayemna_kimnata","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/5464701/a4d184c6a6b04570b59da3bc7e0c8279/1.png?token-time=2145916800&token-hash=y-0N0kih1ynQhMYBGEHw1dguZ6_l-n7Itujin6ULM0E%3D","taytake","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/4347061/d8a726bd38414ea6b3208f73cfc089f7/1.jpg?token-time=2145916800&token-hash=gZbNjqZqL3jdhyz17-kJ0ygaWt7jOkbxbgCbF9MIHi0%3D","techtoloka","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/4718063/e741cff6acd943e9b3b3a01da9f4e1b8/1.png?token-time=2145916800&token-hash=7wVysEo4srCaXYCyLHfr4T6XnnYNdLpneoKLQkvtVUQ%3D","teoriyagry","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/4047726/a59fba22c23648018709ef59d2ab1c69/4.png?token-time=2145916800&token-hash=PfK2nbLHo-Js7z3F5KXF_R_i_4gaTlb9rB7OWIHEAlU%3D","textyorgua","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/4965191/75e2feddcacb4999ae13095a5dd93e37/1.png?token-time=2145916800&token-hash=_a9L5CvT2qXMjK9r3spqZjVdHX5n31VBKD9pT_AxGqo%3D","thealphacentauri","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/185928/2270977bcda545208f9f7096f59279cd/1.png?token-time=2145916800&token-hash=zPozlxoH7DGRu9BfsgeKYeBrsqB81dzQZiPS-TmxznU%3D","TheAsya","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/5549567/9db8e342e888408e82faa64a91a3227c/2.jpg?token-time=2145916800&token-hash=MKonzhqXUb7zEBbIMk1k4LxFZpaLes421giU1X-3Jjs%3D","tokar","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/1271717/32cfac822aaa42f4940153017e283415/2.jpg?token-time=2145916800&token-hash=fULStTCoFrfR4II1orV7WJEa59rwOdRPedlsSXqLVkM%3D","torontotv","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/3835809/332c707a00bc4fb3839619ed3b938913/1.png?token-time=2145916800&token-hash=ntLPfDUlk2NkubAtSjw79LvVRbIqPR1Z6NXwbpF2zc4%3D","totem_publisher","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/2154941/3b5e9d61699e404a8bb8344d3bb3332f/4.jpeg?token-time=2145916800&token-hash=FLErvvUmngpcT9nazIEtz8PZP1W7S7Qa0NrNqG62gyo%3D","UA_direct_democracy","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/6157143/f788a98913914c23a2832528b95331d9/2.jpg?token-time=2145916800&token-hash=kOlrOVpmOmy3Yt_v0aZGNp7FwgdwAFRrIAevVCPMg0U%3D","uacomix","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/2269275/5b554720b4934e44b23a0b2690977188/1.jpeg?token-time=2145916800&token-hash=rtoKureUiqO3HW3DDeFZcziH67-tnl29nB_M9XOs3tY%3D","uaestrada","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/4927598/4ea4407e7265492c9ab582f13f6c5728/2.jpg?token-time=2145916800&token-hash=0wvj5Fcp2xYLUst2mmWY8XUDzpoCz69ngZkgMdcqYYk%3D","uagenealogy","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/6137469/5b31355e249c42d6b2a4bce2001904f7/1.jpg?token-time=2145916800&token-hash=A3c41EZj0Uja8m6juZ3dq1xt_cs_BAr9MBEEmI0-9vk%3D","uanimals","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/4964060/ebee110048d649519c0294229771ccf9/2.png?token-time=2145916800&token-hash=tzgrrU5hJMX6Jm2TmfV3Y5YaMDntUY46CT_HO8tPxEQ%3D","uareview","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/3862302/69f4c61683a34969ad26743e02cc0601/1.png?token-time=2145916800&token-hash=71IfTtgX7sDCPq71Eo-EvDZMbeO-5AXbw0IYX5sODv0%3D","ubmdr","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/3844218/d0dc915d923140ebb0b22678ce2436a2/1.jpg?token-time=2145916800&token-hash=z77kxe4ZjsMYxSa6zRbWXcrWumvCTMnxDdamwnjJ4Q0%3D","ukrainedancing","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/5404538/e845fe7b1faa44cabe3a9828afd88c15/2.png?token-time=2145916800&token-hash=GMsbYMxY360LG9_FU8LXHs4t8_qSP-UXTnb-uynNys4%3D","ukrainer","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/4539915/8a0e6e3675474c4ea9ec7cf65c6d4416/1.png?token-time=2145916800&token-hash=kt40KvarDHSx9DJpiMtOZrp8va2VrpSeLKONEarEHUM%3D","UkrainianLiveClassic","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/6229952/9a8b05507cde40a48e8492bcdf41528e/1.png?token-time=2145916800&token-hash=B7CH913fJTXG8GF9PEIuwmIcgKoi9VIMmkhl2cdZ-GI%3D","ukrainianweek","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/6281015/7a5057c36c4041e48782cd8a5a6912bc/1.png?token-time=2145916800&token-hash=gYI8XyrLKaZ_Lw_w2xV925EaXDetDEGpgClOnFt7YUY%3D","ukrmod","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/4931261/d8ab4cffe45b46ccb80cb603f8ff62e0/1.jpg?token-time=2145916800&token-hash=A5WSahNTLIfGxXa0OF-C1BtqINgn46gYSdMweuxX3PI%3D","undergroundhumanities","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/4607037/f9762c0eac9349119f7287bc6445aac1/1.png?token-time=2145916800&token-hash=LUnvcIjCMhjKoimakc2fked1OhHW8sL2bgt1At9BVY0%3D","user?u=16774315","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/3470648/773790c360374933a26008eb3e263d91/1.jpg?token-time=2145916800&token-hash=GLi0Bpz3SITdf9jbxQzg1G5jaG_5gSunBDitrtaXZWE%3D","user?u=28899940","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/3729119/1af4a7d9e58149d896c3c4548a3a8e1f/1.jpg?token-time=2145916800&token-hash=W0YDp7hJ4-Maj11wyvJmKrSK_3OJ0pCjMhiQXTURFrw%3D","user?u=44661751","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/5571510/367c285dee2d40eca10d6e56704e4c54/1.png?token-time=2145916800&token-hash=ZKDM-zxSFaT_bPKDe3VAZuuwKTGAn_QNX6vB7wjK9VA%3D","user?u=50286152","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/6213206/a4e4596fa6d041c2b7025327b38c0c9a/2.jpeg?token-time=2145916800&token-hash=ycGLtuOUAbje_pcAJd_4LGWzd9He_vzGMT7ds1FjJKg%3D","user?u=76475135","https://c10.patreonusercontent.com/4/patreon-media/p/campaign/8917556/48d2828658ca4e458b0bdbdce7a7d7eb/eyJoIjoxMDgwLCJ3IjoxMDgwfQ%3D%3D/1.jpg?token-time=1726272000&token-hash=uN5eJL0caCaOVgwptHSO1nwHsxRLqjbSzhEm1QARZBg%3D","user?u=83097324","https://c10.patreonusercontent.com/4/patreon-media/p/campaign/11392649/d842fa3bdc6148dba086ac8bb4c4a413/eyJoIjoxMDgwLCJ3IjoxMDgwfQ%3D%3D/2.jpeg?token-time=1726272000&token-hash=NGK7C1zCE2_5wL2EI68HNOHUMudf8FyOomJToldrCyU%3D","valerii","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/4506438/0a8657de5d3e4fac9fcfec4429038083/1.jpg?token-time=2145916800&token-hash=YZ8MzemBhfkptH0nU2OmWjVjpDarDeNfUn1zP0c7q5o%3D","vatashow","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/3584593/c2f1f7e938a74edcb00ea8dccc88f8c5/2.jpg?token-time=2145916800&token-hash=k0Zwue5llBNLDWCzlSc1IpJzDxya-cv3vMswCPbYmy4%3D","vatatv","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/1346447/c371865c8cc94f5aacb71be8234bc7e3/1.png?token-time=2145916800&token-hash=xkiKwTpBjJbBVK9m2yiaLwqljCkXgoZlteFDPi7mfI0%3D","vertigoUA","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/2989447/cffbb58cdb91445180b7290ab8e6ed9f/2.png?token-time=2145916800&token-hash=nUFiwN4WVjPA5GBgE6ywJ17GM-2H8xhwzRYL-aJ8DSE%3D","verumT","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/4743130/206e61f7bf53443eaaa1bf36dcfa6f0b/1.png?token-time=2145916800&token-hash=xkNvL_Ho40OenfGYYOEvpIvt1AAVs2XVWykF6REaB6Q%3D","vidminniotsinky","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/2816162/51d8a60fa4974d1aa95d75dd7a21248b/1.png?token-time=2145916800&token-hash=QMHfanHzh2Gj2rkgI3dd2HisoHBJbAvkrGxEJy_VhY8%3D","vmistozher","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/1970620/3ff770fa3b904300907254b9bc54fb8a/1.jpeg?token-time=2145916800&token-hash=J2z6KTZDmwvk9QXaQXBq6tO4JoJMU9Edwel0WMuJBi8%3D","volynonline","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/2809715/3ab3e0662ad84bdf9435956f756d39cf/1.jpg?token-time=2145916800&token-hash=3eAvjnoWLMSSbeAvwp9Nm7V7uFrsXb3malZvpsJHXas%3D","VorobieiBohdan","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/6673558/a39a84ed13c54472a5857949556cb597/1.jpeg?token-time=2145916800&token-hash=b4-hHznbgPX-SsKOy7Uk12Of5MtqGOeRw0jDTCRxWlw%3D","vovazilvova","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/5940666/295126ddec73401682dd1ffb2a164d03/2.jpg?token-time=2145916800&token-hash=y2nvONkOveSypwKwviZKTTW17WFGiEGEK84EY_GcGG8%3D","vovkst","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/6280735/dcdbd36752fe4b288bafb4224a637c74/1.jpg?token-time=2145916800&token-hash=-9xKL-7uw28uGvaq_XFVK0R5RNUSf9Sg7XI27gtJYuU%3D","vrajennya","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/4665080/3eb499b5673b4ebab64e9457ee80ba8d/1.jpg?token-time=2145916800&token-hash=cjYPDfEdLihGt9OErDHRR4EawF6SMY4tuGxYYNBmypU%3D","vsesvit_ua","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/6099405/aac139207359421aa6250e49a62a1bfc/1.jpg?token-time=2145916800&token-hash=tQwL1laBFcL1dtjDcmWaDGa4bzLmsxldUTFJ3hJvt8Q%3D","vyshnevyjcvit","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/4823680/186571a27617424b8a4243e51d09c9b9/2.jpg?token-time=2145916800&token-hash=-FqI5jmNB-nUMSUxQ_OApXWdPFsp-Hi7SnmbAADWSE4%3D","WBG","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/3818823/ff0fa93fa86f4c118bfb0739d61b012f/2.png?token-time=2145916800&token-hash=Q2jlDeSMCO1TIgph4XsREaeBkjp4u_j75ozC7ODTDxc%3D","wildfoxfilm","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/3419146/8abb75767abf4d4b9f45371b4ffa3fa5/1.jpg?token-time=2145916800&token-hash=7fE7fgH7ZOIaAbj1vN8O3ccc7OCauk6SnkFigFiY5_c%3D","wszystko_band","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/4934947/0caa87b19de54ac1bd982e53ec86d068/3.jpg?token-time=2145916800&token-hash=fkkQFugUQA0qmz38XoopD5lyO_P8M1xFxQHQ4vfo3fo%3D","yanareadwithme","https://c10.patreonusercontent.com/4/patreon-media/p/campaign/8748650/42a41315c83640f1a269bc3459b28787/eyJoIjoxMDgwLCJ3IjoxMDgwfQ%3D%3D/1.jpg?token-time=1726272000&token-hash=2JY7SMSfr3oHrUVxGSpndNEslSNUQKXkLTI4BKyeYF8%3D","yanina","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/2951968/024c897a596442d78ab4523290cf4f37/4.jpg?token-time=2145916800&token-hash=WpjmcpD8hKxI17XOMWzNvh0I7VrF0qszJ-Z9mvqA3oM%3D","zagin","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/1499604/7b53c0a6877e43f4a872c3eaa9d30cdd/1.jpeg?token-time=2145916800&token-hash=0MQ1UOkx_1WRYp9MZ0m1a9fvx6H1KTRWM7oFs0GP7aw%3D","zasnovnyky","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/4314586/1037f08b2af542d7af9fa1e58441f0ef/2.jpg?token-time=2145916800&token-hash=PQgRsp5DmeFoaN__X_54YjJ6p_c0jA7sSFxOflzEpeA%3D","zhadanisobaki","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/6144146/575e03d3866f42d5bc1224f84d203434/1.jpg?token-time=2145916800&token-hash=pCIekhWhRQBvR8spMQZHbCbNyzDmXHdLxiu1E7d2q7Y%3D","zhyteli_kyieva","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/6695171/53e25efa3d29494cbb958b9a155865ab/3.jpeg?token-time=2145916800&token-hash=cjtb8gMBmSenCuPdMsoxtuzdlEAMxFd2ANiN_kOOFQA%3D","zvedeno","https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/3442098/93594561fdf3404baf07ab02ff5819c7/1.png?token-time=2145916800&token-hash=sSiap67ys0Zq4PpnUmbcttWa1JR6SLd8pkMpG8LtIM0%3D"],q,q)})
 s($,"aET","aq0",()=>{var q=t.N

@@ -9,13 +9,12 @@ class Creator {
 }
 
 class Earnings {
-  String currency;
   int value;
-  Earnings({required this.currency, required this.value});
+  Earnings({required this.value});
   bool limit() {
     return value == 0;
   }
   String format() {
-    return currency + value.toString();
+    return '\$' + value.toString();
   }
 }
