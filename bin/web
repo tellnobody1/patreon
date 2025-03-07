@@ -1,4 +1,0 @@
-flutter build web --web-renderer html --release
-rm -rf docs/
-mkdir docs
-cp -R build/web/* docs/

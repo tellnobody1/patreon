@@ -1,45 +1,234 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <base href="/patreon/">
-
   <meta charset="UTF-8">
-  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
   <meta name="description" content="Підтримати маловідомих українських творців на патреоні">
   <meta name="google-site-verification" content="lKS6X0hueebkSWQq9T_8xcuM-GF44Ztu6IeenJnvhlo">
-
-  <!-- iOS meta tags & icons -->
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black">
-  <meta name="apple-mobile-web-app-title" content="Патреон">
-  <link rel="apple-touch-icon" href="icons/Icon-192.png">
-
-  <!-- Favicon -->
-  <link rel="icon" type="image/png" href="favicon.png"/>
-
   <title>Українські творці з Patreon</title>
-  <link rel="manifest" href="manifest.json">
 </head>
 <body>
-  <script>
-    (()=>{var L=()=>navigator.vendor==="Google Inc."||navigator.agent==="Edg/",W=()=>typeof ImageDecoder>"u"?!1:L(),E=()=>typeof Intl.v8BreakIterator<"u"&&typeof Intl.Segmenter<"u",P=()=>{let s=[0,97,115,109,1,0,0,0,1,5,1,95,1,120,0];return WebAssembly.validate(new Uint8Array(s))},p={hasImageCodecs:W(),hasChromiumBreakIterators:E(),supportsWasmGC:P(),crossOriginIsolated:window.crossOriginIsolated};function u(...s){return new URL(S(...s),document.baseURI).toString()}function S(...s){return s.filter(t=>!!t).map((t,i)=>i===0?_(t):j(_(t))).filter(t=>t.length).join("/")}function j(s){let t=0;for(;t<s.length&&s.charAt(t)==="/";)t++;return s.substring(t)}function _(s){let t=s.length;for(;t>0&&s.charAt(t-1)==="/";)t--;return s.substring(0,t)}function b(s,t){return s.canvasKitBaseUrl?s.canvasKitBaseUrl:t.engineRevision&&!t.useLocalCanvasKit?S("https://www.gstatic.com/flutter-canvaskit",t.engineRevision):"canvaskit"}var h=class{constructor(){this._scriptLoaded=!1}setTrustedTypesPolicy(t){this._ttPolicy=t}async loadEntrypoint(t){let{entrypointUrl:i=u("main.dart.js"),onEntrypointLoaded:r,nonce:e}=t||{};return this._loadJSEntrypoint(i,r,e)}async load(t,i,r,e,n){n??=o=>{o.initializeEngine(r).then(l=>l.runApp())};let{entryPointBaseUrl:a}=r;if(t.compileTarget==="dart2wasm")return this._loadWasmEntrypoint(t,i,a,n);{let o=t.mainJsPath??"main.dart.js",l=u(a,o);return this._loadJSEntrypoint(l,n,e)}}didCreateEngineInitializer(t){typeof this._didCreateEngineInitializerResolve=="function"&&(this._didCreateEngineInitializerResolve(t),this._didCreateEngineInitializerResolve=null,delete _flutter.loader.didCreateEngineInitializer),typeof this._onEntrypointLoaded=="function"&&this._onEntrypointLoaded(t)}_loadJSEntrypoint(t,i,r){let e=typeof i=="function";if(!this._scriptLoaded){this._scriptLoaded=!0;let n=this._createScriptTag(t,r);if(e)console.debug("Injecting <script> tag. Using callback."),this._onEntrypointLoaded=i,document.head.append(n);else return new Promise((a,o)=>{console.debug("Injecting <script> tag. Using Promises. Use the callback approach instead!"),this._didCreateEngineInitializerResolve=a,n.addEventListener("error",o),document.head.append(n)})}}async _loadWasmEntrypoint(t,i,r,e){if(!this._scriptLoaded){this._scriptLoaded=!0,this._onEntrypointLoaded=e;let{mainWasmPath:n,jsSupportRuntimePath:a}=t,o=u(r,n),l=u(r,a);this._ttPolicy!=null&&(l=this._ttPolicy.createScriptURL(l));let m=WebAssembly.compileStreaming(fetch(o)),c=await import(l),w;t.renderer==="skwasm"?w=(async()=>{let d=await i.skwasm;return window._flutter_skwasmInstance=d,{skwasm:d.wasmExports,skwasmWrapper:d,ffi:{memory:d.wasmMemory}}})():w={};let f=await c.instantiate(m,w);await c.invoke(f)}}_createScriptTag(t,i){let r=document.createElement("script");r.type="application/javascript",i&&(r.nonce=i);let e=t;return this._ttPolicy!=null&&(e=this._ttPolicy.createScriptURL(t)),r.src=e,r}};async function T(s,t,i){if(t<0)return s;let r,e=new Promise((n,a)=>{r=setTimeout(()=>{a(new Error(`${i} took more than ${t}ms to resolve. Moving on.`,{cause:T}))},t)});return Promise.race([s,e]).finally(()=>{clearTimeout(r)})}var v=class{setTrustedTypesPolicy(t){this._ttPolicy=t}loadServiceWorker(t){if(!t)return console.debug("Null serviceWorker configuration. Skipping."),Promise.resolve();if(!("serviceWorker"in navigator)){let o="Service Worker API unavailable.";return window.isSecureContext||(o+=`
-The current context is NOT secure.`,o+=`
-Read more: https://developer.mozilla.org/en-US/docs/Web/Security/Secure_Contexts`),Promise.reject(new Error(o))}let{serviceWorkerVersion:i,serviceWorkerUrl:r=u(`flutter_service_worker.js?v=${i}`),timeoutMillis:e=4e3}=t,n=r;this._ttPolicy!=null&&(n=this._ttPolicy.createScriptURL(n));let a=navigator.serviceWorker.register(n).then(o=>this._getNewServiceWorker(o,i)).then(this._waitForServiceWorkerActivation);return T(a,e,"prepareServiceWorker")}async _getNewServiceWorker(t,i){if(!t.active&&(t.installing||t.waiting))return console.debug("Installing/Activating first service worker."),t.installing||t.waiting;if(t.active.scriptURL.endsWith(i))return console.debug("Loading from existing service worker."),t.active;{let r=await t.update();return console.debug("Updating service worker."),r.installing||r.waiting||r.active}}async _waitForServiceWorkerActivation(t){if(!t||t.state==="activated")if(t){console.debug("Service worker already active.");return}else throw new Error("Cannot activate a null service worker!");return new Promise((i,r)=>{t.addEventListener("statechange",()=>{t.state==="activated"&&(console.debug("Activated new service worker."),i())})})}};var y=class{constructor(t,i="flutter-js"){let r=t||[/\.js$/,/\.mjs$/];window.trustedTypes&&(this.policy=trustedTypes.createPolicy(i,{createScriptURL:function(e){if(e.startsWith("blob:"))return e;let n=new URL(e,window.location),a=n.pathname.split("/").pop();if(r.some(l=>l.test(a)))return n.toString();console.error("URL rejected by TrustedTypes policy",i,":",e,"(download prevented)")}}))}};var g=s=>{let t=WebAssembly.compileStreaming(fetch(s));return(i,r)=>((async()=>{let e=await t,n=await WebAssembly.instantiate(e,i);r(n,e)})(),{})};var I=(s,t,i,r)=>(window.flutterCanvasKitLoaded=(async()=>{if(window.flutterCanvasKit)return window.flutterCanvasKit;let e=i.hasChromiumBreakIterators&&i.hasImageCodecs;if(!e&&t.canvasKitVariant=="chromium")throw"Chromium CanvasKit variant specifically requested, but unsupported in this browser";let n=e&&t.canvasKitVariant!=="full",a=r;n&&(a=u(a,"chromium"));let o=u(a,"canvaskit.js");s.flutterTT.policy&&(o=s.flutterTT.policy.createScriptURL(o));let l=g(u(a,"canvaskit.wasm")),m=await import(o);return window.flutterCanvasKit=await m.default({instantiateWasm:l}),window.flutterCanvasKit})(),window.flutterCanvasKitLoaded);var U=async(s,t,i,r)=>{let e=u(r,"skwasm.js"),n=e;s.flutterTT.policy&&(n=s.flutterTT.policy.createScriptURL(n));let a=g(u(r,"skwasm.wasm"));return await(await import(n)).default({instantiateWasm:a,locateFile:(l,m)=>{let c=m+l;return c.endsWith(".worker.js")?URL.createObjectURL(new Blob([`importScripts('${c}');`],{type:"application/javascript"})):c},mainScriptUrlOrBlob:e})};var k=class{async loadEntrypoint(t){let{serviceWorker:i,...r}=t||{},e=new y,n=new v;n.setTrustedTypesPolicy(e.policy),await n.loadServiceWorker(i).catch(o=>{console.warn("Exception while loading service worker:",o)});let a=new h;return a.setTrustedTypesPolicy(e.policy),this.didCreateEngineInitializer=a.didCreateEngineInitializer.bind(a),a.loadEntrypoint(r)}async load({serviceWorkerSettings:t,onEntrypointLoaded:i,nonce:r,config:e}={}){e??={};let n=_flutter.buildConfig;if(!n)throw"FlutterLoader.load requires _flutter.buildConfig to be set";let a=d=>{switch(d){case"skwasm":return p.crossOriginIsolated&&p.hasChromiumBreakIterators&&p.hasImageCodecs&&p.supportsWasmGC;default:return!0}},o=(d,C)=>{switch(d.renderer){case"auto":return C=="canvaskit"||C=="html";default:return d.renderer==C}},l=d=>d.compileTarget==="dart2wasm"&&!p.supportsWasmGC||e.renderer&&!o(d,e.renderer)?!1:a(d.renderer),m=n.builds.find(l);if(!m)throw"FlutterLoader could not find a build compatible with configuration and environment.";let c={};c.flutterTT=new y,t&&(c.serviceWorkerLoader=new v,c.serviceWorkerLoader.setTrustedTypesPolicy(c.flutterTT.policy),await c.serviceWorkerLoader.loadServiceWorker(t).catch(d=>{console.warn("Exception while loading service worker:",d)}));let w=b(e,n);m.renderer==="canvaskit"?c.canvasKit=I(c,e,p,w):m.renderer==="skwasm"&&(c.skwasm=U(c,e,p,w));let f=new h;return f.setTrustedTypesPolicy(c.flutterTT.policy),this.didCreateEngineInitializer=f.didCreateEngineInitializer.bind(f),f.load(m,c,e,r,i)}};window._flutter||(window._flutter={});window._flutter.loader||(window._flutter.loader=new k);})();
-//# sourceMappingURL=flutter.js.map
-
-if (!window._flutter) {
-  window._flutter = {};
-}
-_flutter.buildConfig = {"engineRevision":"c9b9d5780da342eb3f0f5e439a7db06f7d112575","builds":[{"compileTarget":"dart2js","renderer":"html","mainJsPath":"main.dart.js"}]};
-
-
-_flutter.loader.load({
-  serviceWorkerSettings: {
-    serviceWorkerVersion: "2030682545"
-  }
-});
-
-  </script>
-  <script src="main.dart.js" type="application/javascript"></script>
+  <ul>
+    <li><a href="https://www.patreon.com/23daphnia">23daphnia</a></li>
+    <li><a href="https://www.patreon.com/5HT">5HT</a></li>
+    <li><a href="https://www.patreon.com/AdrianZP">AdrianZP</a></li>
+    <li><a href="https://www.patreon.com/allyourhtml">allyourhtml</a></li>
+    <li><a href="https://www.patreon.com/amanogawa">amanogawa</a></li>
+    <li><a href="https://www.patreon.com/animeK">animeK</a></li>
+    <li><a href="https://www.patreon.com/anitubeinua">anitubeinua</a></li>
+    <li><a href="https://www.patreon.com/AniUA">AniUA</a></li>
+    <li><a href="https://www.patreon.com/asambleyA">asambleyA</a></li>
+    <li><a href="https://www.patreon.com/ATR_UA">ATR_UA</a></li>
+    <li><a href="https://www.patreon.com/autogeek">autogeek</a></li>
+    <li><a href="https://www.patreon.com/balytska">balytska</a></li>
+    <li><a href="https://www.patreon.com/bazilikmedia">bazilikmedia</a></li>
+    <li><a href="https://www.patreon.com/bbproject">bbproject</a></li>
+    <li><a href="https://www.patreon.com/behindthenews">behindthenews</a></li>
+    <li><a href="https://www.patreon.com/belkininovak">belkininovak</a></li>
+    <li><a href="https://www.patreon.com/bellatrixaiden">bellatrixaiden</a></li>
+    <li><a href="https://www.patreon.com/berehtyIF">berehtyIF</a></li>
+    <li><a href="https://www.patreon.com/besahy">besahy</a></li>
+    <li><a href="https://www.patreon.com/bihusinfo">bihusinfo</a></li>
+    <li><a href="https://www.patreon.com/BlogerFM">BlogerFM</a></li>
+    <li><a href="https://www.patreon.com/blogmayster">blogmayster</a></li>
+    <li><a href="https://www.patreon.com/Bykvu">Bykvu</a></li>
+    <li><a href="https://www.patreon.com/chaplinskyvlog">chaplinskyvlog</a></li>
+    <li><a href="https://www.patreon.com/chtyvo">chtyvo</a></li>
+    <li><a href="https://www.patreon.com/chytomo">chytomo</a></li>
+    <li><a href="https://www.patreon.com/cikavaideya">cikavaideya</a></li>
+    <li><a href="https://www.patreon.com/CikavaNauka">CikavaNauka</a></li>
+    <li><a href="https://www.patreon.com/costua">costua</a></li>
+    <li><a href="https://www.patreon.com/cukr">cukr</a></li>
+    <li><a href="https://www.patreon.com/diasporiana">diasporiana</a></li>
+    <li><a href="https://www.patreon.com/Did_Oles_Falcon_UA">Did_Oles_Falcon_UA</a></li>
+    <li><a href="https://www.patreon.com/DITHOM">DITHOM</a></li>
+    <li><a href="https://www.patreon.com/diypodcast">diypodcast</a></li>
+    <li><a href="https://www.patreon.com/dolliteraturne">dolliteraturne</a></li>
+    <li><a href="https://www.patreon.com/donorua">donorua</a></li>
+    <li><a href="https://www.patreon.com/dostupno2020">dostupno2020</a></li>
+    <li><a href="https://www.patreon.com/dovkolabotanika">dovkolabotanika</a></li>
+    <li><a href="https://www.patreon.com/dustanciyka">dustanciyka</a></li>
+    <li><a href="https://www.patreon.com/dvokolisni_hroniky">dvokolisni_hroniky</a></li>
+    <li><a href="https://www.patreon.com/eileena">eileena</a></li>
+    <li><a href="https://www.patreon.com/enjoythescience">enjoythescience</a></li>
+    <li><a href="https://www.patreon.com/enma_and_books">enma_and_books</a></li>
+    <li><a href="https://www.patreon.com/EuropeanPravda">EuropeanPravda</a></li>
+    <li><a href="https://www.patreon.com/faideyren">faideyren</a></li>
+    <li><a href="https://www.patreon.com/familybudgetcomua">familybudgetcomua</a></li>
+    <li><a href="https://www.patreon.com/fazugenealogy">fazugenealogy</a></li>
+    <li><a href="https://www.patreon.com/findwayua">findwayua</a></li>
+    <li><a href="https://www.patreon.com/fromfaraway">fromfaraway</a></li>
+    <li><a href="https://www.patreon.com/fvua">fvua</a></li>
+    <li><a href="https://www.patreon.com/gamestreetua">gamestreetua</a></li>
+    <li><a href="https://www.patreon.com/Geek_Informator">Geek_Informator</a></li>
+    <li><a href="https://www.patreon.com/Geek_Journal">Geek_Journal</a></li>
+    <li><a href="https://www.patreon.com/GulbanuBibicheva">GulbanuBibicheva</a></li>
+    <li><a href="https://www.patreon.com/gwean_maslinka">gwean_maslinka</a></li>
+    <li><a href="https://www.patreon.com/happypaw">happypaw</a></li>
+    <li><a href="https://www.patreon.com/historyUA">historyUA</a></li>
+    <li><a href="https://www.patreon.com/historywall">historywall</a></li>
+    <li><a href="https://www.patreon.com/horobyna">horobyna</a></li>
+    <li><a href="https://www.patreon.com/hotperevod">hotperevod</a></li>
+    <li><a href="https://www.patreon.com/Hromadske_Radio">Hromadske_Radio</a></li>
+    <li><a href="https://www.patreon.com/imtgsh">imtgsh</a></li>
+    <li><a href="https://www.patreon.com/informnapalm">informnapalm</a></li>
+    <li><a href="https://www.patreon.com/inforules">inforules</a></li>
+    <li><a href="https://www.patreon.com/islndtv">islndtv</a></li>
+    <li><a href="https://www.patreon.com/itguildukraine">itguildukraine</a></li>
+    <li><a href="https://www.patreon.com/itpassions">itpassions</a></li>
+    <li><a href="https://www.patreon.com/itworksonmypc">itworksonmypc</a></li>
+    <li><a href="https://www.patreon.com/iyura">iyura</a></li>
+    <li><a href="https://www.patreon.com/jarvis_net_ua">jarvis_net_ua</a></li>
+    <li><a href="https://www.patreon.com/JBPetersonUkraine">JBPetersonUkraine</a></li>
+    <li><a href="https://www.patreon.com/kartofanchyk">kartofanchyk</a></li>
+    <li><a href="https://www.patreon.com/kgbfiles">kgbfiles</a></li>
+    <li><a href="https://www.patreon.com/KhmarynkaUA">KhmarynkaUA</a></li>
+    <li><a href="https://www.patreon.com/kliusmarichka">kliusmarichka</a></li>
+    <li><a href="https://www.patreon.com/knyzhkova_dylerka">knyzhkova_dylerka</a></li>
+    <li><a href="https://www.patreon.com/konotopcity">konotopcity</a></li>
+    <li><a href="https://www.patreon.com/kozak_media">kozak_media</a></li>
+    <li><a href="https://www.patreon.com/krutoznavstvo">krutoznavstvo</a></li>
+    <li><a href="https://www.patreon.com/ksenia_kellerman">ksenia_kellerman</a></li>
+    <li><a href="https://www.patreon.com/kultpodcast">kultpodcast</a></li>
+    <li><a href="https://www.patreon.com/kuznetsovalife">kuznetsovalife</a></li>
+    <li><a href="https://www.patreon.com/les_kurbas_theatre">les_kurbas_theatre</a></li>
+    <li><a href="https://www.patreon.com/letslearnukrainian">letslearnukrainian</a></li>
+    <li><a href="https://www.patreon.com/liganet">liganet</a></li>
+    <li><a href="https://www.patreon.com/liroom">liroom</a></li>
+    <li><a href="https://www.patreon.com/lowcostua">lowcostua</a></li>
+    <li><a href="https://www.patreon.com/loyer">loyer</a></li>
+    <li><a href="https://www.patreon.com/lustrum">lustrum</a></li>
+    <li><a href="https://www.patreon.com/LvivNationalPhilharmonic">LvivNationalPhilharmonic</a></li>
+    <li><a href="https://www.patreon.com/Lykhovii">Lykhovii</a></li>
+    <li><a href="https://www.patreon.com/MaksPodzigun">MaksPodzigun</a></li>
+    <li><a href="https://www.patreon.com/mangua">mangua</a></li>
+    <li><a href="https://www.patreon.com/manifestplatform">manifestplatform</a></li>
+    <li><a href="https://www.patreon.com/mariamblog">mariamblog</a></li>
+    <li><a href="https://www.patreon.com/mefreel">mefreel</a></li>
+    <li><a href="https://www.patreon.com/merezhyvo">merezhyvo</a></li>
+    <li><a href="https://www.patreon.com/miketvua">miketvua</a></li>
+    <li><a href="https://www.patreon.com/milinua">milinua</a></li>
+    <li><a href="https://www.patreon.com/mokrec">mokrec</a></li>
+    <li><a href="https://www.patreon.com/mukha">mukha</a></li>
+    <li><a href="https://www.patreon.com/musetang">musetang</a></li>
+    <li><a href="https://www.patreon.com/nareshticlub">nareshticlub</a></li>
+    <li><a href="https://www.patreon.com/naukaua">naukaua</a></li>
+    <li><a href="https://www.patreon.com/nebolviv">nebolviv</a></li>
+    <li><a href="https://www.patreon.com/need_science">need_science</a></li>
+    <li><a href="https://www.patreon.com/nestorvolya">nestorvolya</a></li>
+    <li><a href="https://www.patreon.com/nicopogarskiy">nicopogarskiy</a></li>
+    <li><a href="https://www.patreon.com/ninaukraine">ninaukraine</a></li>
+    <li><a href="https://www.patreon.com/nonamepodcast">nonamepodcast</a></li>
+    <li><a href="https://www.patreon.com/NowasteUkraine">NowasteUkraine</a></li>
+    <li><a href="https://www.patreon.com/obrazpublicua">obrazpublicua</a></li>
+    <li><a href="https://www.patreon.com/odesafineartsmuseum">odesafineartsmuseum</a></li>
+    <li><a href="https://www.patreon.com/office_transformation">office_transformation</a></li>
+    <li><a href="https://www.patreon.com/oldboiua">oldboiua</a></li>
+    <li><a href="https://www.patreon.com/Ole_Sia">Ole_Sia</a></li>
+    <li><a href="https://www.patreon.com/oleksandr_ant">oleksandr_ant</a></li>
+    <li><a href="https://www.patreon.com/olesyabobruyko">olesyabobruyko</a></li>
+    <li><a href="https://www.patreon.com/omtvua">omtvua</a></li>
+    <li><a href="https://www.patreon.com/otvinta">otvinta</a></li>
+    <li><a href="https://www.patreon.com/oum_spadshchyna">oum_spadshchyna</a></li>
+    <li><a href="https://www.patreon.com/pad0n">pad0n</a></li>
+    <li><a href="https://www.patreon.com/palindrom">palindrom</a></li>
+    <li><a href="https://www.patreon.com/PaniVchytelka">PaniVchytelka</a></li>
+    <li><a href="https://www.patreon.com/pankarpan">pankarpan</a></li>
+    <li><a href="https://www.patreon.com/pereozvuchka_ua">pereozvuchka_ua</a></li>
+    <li><a href="https://www.patreon.com/pershosvit">pershosvit</a></li>
+    <li><a href="https://www.patreon.com/pityatko">pityatko</a></li>
+    <li><a href="https://www.patreon.com/pivpodcast">pivpodcast</a></li>
+    <li><a href="https://www.patreon.com/portnikov">portnikov</a></li>
+    <li><a href="https://www.patreon.com/ppidcast">ppidcast</a></li>
+    <li><a href="https://www.patreon.com/prihodnik">prihodnik</a></li>
+    <li><a href="https://www.patreon.com/propohody">propohody</a></li>
+    <li><a href="https://www.patreon.com/prytula">prytula</a></li>
+    <li><a href="https://www.patreon.com/PSUkraine">PSUkraine</a></li>
+    <li><a href="https://www.patreon.com/radioaristocrats">radioaristocrats</a></li>
+    <li><a href="https://www.patreon.com/radiopodil">radiopodil</a></li>
+    <li><a href="https://www.patreon.com/radioskorbota">radioskorbota</a></li>
+    <li><a href="https://www.patreon.com/radioskovoroda">radioskovoroda</a></li>
+    <li><a href="https://www.patreon.com/raguli">raguli</a></li>
+    <li><a href="https://www.patreon.com/rationalist">rationalist</a></li>
+    <li><a href="https://www.patreon.com/readingmary">readingmary</a></li>
+    <li><a href="https://www.patreon.com/rendarosua">rendarosua</a></li>
+    <li><a href="https://www.patreon.com/rist_center">rist_center</a></li>
+    <li><a href="https://www.patreon.com/RockRadioUA">RockRadioUA</a></li>
+    <li><a href="https://www.patreon.com/rsukraine_org_ua">rsukraine_org_ua</a></li>
+    <li><a href="https://www.patreon.com/rudnyi">rudnyi</a></li>
+    <li><a href="https://www.patreon.com/Salertino">Salertino</a></li>
+    <li><a href="https://www.patreon.com/sbt_localization">sbt_localization</a></li>
+    <li><a href="https://www.patreon.com/serhiyzhadan">serhiyzhadan</a></li>
+    <li><a href="https://www.patreon.com/sershenzaritskaya">sershenzaritskaya</a></li>
+    <li><a href="https://www.patreon.com/shitiknowlive">shitiknowlive</a></li>
+    <li><a href="https://www.patreon.com/shobsho">shobsho</a></li>
+    <li><a href="https://www.patreon.com/skrypinua">skrypinua</a></li>
+    <li><a href="https://www.patreon.com/slidstvo_info">slidstvo_info</a></li>
+    <li><a href="https://www.patreon.com/slukh">slukh</a></li>
+    <li><a href="https://www.patreon.com/soblya">soblya</a></li>
+    <li><a href="https://www.patreon.com/stasmusicmaker">stasmusicmaker</a></li>
+    <li><a href="https://www.patreon.com/StopTheMoose">StopTheMoose</a></li>
+    <li><a href="https://www.patreon.com/strugachka">strugachka</a></li>
+    <li><a href="https://www.patreon.com/svidomi">svidomi</a></li>
+    <li><a href="https://www.patreon.com/svitlana">svitlana</a></li>
+    <li><a href="https://www.patreon.com/svitlotin">svitlotin</a></li>
+    <li><a href="https://www.patreon.com/TA_studio">TA_studio</a></li>
+    <li><a href="https://www.patreon.com/takflix">takflix</a></li>
+    <li><a href="https://www.patreon.com/tanyacroft">tanyacroft</a></li>
+    <li><a href="https://www.patreon.com/tatotake">tatotake</a></li>
+    <li><a href="https://www.patreon.com/tatysho">tatysho</a></li>
+    <li><a href="https://www.patreon.com/Tayemna_kimnata">Tayemna_kimnata</a></li>
+    <li><a href="https://www.patreon.com/taytake">taytake</a></li>
+    <li><a href="https://www.patreon.com/techtoloka">techtoloka</a></li>
+    <li><a href="https://www.patreon.com/teoriyagry">teoriyagry</a></li>
+    <li><a href="https://www.patreon.com/textyorgua">textyorgua</a></li>
+    <li><a href="https://www.patreon.com/thealphacentauri">thealphacentauri</a></li>
+    <li><a href="https://www.patreon.com/TheAsya">TheAsya</a></li>
+    <li><a href="https://www.patreon.com/tokar">tokar</a></li>
+    <li><a href="https://www.patreon.com/torontotv">torontotv</a></li>
+    <li><a href="https://www.patreon.com/totem_publisher">totem_publisher</a></li>
+    <li><a href="https://www.patreon.com/UA_direct_democracy">UA_direct_democracy</a></li>
+    <li><a href="https://www.patreon.com/uacomix">uacomix</a></li>
+    <li><a href="https://www.patreon.com/uaestrada">uaestrada</a></li>
+    <li><a href="https://www.patreon.com/uagenealogy">uagenealogy</a></li>
+    <li><a href="https://www.patreon.com/uanimals">uanimals</a></li>
+    <li><a href="https://www.patreon.com/uareview">uareview</a></li>
+    <li><a href="https://www.patreon.com/ubmdr">ubmdr</a></li>
+    <li><a href="https://www.patreon.com/ukrainedancing">ukrainedancing</a></li>
+    <li><a href="https://www.patreon.com/ukrainer">ukrainer</a></li>
+    <li><a href="https://www.patreon.com/UkrainianLiveClassic">UkrainianLiveClassic</a></li>
+    <li><a href="https://www.patreon.com/ukrainianweek">ukrainianweek</a></li>
+    <li><a href="https://www.patreon.com/ukrmod">ukrmod</a></li>
+    <li><a href="https://www.patreon.com/undergroundhumanities">undergroundhumanities</a></li>
+    <li><a href="https://www.patreon.com/user?u=16774315">user?u=16774315</a></li>
+    <li><a href="https://www.patreon.com/user?u=28899940">user?u=28899940</a></li>
+    <li><a href="https://www.patreon.com/user?u=44661751">user?u=44661751</a></li>
+    <li><a href="https://www.patreon.com/user?u=50286152">user?u=50286152</a></li>
+    <li><a href="https://www.patreon.com/user?u=76475135">user?u=76475135</a></li>
+    <li><a href="https://www.patreon.com/user?u=83097324">user?u=83097324</a></li>
+    <li><a href="https://www.patreon.com/valerii">valerii</a></li>
+    <li><a href="https://www.patreon.com/vatashow">vatashow</a></li>
+    <li><a href="https://www.patreon.com/vatatv">vatatv</a></li>
+    <li><a href="https://www.patreon.com/vertigoUA">vertigoUA</a></li>
+    <li><a href="https://www.patreon.com/verumT">verumT</a></li>
+    <li><a href="https://www.patreon.com/vidminniotsinky">vidminniotsinky</a></li>
+    <li><a href="https://www.patreon.com/vmistozher">vmistozher</a></li>
+    <li><a href="https://www.patreon.com/volynonline">volynonline</a></li>
+    <li><a href="https://www.patreon.com/VorobieiBohdan">VorobieiBohdan</a></li>
+    <li><a href="https://www.patreon.com/vovazilvova">vovazilvova</a></li>
+    <li><a href="https://www.patreon.com/vovkst">vovkst</a></li>
+    <li><a href="https://www.patreon.com/vrajennya">vrajennya</a></li>
+    <li><a href="https://www.patreon.com/vsesvit_ua">vsesvit_ua</a></li>
+    <li><a href="https://www.patreon.com/vyshnevyjcvit">vyshnevyjcvit</a></li>
+    <li><a href="https://www.patreon.com/WBG">WBG</a></li>
+    <li><a href="https://www.patreon.com/wildfoxfilm">wildfoxfilm</a></li>
+    <li><a href="https://www.patreon.com/wszystko_band">wszystko_band</a></li>
+    <li><a href="https://www.patreon.com/yanareadwithme">yanareadwithme</a></li>
+    <li><a href="https://www.patreon.com/yanina">yanina</a></li>
+    <li><a href="https://www.patreon.com/zagin">zagin</a></li>
+    <li><a href="https://www.patreon.com/zasnovnyky">zasnovnyky</a></li>
+    <li><a href="https://www.patreon.com/zhadanisobaki">zhadanisobaki</a></li>
+    <li><a href="https://www.patreon.com/zhyteli_kyieva">zhyteli_kyieva</a></li>
+    <li><a href="https://www.patreon.com/zvedeno">zvedeno</a></li>
+  </ul>
 </body>
 </html>
